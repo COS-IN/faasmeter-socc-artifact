@@ -1,1 +1,3 @@
-plotting/*.log
+plotting/execution_scripts/*.log
+__pycache__/
+*.log

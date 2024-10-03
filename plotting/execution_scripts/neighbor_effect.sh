@@ -9,10 +9,10 @@ else
 fi
 echo $script_path
 
-base=$(realpath $script_path/../../../)
+base=$(realpath $script_path/../../)
 
 if true; then
-    python3 $base/plotting/standalone/neighbor_effect.py -s \
+    python3 $base/plotting/neighbor_effect.py -s \
               $base/results/trace/fig_9/desktop/mc_4f_traces_ddp_15min/mc_a/functions/fcfs/12/12 \
               $base/results/trace/fig_9/desktop/mc_4f_traces_ddm_15min/mc_a/functions/fcfs/12/12
 fi

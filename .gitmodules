@@ -1,0 +1,3 @@
+[submodule "plotting/faasmeter"]
+	path = plotting/faasmeter
+	url = git@github.iu.edu:prateeks/faasmeter.git

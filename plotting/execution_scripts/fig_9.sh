@@ -11,10 +11,10 @@ else
 fi
 echo $script_path
 
-base=$(realpath $script_path/../../../)
+base=$(realpath $script_path/../../)
 
 if true; then
-    python3 $base/plotting/standalone/combined_fig_9.py -s \
+    python3 $base/plotting/combined_fig_9.py -s \
               $base/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12 \
               $base/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/24/24 \
               $base/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12 \
@@ -29,7 +29,7 @@ if true; then
 fi
 
 if false; then
-    python3 $base/plotting/standalone/combined_fig_9.py -s \
+    python3 $base/plotting/combined_fig_9.py -s \
               $base/results/trace/fig_9/desktop/mc_4f_traces_ddp_15min/mc_v/functions/fcfs/12/12 \
               $base/results/trace/victor/mc_4f_traces_ddp_15min/mc_v/functions/fcfs/24/24 \
               $base/results/trace/fig_9/jetson/mc_4f_traces_ddpm_15min/mc_m/functions/fcfs/12/12
@@ -42,7 +42,7 @@ if false; then
 fi
 
 if false; then
-    python3 $base/plotting/standalone/combined_fig_9.py -s \
+    python3 $base/plotting/combined_fig_9.py -s \
                $base/results/trace/fig_9/desktop/mc_4f_traces_ddp_15min/mc_a/functions/fcfs/12/12 \
                $base/results/trace/fig_9/victor/mc_4f_traces_ddp_15min/mc_a/functions/fcfs/24/24 \
                $base/results/trace/fig_9/jetson/mc_4f_traces_ddpm_15min/mc_a/functions/fcfs/12/12 

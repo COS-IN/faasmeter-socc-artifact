@@ -2,9 +2,10 @@ import os, sys, path
 import matplotlib
 
 paths = [
-    "/extra/alfuerst/repos/faasmeter-open/faasmeter",
-    "/extra/alfuerst/repos/faasmeter/faasmeter",
-    "/extra/alfuerst/repos/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
+    # "/extra/alfuerst/repos/faasmeter-open/faasmeter",
+    # "/extra/alfuerst/repos/faasmeter/faasmeter",
+    # "/extra/alfuerst/repos/faasmeter-data/plotting/faasmeter/faasmeter"
+    # "/extra/alfuerst/repos/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
 ]
 
 for p in paths:
@@ -16,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 from plotting.base import PlotBase
-from helper_funcs import *
+from faasmeter.faasmeter.helper_funcs import *
 import matplotlib.pyplot as plt
 
 def get_func_name( f ):

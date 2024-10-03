@@ -5,11 +5,11 @@ from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 paths = [
     # "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting",
     # "/data2/ar/iluvatar-energy-experiments/faasmeter",
-    "/data2/ar/faasmeter/faasmeter",
-    "/data2/ar/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
-    "/extra/alfuerst/repos/faasmeter-open/faasmeter",
-    "/extra/alfuerst/repos/faasmeter/faasmeter",
-    "/extra/alfuerst/repos/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
+    # "/data2/ar/faasmeter/faasmeter",
+    # "/data2/ar/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
+    # "/extra/alfuerst/repos/faasmeter-open/faasmeter",
+    # "/extra/alfuerst/repos/faasmeter/faasmeter",
+    # "/extra/alfuerst/repos/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
 
 ]
 
@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 
 from plotting.base import PlotBase
-from helper_funcs import *
+from faasmeter.faasmeter.helper_funcs import *
 import matplotlib.pyplot as plt
 
 import re
