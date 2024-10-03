@@ -1,0 +1,572 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{crimson2143940}{RGB}{214,39,40}
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{darkorange25512714}{RGB}{255,127,14}
+\definecolor{forestgreen4416044}{RGB}{44,160,44}
+\definecolor{lightgray204}{RGB}{204,204,204}
+\definecolor{mediumpurple148103189}{RGB}{148,103,189}
+\definecolor{steelblue31119180}{RGB}{31,119,180}
+
+\begin{groupplot}[group style={group size=3 by 1}]
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={Desktop},
+x grid style={darkgray176},
+xmin=-0.285, xmax=3.785,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={Energy per invocation (J)},
+ymin=0, ymax=160.67577542529,
+ytick style={color=black}
+]
+\draw[draw=none,fill=steelblue31119180] (axis cs:-0.1,0) rectangle (axis cs:0.1,9.61895977958351);
+\addlegendimage{ybar,ybar legend,draw=none,fill=steelblue31119180}
+\addlegendentry{GT: Shared}
+
+\draw[draw=none,fill=steelblue31119180] (axis cs:0.9,0) rectangle (axis cs:1.1,15.2193135643168);
+\draw[draw=none,fill=steelblue31119180] (axis cs:1.9,0) rectangle (axis cs:2.1,22.4646370656033);
+\draw[draw=none,fill=steelblue31119180] (axis cs:2.9,0) rectangle (axis cs:3.1,33.1397258938869);
+\draw[draw=none,fill=darkorange25512714] (axis cs:-0.1,0) rectangle (axis cs:0.1,6.6359649122807);
+\addlegendimage{ybar,ybar legend,draw=none,fill=darkorange25512714}
+\addlegendentry{GT: CPU}
+
+\draw[draw=none,fill=darkorange25512714] (axis cs:0.9,0) rectangle (axis cs:1.1,10.8322279792746);
+\draw[draw=none,fill=darkorange25512714] (axis cs:1.9,0) rectangle (axis cs:2.1,16.4123872679045);
+\draw[draw=none,fill=darkorange25512714] (axis cs:2.9,0) rectangle (axis cs:3.1,23.9005929919138);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:0.15,0) rectangle (axis cs:0.35,3.31716397903057);
+\addlegendimage{ybar,ybar legend,draw=none,fill=forestgreen4416044}
+\addlegendentry{CD: shared}
+
+\draw[draw=none,fill=forestgreen4416044] (axis cs:1.15,0) rectangle (axis cs:1.35,11.7426366681435);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:2.15,0) rectangle (axis cs:2.35,15.012099357332);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:3.15,0) rectangle (axis cs:3.35,76.3543589935738);
+\draw[draw=none,fill=crimson2143940] (axis cs:0.15,0) rectangle (axis cs:0.35,2.85722030370614);
+\addlegendimage{ybar,ybar legend,draw=none,fill=crimson2143940}
+\addlegendentry{CD: CPU}
+
+\draw[draw=none,fill=crimson2143940] (axis cs:1.15,0) rectangle (axis cs:1.35,9.50332913095963);
+\draw[draw=none,fill=crimson2143940] (axis cs:2.15,0) rectangle (axis cs:2.35,12.8386430128068);
+\draw[draw=none,fill=crimson2143940] (axis cs:3.15,0) rectangle (axis cs:3.35,28.9189062274959);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:0.4,0) rectangle (axis cs:0.6,3.71120405903076);
+\addlegendimage{ybar,ybar legend,draw=none,fill=mediumpurple148103189}
+\addlegendentry{Full}
+
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:1.4,0) rectangle (axis cs:1.6,12.3049830724493);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:2.4,0) rectangle (axis cs:2.6,13.8830159841656);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:3.4,0) rectangle (axis cs:3.6,123.037973640651);
+\path [draw=black, draw opacity=0.5]
+(axis cs:0.25,2.82362043616782)
+--(axis cs:0.25,3.81070752189331);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:1.25,8.47668234032644)
+--(axis cs:1.25,15.0085909959606);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:2.25,11.3214809348969)
+--(axis cs:2.25,18.7027177797671);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:3.25,58.1189608943353)
+--(axis cs:3.25,94.5897570928124);
+
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.25 2.82362043616782
+1.25 8.47668234032644
+2.25 11.3214809348969
+3.25 58.1189608943353
+};
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.25 3.81070752189331
+1.25 15.0085909959606
+2.25 18.7027177797671
+3.25 94.5897570928124
+};
+\path [draw=black, draw opacity=0.5]
+(axis cs:0.5,3.39830749197818)
+--(axis cs:0.5,4.02410062608334);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:1.5,9.5719081603103)
+--(axis cs:1.5,15.0380579845884);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:2.5,11.4587692189766)
+--(axis cs:2.5,16.3072627493546);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:3.5,93.0513992572163)
+--(axis cs:3.5,153.024548024085);
+
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.5 3.39830749197818
+1.5 9.5719081603103
+2.5 11.4587692189766
+3.5 93.0513992572163
+};
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.5 4.02410062608334
+1.5 15.0380579845884
+2.5 16.3072627493546
+3.5 153.024548024085
+};
+\addplot [semithick, black, opacity=0.5, mark=*, mark size=2, mark options={solid}, only marks]
+table {%
+0.25 3.31716397903057
+1.25 11.7426366681435
+2.25 15.012099357332
+3.25 76.3543589935738
+};
+\addplot [semithick, black, opacity=0.5, mark=*, mark size=2, mark options={solid}, only marks]
+table {%
+0.5 3.71120405903076
+1.5 12.3049830724493
+2.5 13.8830159841656
+3.5 123.037973640651
+};
+\draw (axis cs:0,9.61895977958351) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{9.6};
+\draw (axis cs:1,15.2193135643168) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{15.2};
+\draw (axis cs:2,22.4646370656033) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{22.5};
+\draw (axis cs:3,33.1397258938869) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{33.1};
+\draw (axis cs:0.25,3.31716397903057) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{3.3};
+\draw (axis cs:1.25,11.7426366681435) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{11.7};
+\draw (axis cs:2.25,15.012099357332) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{15.0};
+\draw (axis cs:3.25,76.3543589935738) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{76.4};
+\draw (axis cs:0.5,3.71120405903076) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{3.7};
+\draw (axis cs:1.5,12.3049830724493) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{12.3};
+\draw (axis cs:2.5,13.8830159841656) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{13.9};
+\draw (axis cs:3.5,123.037973640651) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{123.0};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={Server},
+x grid style={darkgray176},
+xmin=-0.285, xmax=3.785,
+xtick style={color=black},
+y grid style={darkgray176},
+ymin=0, ymax=93.7812295425492,
+ytick style={color=black}
+]
+\draw[draw=none,fill=steelblue31119180] (axis cs:-0.1,0) rectangle (axis cs:0.1,9.2139175257732);
+\draw[draw=none,fill=steelblue31119180] (axis cs:0.9,0) rectangle (axis cs:1.1,14.0227272727273);
+\draw[draw=none,fill=steelblue31119180] (axis cs:1.9,0) rectangle (axis cs:2.1,20.6360201511335);
+\draw[draw=none,fill=steelblue31119180] (axis cs:2.9,0) rectangle (axis cs:3.1,24.5984848484848);
+\draw[draw=none,fill=darkorange25512714] (axis cs:-0.1,0) rectangle (axis cs:0.1,8.04369845360825);
+\draw[draw=none,fill=darkorange25512714] (axis cs:0.9,0) rectangle (axis cs:1.1,13.6303743315508);
+\draw[draw=none,fill=darkorange25512714] (axis cs:1.9,0) rectangle (axis cs:2.1,20.1061083123426);
+\draw[draw=none,fill=darkorange25512714] (axis cs:2.9,0) rectangle (axis cs:3.1,21.8412878787879);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:0.15,0) rectangle (axis cs:0.35,5.15977920147829);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:1.15,0) rectangle (axis cs:1.35,12.2485252687637);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:2.15,0) rectangle (axis cs:2.35,28.3785835778094);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:3.15,0) rectangle (axis cs:3.35,61.9552598678094);
+\draw[draw=none,fill=crimson2143940] (axis cs:0.15,0) rectangle (axis cs:0.35,4.75914780585056);
+\draw[draw=none,fill=crimson2143940] (axis cs:1.15,0) rectangle (axis cs:1.35,10.8219926048865);
+\draw[draw=none,fill=crimson2143940] (axis cs:2.15,0) rectangle (axis cs:2.35,16.8409412328945);
+\draw[draw=none,fill=crimson2143940] (axis cs:3.15,0) rectangle (axis cs:3.35,29.2678928188742);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:0.4,0) rectangle (axis cs:0.6,4.82843849480686);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:1.4,0) rectangle (axis cs:1.6,8.89847530913526);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:2.4,0) rectangle (axis cs:2.6,25.6689940363391);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:3.4,0) rectangle (axis cs:3.6,68.7305836269292);
+\path [draw=black, draw opacity=0.5]
+(axis cs:0.25,3.25238854574131)
+--(axis cs:0.25,7.06716985721527);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:1.25,7.18700533880716)
+--(axis cs:1.25,17.3100451987202);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:2.25,16.3493993170273)
+--(axis cs:2.25,40.4077678385915);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:3.25,34.6947480241465)
+--(axis cs:3.25,89.2157717114724);
+
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.25 3.25238854574131
+1.25 7.18700533880716
+2.25 16.3493993170273
+3.25 34.6947480241465
+};
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.25 7.06716985721527
+1.25 17.3100451987202
+2.25 40.4077678385915
+3.25 89.2157717114724
+};
+\path [draw=black, draw opacity=0.5]
+(axis cs:0.5,3.44035948388665)
+--(axis cs:0.5,6.21651750572707);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:1.5,6.97567826236196)
+--(axis cs:1.5,10.8212723559085);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:2.5,17.6376133987874)
+--(axis cs:2.5,33.7003746738908);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:3.5,48.1457105466687)
+--(axis cs:3.5,89.3154567071897);
+
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.5 3.44035948388665
+1.5 6.97567826236196
+2.5 17.6376133987874
+3.5 48.1457105466687
+};
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.5 6.21651750572707
+1.5 10.8212723559085
+2.5 33.7003746738908
+3.5 89.3154567071897
+};
+\addplot [semithick, black, opacity=0.5, mark=*, mark size=2, mark options={solid}, only marks]
+table {%
+0.25 5.15977920147829
+1.25 12.2485252687637
+2.25 28.3785835778094
+3.25 61.9552598678094
+};
+\addplot [semithick, black, opacity=0.5, mark=*, mark size=2, mark options={solid}, only marks]
+table {%
+0.5 4.82843849480686
+1.5 8.89847530913526
+2.5 25.6689940363391
+3.5 68.7305836269292
+};
+\draw (axis cs:0,9.2139175257732) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{9.2};
+\draw (axis cs:1,14.0227272727273) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{14.0};
+\draw (axis cs:2,20.6360201511335) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{20.6};
+\draw (axis cs:3,24.5984848484848) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{24.6};
+\draw (axis cs:0.25,5.15977920147829) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{5.2};
+\draw (axis cs:1.25,12.2485252687637) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{12.2};
+\draw (axis cs:2.25,28.3785835778094) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{28.4};
+\draw (axis cs:3.25,61.9552598678094) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{62.0};
+\draw (axis cs:0.5,4.82843849480686) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.8};
+\draw (axis cs:1.5,8.89847530913526) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{8.9};
+\draw (axis cs:2.5,25.6689940363391) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{25.7};
+\draw (axis cs:3.5,68.7305836269292) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{68.7};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={Jetson},
+x grid style={darkgray176},
+xmin=-0.6, xmax=3.8,
+xtick style={color=black},
+xtick={0,1,2,3},
+xticklabels={,,,   ml\_train},
+y grid style={darkgray176},
+ymin=0, ymax=49.0908149809979,
+ytick style={color=black}
+]
+\draw[draw=none,fill=steelblue31119180] (axis cs:-0.1,0) rectangle (axis cs:0.1,0.438657260524045);
+\draw[draw=none,fill=steelblue31119180] (axis cs:0.9,0) rectangle (axis cs:1.1,11.8265164063194);
+\draw[draw=none,fill=steelblue31119180] (axis cs:1.9,0) rectangle (axis cs:2.1,2.49316897050736);
+\draw[draw=none,fill=steelblue31119180] (axis cs:2.9,0) rectangle (axis cs:3.1,29.7969047642221);
+\draw[draw=none,fill=darkorange25512714] (axis cs:-0.1,0) rectangle (axis cs:0.1,0);
+\draw[draw=none,fill=darkorange25512714] (axis cs:0.9,0) rectangle (axis cs:1.1,0);
+\draw[draw=none,fill=darkorange25512714] (axis cs:1.9,0) rectangle (axis cs:2.1,0);
+\draw[draw=none,fill=darkorange25512714] (axis cs:2.9,0) rectangle (axis cs:3.1,0);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:0.15,0) rectangle (axis cs:0.35,0);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:1.15,0) rectangle (axis cs:1.35,0);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:2.15,0) rectangle (axis cs:2.35,0);
+\draw[draw=none,fill=forestgreen4416044] (axis cs:3.15,0) rectangle (axis cs:3.35,0);
+\draw[draw=none,fill=crimson2143940] (axis cs:0.15,0) rectangle (axis cs:0.35,0);
+\draw[draw=none,fill=crimson2143940] (axis cs:1.15,0) rectangle (axis cs:1.35,0);
+\draw[draw=none,fill=crimson2143940] (axis cs:2.15,0) rectangle (axis cs:2.35,0);
+\draw[draw=none,fill=crimson2143940] (axis cs:3.15,0) rectangle (axis cs:3.35,0);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:0.4,0) rectangle (axis cs:0.6,0.0124253121846217);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:1.4,0) rectangle (axis cs:1.6,13.1056019904729);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:2.4,0) rectangle (axis cs:2.6,1.05491494581124);
+\draw[draw=none,fill=mediumpurple148103189] (axis cs:3.4,0) rectangle (axis cs:3.6,42.1466943839791);
+\draw[draw=none,fill=white] (axis cs:-0.4,0) rectangle (axis cs:0.4,0);
+\addlegendimage{ybar,ybar legend,draw=none,fill=white}
+\addlegendentry{dummy-tophead}
+
+\draw[draw=none,fill=white] (axis cs:-0.4,0) rectangle (axis cs:0.4,0);
+\draw[draw=none,fill=white] (axis cs:-0.4,0) rectangle (axis cs:0.4,0);
+\path [draw=black, draw opacity=0.5]
+(axis cs:0.25,0)
+--(axis cs:0.25,0);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:1.25,0)
+--(axis cs:1.25,0);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:2.25,0)
+--(axis cs:2.25,0);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:3.25,0)
+--(axis cs:3.25,0);
+
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.25 0
+1.25 0
+2.25 0
+3.25 0
+};
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.25 0
+1.25 0
+2.25 0
+3.25 0
+};
+\path [draw=black, draw opacity=0.5]
+(axis cs:0.5,0.00865961088771075)
+--(axis cs:0.5,0.0161910134815326);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:1.5,9.79945500786559)
+--(axis cs:1.5,16.4117489730801);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:2.5,0.704293373821058)
+--(axis cs:2.5,1.40553651780142);
+
+\path [draw=black, draw opacity=0.5]
+(axis cs:3.5,37.5402316431982)
+--(axis cs:3.5,46.7531571247599);
+
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.5 0.00865961088771075
+1.5 9.79945500786559
+2.5 0.704293373821058
+3.5 37.5402316431982
+};
+\addplot [semithick, black, opacity=0.5, mark=-, mark size=1, mark options={solid}, only marks]
+table {%
+0.5 0.0161910134815326
+1.5 16.4117489730801
+2.5 1.40553651780142
+3.5 46.7531571247599
+};
+\addplot [semithick, black, opacity=0.5, mark=*, mark size=2, mark options={solid}, only marks]
+table {%
+0.25 0
+1.25 0
+2.25 0
+3.25 0
+};
+\addplot [semithick, black, opacity=0.5, mark=*, mark size=2, mark options={solid}, only marks]
+table {%
+0.5 0.0124253121846217
+1.5 13.1056019904729
+2.5 1.05491494581124
+3.5 42.1466943839791
+};
+\draw (axis cs:0,0.438657260524045) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{0.4};
+\draw (axis cs:1,11.8265164063194) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{11.8};
+\draw (axis cs:2,2.49316897050736) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{2.5};
+\draw (axis cs:3,29.7969047642221) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{29.8};
+\draw (axis cs:0.25,0) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{0.0};
+\draw (axis cs:1.25,0) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{0.0};
+\draw (axis cs:2.25,0) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{0.0};
+\draw (axis cs:3.25,0) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{0.0};
+\draw (axis cs:0.5,0.0124253121846217) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{0.0};
+\draw (axis cs:1.5,13.1056019904729) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{13.1};
+\draw (axis cs:2.5,1.05491494581124) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{1.1};
+\draw (axis cs:3.5,42.1466943839791) ++(0pt,0pt) node[
+  scale=0.3,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{42.1};
+\end{groupplot}
+
+\end{tikzpicture}
