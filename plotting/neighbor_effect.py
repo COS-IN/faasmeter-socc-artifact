@@ -1,18 +1,5 @@
 import os, sys, path
 import matplotlib
-
-paths = [
-    # "/extra/alfuerst/repos/faasmeter-open/faasmeter",
-    # "/extra/alfuerst/repos/faasmeter/faasmeter",
-    # "/extra/alfuerst/repos/faasmeter-data/plotting/faasmeter/faasmeter"
-    # "/extra/alfuerst/repos/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
-]
-
-for p in paths:
-    current = path.Path( os.path.realpath( p ) ).abspath()
-    sys.path.append( current )
-    print( "added {} to PATH".format( current ) )
-
 import numpy as np
 import pandas as pd
 

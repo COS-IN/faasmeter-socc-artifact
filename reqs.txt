@@ -1,0 +1,8 @@
+matplotlib
+pandas
+numpy
+torchvision
+pandarallel
+scipy
+scikit-learn
+pathos
