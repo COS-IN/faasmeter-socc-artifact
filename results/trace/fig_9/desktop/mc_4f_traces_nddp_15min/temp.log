@@ -1,0 +1,23 @@
+{
+    "host": {
+        "consumption": 27652562.0,
+        "timestamp": 1693353956.274633
+    },
+    "consumers": [
+        {
+            "exe": "scaphandre",
+            "pid": 1360468,
+            "consumption": 11061024.0,
+            "timestamp": 1693353956.2975285,
+            "container": null
+        },
+        {
+            "exe": "scaphandre",
+            "pid": 1362908,
+            "consumption": 11061024.0,
+            "timestamp": 1693353956.2978146,
+            "container": null
+        }
+    ],
+    "sockets": []
+}

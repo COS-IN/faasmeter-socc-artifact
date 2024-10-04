@@ -1,0 +1,40 @@
+[100%] Built target hwpc-sensor
+I: 23-07-24 15:42:24 build: version undefined (rev: undefined)
+I: 23-07-24 15:42:24 uname: Linux 5.15.0-76-generic #83~20.04.1-Ubuntu SMP Wed Jun 21 20:23:31 UTC 2023 x86_64
+I: 23-07-24 15:42:24 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-07-24 15:42:24 pmu: found perf 'perf_events generic PMU' having 192 events, 0 counters (0 general, 0 fixed)
+I: 23-07-24 15:42:24 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-07-24 15:42:24 sensor: configuration is valid, starting monitoring...
+I: 23-07-24 15:42:24 perf<all>: monitoring actor started
+I: 23-07-24 15:42:24 perf<>: monitoring actor started
+I: 23-07-24 15:43:28 perf<>: shutting down actor
+I: 23-07-24 15:43:28 perf</pyaes-0-0.0.1-CEEAB45B-2F54-40CA-B8F4-847610051C86>: monitoring actor started
+I: 23-07-24 15:43:28 perf</image_processing-0-0.0.1-BD85A171-7F9D-9388-1E4A-DFDAE4E2CF96>: monitoring actor started
+I: 23-07-24 15:43:28 perf</image_processing-0-0.0.1-D833374F-2BE7-8BC7-AA5D-3789263CD83C>: monitoring actor started
+I: 23-07-24 15:43:30 perf</image_processing-0-0.0.1-E4EC38E1-A4C9-C5E3-23D5-23FB3E295969>: monitoring actor started
+I: 23-07-24 15:43:30 perf</dd-0-0.0.1-3198A6DC-5956-A993-3E89-37E108436F0B>: monitoring actor started
+I: 23-07-24 15:43:30 perf</dd-0-0.0.1-0EBDA6E9-DF9D-B706-9C67-4D9C981E5C2D>: monitoring actor started
+I: 23-07-24 15:43:37 perf</image_processing-0-0.0.1-8168F73F-1C90-92F3-8916-EB236E9454CC>: monitoring actor started
+I: 23-07-24 15:43:40 perf</pyaes-0-0.0.1-8933E0B5-0DF3-6116-45EE-0019A0AAF381>: monitoring actor started
+I: 23-07-24 15:44:02 perf</image_processing-0-0.0.1-DF68A93D-EECC-3A6C-6853-E82085807D7C>: monitoring actor started
+I: 23-07-24 15:44:31 perf</dd-0-0.0.1-3012C058-128F-6FB8-3500-475EF995AA63>: monitoring actor started
+I: 23-07-24 15:45:19 perf</pyaes-0-0.0.1-38FBA980-C77A-1925-619B-BA9D3DEEBDA4>: monitoring actor started
+I: 23-07-24 15:45:22 perf</pyaes-0-0.0.1-B0AEFBA8-88E9-81A8-5EF4-53AF98214D76>: monitoring actor started
+I: 23-07-24 15:46:57 perf</dd-0-0.0.1-657E887A-7B90-72F9-ECDE-923E09D75D89>: monitoring actor started
+I: 23-07-24 15:48:27 perf</pyaes-0-0.0.1-7274986D-E9D7-B5D7-9D1D-0C0D8C52C6DF>: monitoring actor started
+I: 23-07-24 15:50:26 perf</image_processing-0-0.0.1-DF68A93D-EECC-3A6C-6853-E82085807D7C>: shutting down actor
+I: 23-07-24 15:50:26 perf</dd-0-0.0.1-657E887A-7B90-72F9-ECDE-923E09D75D89>: shutting down actor
+I: 23-07-24 15:50:26 perf</pyaes-0-0.0.1-8933E0B5-0DF3-6116-45EE-0019A0AAF381>: shutting down actor
+I: 23-07-24 15:50:26 perf</dd-0-0.0.1-3012C058-128F-6FB8-3500-475EF995AA63>: shutting down actor
+I: 23-07-24 15:50:26 perf</image_processing-0-0.0.1-D833374F-2BE7-8BC7-AA5D-3789263CD83C>: shutting down actor
+I: 23-07-24 15:50:26 perf</pyaes-0-0.0.1-CEEAB45B-2F54-40CA-B8F4-847610051C86>: shutting down actor
+I: 23-07-24 15:50:26 perf</pyaes-0-0.0.1-B0AEFBA8-88E9-81A8-5EF4-53AF98214D76>: shutting down actor
+I: 23-07-24 15:50:26 perf</image_processing-0-0.0.1-BD85A171-7F9D-9388-1E4A-DFDAE4E2CF96>: shutting down actor
+I: 23-07-24 15:50:26 perf</pyaes-0-0.0.1-38FBA980-C77A-1925-619B-BA9D3DEEBDA4>: shutting down actor
+I: 23-07-24 15:50:26 perf</dd-0-0.0.1-0EBDA6E9-DF9D-B706-9C67-4D9C981E5C2D>: shutting down actor
+I: 23-07-24 15:50:26 perf</dd-0-0.0.1-3198A6DC-5956-A993-3E89-37E108436F0B>: shutting down actor
+I: 23-07-24 15:50:26 perf</image_processing-0-0.0.1-E4EC38E1-A4C9-C5E3-23D5-23FB3E295969>: shutting down actor
+I: 23-07-24 15:50:26 perf</image_processing-0-0.0.1-8168F73F-1C90-92F3-8916-EB236E9454CC>: shutting down actor
+I: 23-07-24 15:50:26 perf</pyaes-0-0.0.1-7274986D-E9D7-B5D7-9D1D-0C0D8C52C6DF>: shutting down actor
+I: 23-07-24 15:50:26 perf<all>: shutting down actor
+I: 23-07-24 15:50:26 reporting: bye!

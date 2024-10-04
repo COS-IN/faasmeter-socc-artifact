@@ -1,0 +1,195 @@
+Platform desktop - analysis output_type indiv
+Read: mc_a/functions/fcfs/12/12/perf.csv
+Read: mc_a/functions/fcfs/12/12/cpu.csv
+Read: mc_a/functions/fcfs/12/12/process.log
+Read: mc_a/functions/fcfs/12/12/igpm.log
+Warning: Instek GPM logs not available: mc_a/functions/fcfs/12/12/tegrastats.csv
+Warning: IPMI logs not available: mc_a/functions/fcfs/12/12/energy-ipmi.log
+Read: mc_a/functions/fcfs/12/12/rapl.csv
+Warning: Battery logs not available: mc_a/functions/fcfs/12/12/battery.log
+Read: mc_a/functions/fcfs/12/12/sensor_output/core.csv
+Read: mc_a/functions/fcfs/12/12/sensor_output/global.csv
+Warning: mc_a/functions/fcfs/12/12/sensor_output/perf_counters.csv not found
+Generated dfs:
+  worker_df
+  igpm_df
+  rapl_df
+  cpu_df
+  perf_df
+  power_df
+  power_df_secs
+  proc_df
+  status_df
+  sw_core
+
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/exec_time
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/all_power
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/p_per_ink_cpu
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/p_per_ink_shared
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/p_per_ink_full
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/j_per_ink_cpu
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/j_per_ink_shared
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/j_per_ink_full
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_energy_perf_rapl
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_energy_x_rest
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_energy_igpm
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_invokes
+Platform desktop - analysis output_type indiv
+Read: mc_d/functions/fcfs/12/12/perf.csv
+Read: mc_d/functions/fcfs/12/12/cpu.csv
+Read: mc_d/functions/fcfs/12/12/process.log
+Read: mc_d/functions/fcfs/12/12/igpm.log
+Warning: Instek GPM logs not available: mc_d/functions/fcfs/12/12/tegrastats.csv
+Warning: IPMI logs not available: mc_d/functions/fcfs/12/12/energy-ipmi.log
+Read: mc_d/functions/fcfs/12/12/rapl.csv
+Warning: Battery logs not available: mc_d/functions/fcfs/12/12/battery.log
+Read: mc_d/functions/fcfs/12/12/sensor_output/core.csv
+Read: mc_d/functions/fcfs/12/12/sensor_output/global.csv
+Warning: mc_d/functions/fcfs/12/12/sensor_output/perf_counters.csv not found
+Generated dfs:
+  worker_df
+  igpm_df
+  rapl_df
+  cpu_df
+  perf_df
+  power_df
+  power_df_secs
+  proc_df
+  status_df
+  sw_core
+
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/exec_time
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/all_power
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/p_per_ink_cpu
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/p_per_ink_shared
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/p_per_ink_full
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/j_per_ink_cpu
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/j_per_ink_shared
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/j_per_ink_full
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/total_energy_perf_rapl
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/total_energy_x_rest
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/total_energy_igpm
+Saving analysis: mc_d/functions/fcfs/12/12/dfs/analysis/total_invokes
+Platform desktop - analysis output_type indiv
+Read: mc_i/functions/fcfs/12/12/perf.csv
+Read: mc_i/functions/fcfs/12/12/cpu.csv
+Read: mc_i/functions/fcfs/12/12/process.log
+Read: mc_i/functions/fcfs/12/12/igpm.log
+Warning: Instek GPM logs not available: mc_i/functions/fcfs/12/12/tegrastats.csv
+Warning: IPMI logs not available: mc_i/functions/fcfs/12/12/energy-ipmi.log
+Read: mc_i/functions/fcfs/12/12/rapl.csv
+Warning: Battery logs not available: mc_i/functions/fcfs/12/12/battery.log
+Read: mc_i/functions/fcfs/12/12/sensor_output/core.csv
+Read: mc_i/functions/fcfs/12/12/sensor_output/global.csv
+Warning: mc_i/functions/fcfs/12/12/sensor_output/perf_counters.csv not found
+Generated dfs:
+  worker_df
+  igpm_df
+  rapl_df
+  cpu_df
+  perf_df
+  power_df
+  power_df_secs
+  proc_df
+  status_df
+  sw_core
+
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/exec_time
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/all_power
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/p_per_ink_cpu
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/p_per_ink_shared
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/p_per_ink_full
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/j_per_ink_cpu
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/j_per_ink_shared
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/j_per_ink_full
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/total_energy_perf_rapl
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/total_energy_x_rest
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/total_energy_igpm
+Saving analysis: mc_i/functions/fcfs/12/12/dfs/analysis/total_invokes
+Platform desktop - analysis output_type indiv
+Read: mc_p/functions/fcfs/12/12/perf.csv
+Read: mc_p/functions/fcfs/12/12/cpu.csv
+Read: mc_p/functions/fcfs/12/12/process.log
+Read: mc_p/functions/fcfs/12/12/igpm.log
+Warning: Instek GPM logs not available: mc_p/functions/fcfs/12/12/tegrastats.csv
+Warning: IPMI logs not available: mc_p/functions/fcfs/12/12/energy-ipmi.log
+Read: mc_p/functions/fcfs/12/12/rapl.csv
+Warning: Battery logs not available: mc_p/functions/fcfs/12/12/battery.log
+Read: mc_p/functions/fcfs/12/12/sensor_output/core.csv
+Read: mc_p/functions/fcfs/12/12/sensor_output/global.csv
+Warning: mc_p/functions/fcfs/12/12/sensor_output/perf_counters.csv not found
+Generated dfs:
+  worker_df
+  igpm_df
+  rapl_df
+  cpu_df
+  perf_df
+  power_df
+  power_df_secs
+  proc_df
+  status_df
+  sw_core
+
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/exec_time
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/all_power
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/p_per_ink_cpu
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/p_per_ink_shared
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/p_per_ink_full
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/j_per_ink_cpu
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/j_per_ink_shared
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/j_per_ink_full
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/total_energy_perf_rapl
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/total_energy_x_rest
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/total_energy_igpm
+Saving analysis: mc_p/functions/fcfs/12/12/dfs/analysis/total_invokes
+Platform desktop - analysis output_type indiv
+Read: mc_v/functions/fcfs/12/12/perf.csv
+Read: mc_v/functions/fcfs/12/12/cpu.csv
+Read: mc_v/functions/fcfs/12/12/process.log
+Read: mc_v/functions/fcfs/12/12/igpm.log
+Warning: Instek GPM logs not available: mc_v/functions/fcfs/12/12/tegrastats.csv
+Warning: IPMI logs not available: mc_v/functions/fcfs/12/12/energy-ipmi.log
+Read: mc_v/functions/fcfs/12/12/rapl.csv
+Warning: Battery logs not available: mc_v/functions/fcfs/12/12/battery.log
+Read: mc_v/functions/fcfs/12/12/sensor_output/core.csv
+Read: mc_v/functions/fcfs/12/12/sensor_output/global.csv
+Warning: mc_v/functions/fcfs/12/12/sensor_output/perf_counters.csv not found
+Generated dfs:
+  worker_df
+  igpm_df
+  rapl_df
+  cpu_df
+  perf_df
+  power_df
+  power_df_secs
+  proc_df
+  status_df
+  sw_core
+
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/exec_time
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/all_power
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/p_per_ink_cpu
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/p_per_ink_shared
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/p_per_ink_full
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/j_per_ink_cpu
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/j_per_ink_shared
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/j_per_ink_full
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/total_energy_perf_rapl
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/total_energy_x_rest
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/total_energy_igpm
+Saving analysis: mc_v/functions/fcfs/12/12/dfs/analysis/total_invokes
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/exec_time
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/all_power
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/p_per_ink_cpu
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/p_per_ink_shared
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/p_per_ink_full
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/j_per_ink_cpu
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/j_per_ink_shared
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/j_per_ink_full
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_energy_perf_rapl
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_energy_x_rest
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_energy_igpm
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/total_invokes
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/mc_cpu
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/mc_shared
+Saving analysis: mc_a/functions/fcfs/12/12/dfs/analysis/mc_sys

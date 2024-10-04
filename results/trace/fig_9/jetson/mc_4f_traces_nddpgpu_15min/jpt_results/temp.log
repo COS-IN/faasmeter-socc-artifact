@@ -1,0 +1,63 @@
+
+0,4.628520187406929,1.629831600799693 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_p/functions/fcfs/12/12
+1,4.982046735954024,2.721543461756598 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_d/functions/fcfs/12/12
+2,5.232764977955484,1.9285807750362727 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_1_0/functions/fcfs/12/12
+3,5.81352815956847,3.1053125052915096 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_p/functions/fcfs/12/12
+4,6.813002587814514,3.1285287994442608 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_4/functions/fcfs/12/12
+5,8.895136644874448,4.87675169152223 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12
+6,10.023432404844419,4.327465272906036 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_2/functions/fcfs/12/12
+7,10.163262317722973,8.21716922873437 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_c/functions/fcfs/12/12
+8,14.842165540654753,8.89846702419151 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_i/functions/fcfs/12/12
+9,14.912894787367838,9.119924593317057 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_0/functions/fcfs/12/12
+10,15.057931507415113,9.065188162913755 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c/functions/fcfs/12/12
+11,18.41102118554604,10.135354068830189 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/24/24
+12,18.96381457565624,15.901888043607883 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_1_0/functions/fcfs/24/24
+13,21.43856734161198,20.794780750340657 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12
+14,22.440635659086215,12.258304456633294 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_8/functions/fcfs/24/24
+15,22.68502704894442,12.801264330867536 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_2/functions/fcfs/24/24
+16,22.86901897570663,9.785828760517768 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_8/functions/fcfs/12/12
+17,23.59634788489432,9.824479089234528 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_4/functions/fcfs/24/24
+18,24.41325629822869,12.875496427090312 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_6/functions/fcfs/24/24
+19,25.591194867422505,37.87970665384382 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_i/functions/fcfs/12/12
+20,27.837357213264795,22.090406271508357 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_d/functions/fcfs/24/24
+21,29.165560018016198,23.746624912386103 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_p/functions/fcfs/24/24
+22,29.430872211442644,21.842671123153078 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_i/functions/fcfs/24/24
+23,46.58993920251658,36.82048857207688 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_d/functions/fcfs/12/12
+24,50.85330021467873,25.85619502904094 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_0/functions/fcfs/24/24
+25,59.92802615002364,19.080139738912255 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c/functions/fcfs/24/24
+26,67.1700086936318,39.57581483960936 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_6/functions/fcfs/12/12
+
+
+0,4.628520187406929,1.629831600799693 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_p/functions/fcfs/12/12
+1,4.982046735954024,2.721543461756598 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_d/functions/fcfs/12/12
+2,5.232764977955484,1.9285807750362727 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_1_0/functions/fcfs/12/12
+3,6.813002587814514,3.1285287994442608 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_4/functions/fcfs/12/12
+4,8.895136644874448,4.87675169152223 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12
+5,10.023432404844419,4.327465272906036 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_2/functions/fcfs/12/12
+6,14.842165540654753,8.89846702419151 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_i/functions/fcfs/12/12
+7,14.912894787367838,9.119924593317057 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_0/functions/fcfs/12/12
+8,15.057931507415113,9.065188162913755 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c/functions/fcfs/12/12
+9,22.86901897570663,9.785828760517768 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_8/functions/fcfs/12/12
+10,67.1700086936318,39.57581483960936 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_c_0_6/functions/fcfs/12/12
+
+
+0,18.41102118554604,10.135354068830189 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/24/24
+1,18.96381457565624,15.901888043607883 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_1_0/functions/fcfs/24/24
+2,22.440635659086215,12.258304456633294 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_8/functions/fcfs/24/24
+3,22.68502704894442,12.801264330867536 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_2/functions/fcfs/24/24
+4,23.59634788489432,9.824479089234528 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_4/functions/fcfs/24/24
+5,24.41325629822869,12.875496427090312 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_6/functions/fcfs/24/24
+6,27.837357213264795,22.090406271508357 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_d/functions/fcfs/24/24
+7,29.165560018016198,23.746624912386103 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_p/functions/fcfs/24/24
+8,29.430872211442644,21.842671123153078 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_i/functions/fcfs/24/24
+9,50.85330021467873,25.85619502904094 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c_0_0/functions/fcfs/24/24
+10,59.92802615002364,19.080139738912255 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/victor/mc_4f_traces_nddp_15min/mc_c/functions/fcfs/24/24
+
+
+0,5.81352815956847,3.1053125052915096 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_p/functions/fcfs/12/12
+1,10.163262317722973,8.21716922873437 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_c/functions/fcfs/12/12
+2,21.43856734161198,20.794780750340657 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12
+3,25.591194867422505,37.87970665384382 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_i/functions/fcfs/12/12
+4,46.58993920251658,36.82048857207688 - /data2/ar/iluvatar-energy-experiments/results/trace/fig_9/jetson/mc_4f_traces_nddp_15min/mc_d/functions/fcfs/12/12
+
+

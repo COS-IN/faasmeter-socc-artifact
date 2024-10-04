@@ -1,0 +1,62 @@
+[100%] Built target hwpc-sensor
+I: 23-08-01 21:27:18 build: version undefined (rev: undefined)
+I: 23-08-01 21:27:18 uname: Linux 5.15.0-76-generic #83~20.04.1-Ubuntu SMP Wed Jun 21 20:23:31 UTC 2023 x86_64
+I: 23-08-01 21:27:18 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-08-01 21:27:18 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-08-01 21:27:18 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-08-01 21:27:18 sensor: configuration is valid, starting monitoring...
+I: 23-08-01 21:27:18 perf<all>: monitoring actor started
+I: 23-08-01 21:27:18 perf<>: monitoring actor started
+I: 23-08-01 21:28:22 perf<>: shutting down actor
+I: 23-08-01 21:28:22 perf</dd-0-0.0.1-E49D89EF-254F-88AE-72BE-185981939D80>: monitoring actor started
+I: 23-08-01 21:28:23 perf</image_processing-0-0.0.1-E0AF99F8-2E53-7981-33AF-7003896C1989>: monitoring actor started
+I: 23-08-01 21:28:24 perf</image_processing-0-0.0.1-12BF56CB-B58C-0694-FDC3-79B63F9A3457>: monitoring actor started
+I: 23-08-01 21:28:24 perf</dd-0-0.0.1-FD667D5F-917B-680C-FFDF-BF223D996D58>: monitoring actor started
+I: 23-08-01 21:28:24 perf</image_processing-0-0.0.1-CEF07CFB-2C92-E95D-2D1B-E21525CF596F>: monitoring actor started
+I: 23-08-01 21:28:24 perf</video_processing-0-0.0.1-BE24A943-0992-4BEA-BE03-F84940820153>: monitoring actor started
+I: 23-08-01 21:28:25 perf</image_processing-0-0.0.1-E789FB36-AD26-8CF4-051F-BB08CAEDA665>: monitoring actor started
+I: 23-08-01 21:28:25 perf</image_processing-0-0.0.1-E384562F-85E7-1077-875A-1BFFA06B6B52>: monitoring actor started
+I: 23-08-01 21:28:27 perf</video_processing-0-0.0.1-2438458F-DBFE-8AFF-03DD-62403F208279>: monitoring actor started
+I: 23-08-01 21:28:27 perf</video_processing-0-0.0.1-8369724B-2959-3287-FC5B-EFC54D50317F>: monitoring actor started
+I: 23-08-01 21:28:27 perf</pyaes-0-0.0.1-F03CFB5E-A804-55B9-3620-6B286BB1CA57>: monitoring actor started
+I: 23-08-01 21:28:27 perf</pyaes-0-0.0.1-0E900B3F-1141-4E57-799E-052F7B365BA0>: monitoring actor started
+I: 23-08-01 21:28:29 perf</video_processing-0-0.0.1-25951A8A-AEA0-D75F-9249-62EC61B817A6>: monitoring actor started
+I: 23-08-01 21:28:32 perf</video_processing-0-0.0.1-4FF6B860-225D-A427-3072-062E4BF0DBF2>: monitoring actor started
+I: 23-08-01 21:28:33 perf</video_processing-0-0.0.1-22A4E09B-F911-DB11-E4EB-54D3FC5C9A74>: monitoring actor started
+I: 23-08-01 21:28:46 perf</video_processing-0-0.0.1-8F2CB372-884E-C357-6C6C-414E1844521B>: monitoring actor started
+I: 23-08-01 21:28:49 perf</pyaes-0-0.0.1-9B7EB60A-6220-957F-D0FD-CDFD74C444D0>: monitoring actor started
+I: 23-08-01 21:28:49 perf</pyaes-0-0.0.1-31AD7EC0-839E-F4A6-6DA3-32E6358DD0EC>: monitoring actor started
+I: 23-08-01 21:28:57 perf</dd-0-0.0.1-B9D5EC09-8BBF-293D-39FF-196FC36B6789>: monitoring actor started
+I: 23-08-01 21:29:21 perf</dd-0-0.0.1-9DA8C243-E506-E1B1-42E5-5DB30FDDA1D0>: monitoring actor started
+I: 23-08-01 21:31:39 perf</video_processing-0-0.0.1-538825C2-FFC6-7F4D-19BF-E0FB515530CB>: monitoring actor started
+I: 23-08-01 21:32:02 perf</video_processing-0-0.0.1-17396EDA-4FE8-066A-EBA5-A9C21D86EFC8>: monitoring actor started
+I: 23-08-01 21:32:02 perf</video_processing-0-0.0.1-7947F949-BE90-19D8-D45F-D4417B89DFC7>: monitoring actor started
+I: 23-08-01 21:32:32 perf</dd-0-0.0.1-F5BCFD1F-FA66-2854-D614-689EC35435F6>: monitoring actor started
+I: 23-08-01 21:36:21 perf</pyaes-0-0.0.1-D952A6D1-81DE-D0A6-4EF2-EE680866CD39>: monitoring actor started
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-4FF6B860-225D-A427-3072-062E4BF0DBF2>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-8F2CB372-884E-C357-6C6C-414E1844521B>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-2438458F-DBFE-8AFF-03DD-62403F208279>: shutting down actor
+I: 23-08-01 21:43:28 perf</dd-0-0.0.1-9DA8C243-E506-E1B1-42E5-5DB30FDDA1D0>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-25951A8A-AEA0-D75F-9249-62EC61B817A6>: shutting down actor
+I: 23-08-01 21:43:28 perf</pyaes-0-0.0.1-9B7EB60A-6220-957F-D0FD-CDFD74C444D0>: shutting down actor
+I: 23-08-01 21:43:28 perf</dd-0-0.0.1-B9D5EC09-8BBF-293D-39FF-196FC36B6789>: shutting down actor
+I: 23-08-01 21:43:28 perf</dd-0-0.0.1-FD667D5F-917B-680C-FFDF-BF223D996D58>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-BE24A943-0992-4BEA-BE03-F84940820153>: shutting down actor
+I: 23-08-01 21:43:28 perf</pyaes-0-0.0.1-31AD7EC0-839E-F4A6-6DA3-32E6358DD0EC>: shutting down actor
+I: 23-08-01 21:43:28 perf</pyaes-0-0.0.1-F03CFB5E-A804-55B9-3620-6B286BB1CA57>: shutting down actor
+I: 23-08-01 21:43:28 perf</image_processing-0-0.0.1-E789FB36-AD26-8CF4-051F-BB08CAEDA665>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-7947F949-BE90-19D8-D45F-D4417B89DFC7>: shutting down actor
+I: 23-08-01 21:43:28 perf</dd-0-0.0.1-F5BCFD1F-FA66-2854-D614-689EC35435F6>: shutting down actor
+I: 23-08-01 21:43:28 perf</image_processing-0-0.0.1-E0AF99F8-2E53-7981-33AF-7003896C1989>: shutting down actor
+I: 23-08-01 21:43:28 perf</pyaes-0-0.0.1-D952A6D1-81DE-D0A6-4EF2-EE680866CD39>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-22A4E09B-F911-DB11-E4EB-54D3FC5C9A74>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-17396EDA-4FE8-066A-EBA5-A9C21D86EFC8>: shutting down actor
+I: 23-08-01 21:43:28 perf</image_processing-0-0.0.1-CEF07CFB-2C92-E95D-2D1B-E21525CF596F>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-8369724B-2959-3287-FC5B-EFC54D50317F>: shutting down actor
+I: 23-08-01 21:43:28 perf</pyaes-0-0.0.1-0E900B3F-1141-4E57-799E-052F7B365BA0>: shutting down actor
+I: 23-08-01 21:43:28 perf</image_processing-0-0.0.1-E384562F-85E7-1077-875A-1BFFA06B6B52>: shutting down actor
+I: 23-08-01 21:43:28 perf</dd-0-0.0.1-E49D89EF-254F-88AE-72BE-185981939D80>: shutting down actor
+I: 23-08-01 21:43:28 perf</video_processing-0-0.0.1-538825C2-FFC6-7F4D-19BF-E0FB515530CB>: shutting down actor
+I: 23-08-01 21:43:28 perf</image_processing-0-0.0.1-12BF56CB-B58C-0694-FDC3-79B63F9A3457>: shutting down actor
+I: 23-08-01 21:43:28 perf<all>: shutting down actor
+I: 23-08-01 21:43:28 reporting: bye!

@@ -1,0 +1,138 @@
+[100%] Built target hwpc-sensor
+I: 23-07-19 21:31:53 build: version undefined (rev: undefined)
+I: 23-07-19 21:31:53 uname: Linux 5.4.0-153-generic #170-Ubuntu SMP Fri Jun 16 13:43:31 UTC 2023 x86_64
+I: 23-07-19 21:31:53 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 11 counters (8 general, 3 fixed)
+I: 23-07-19 21:31:53 pmu: found perf 'perf_events generic PMU' having 178 events, 0 counters (0 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found rapl 'Intel RAPL' having 2 events, 3 counters (0 general, 3 fixed)
+I: 23-07-19 21:31:53 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx 'Intel Skylake X' having 85 events, 11 counters (8 general, 3 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha0 'Intel SkylakeX CHA0 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha1 'Intel SkylakeX CHA1 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha2 'Intel SkylakeX CHA2 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha3 'Intel SkylakeX CHA3 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha4 'Intel SkylakeX CHA4 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha5 'Intel SkylakeX CHA5 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha6 'Intel SkylakeX CHA6 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha7 'Intel SkylakeX CHA7 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha8 'Intel SkylakeX CHA8 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha9 'Intel SkylakeX CHA9 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha10 'Intel SkylakeX CHA10 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha11 'Intel SkylakeX CHA11 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha12 'Intel SkylakeX CHA12 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha13 'Intel SkylakeX CHA13 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha14 'Intel SkylakeX CHA14 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha15 'Intel SkylakeX CHA15 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha16 'Intel SkylakeX CHA16 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha17 'Intel SkylakeX CHA17 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha18 'Intel SkylakeX CHA18 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha19 'Intel SkylakeX CHA19 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha20 'Intel SkylakeX CHA20 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha21 'Intel SkylakeX CHA21 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha22 'Intel SkylakeX CHA22 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_cha23 'Intel SkylakeX CHA23 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_iio0 'Intel SkylakeX IIO0 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_iio1 'Intel SkylakeX IIO1 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_iio2 'Intel SkylakeX IIO2 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_iio3 'Intel SkylakeX IIO3 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_iio4 'Intel SkylakeX IIO4 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_iio5 'Intel SkylakeX IIO5 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_imc0 'Intel SkylakeX IMC0 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_imc1 'Intel SkylakeX IMC1 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_imc2 'Intel SkylakeX IMC2 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_imc3 'Intel SkylakeX IMC3 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_imc4 'Intel SkylakeX IMC4 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_imc5 'Intel SkylakeX IMC5 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_m2m0 'Intel SkylakeX M2M0 uncore' having 121 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_m2m1 'Intel SkylakeX M2M1 uncore' having 121 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_m3upi0 'Intel SkylakeX M3UPI0 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_m3upi1 'Intel SkylakeX M3UPI1 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_m3upi2 'Intel SkylakeX M3UPI2 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_pcu 'Intel SkylakeX PCU uncore' having 29 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_ubo 'Intel SkylakeX U-Box uncore' having 5 events, 3 counters (2 general, 1 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_upi0 'Intel SkylakeX UPI0 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_upi1 'Intel SkylakeX UPI1 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 pmu: found skx_unc_upi2 'Intel SkylakeX UPI2 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-07-19 21:31:53 hwinfo: cpu38 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu28 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu46 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu36 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu26 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu44 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu34 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu24 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu42 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu32 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu40 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu30 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu39 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu29 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu47 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu37 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu27 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu45 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu35 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu25 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu43 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu33 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu41 is offline and will be ignored
+I: 23-07-19 21:31:53 hwinfo: cpu31 is offline and will be ignored
+I: 23-07-19 21:31:53 sensor: configuration is valid, starting monitoring...
+I: 23-07-19 21:31:53 perf<all>: monitoring actor started
+I: 23-07-19 21:31:53 perf</default>: monitoring actor started
+I: 23-07-19 21:33:00 perf</video_processing-0-0.0.1-406D50BD-B53D-F2A0-BB6F-61BD2AFD3A45>: monitoring actor started
+I: 23-07-19 21:33:02 perf</pyaes-0-0.0.1-5356DBDD-686C-01CC-E9C1-0591A83F7DBA>: monitoring actor started
+I: 23-07-19 21:33:02 perf</pyaes-0-0.0.1-7D418EE3-DB34-A186-5CC1-7FB03E0FA5EF>: monitoring actor started
+I: 23-07-19 21:33:03 perf</dd-0-0.0.1-6DFB4125-9294-FFB1-81DE-B470FA967832>: monitoring actor started
+I: 23-07-19 21:33:03 perf</pyaes-0-0.0.1-6130B9E1-C47D-DAAA-781F-0F42E929B4B8>: monitoring actor started
+I: 23-07-19 21:33:03 perf</video_processing-0-0.0.1-3D3A6DED-B578-6EA4-3B74-70BEB0EF9CDB>: monitoring actor started
+I: 23-07-19 21:33:04 perf</pyaes-0-0.0.1-F5168AE7-F1FB-283C-4F54-8A4E03498EEA>: monitoring actor started
+I: 23-07-19 21:33:04 perf</dd-0-0.0.1-5FEBAADC-C153-188C-3C9A-3DD3810F179F>: monitoring actor started
+I: 23-07-19 21:33:05 perf</video_processing-0-0.0.1-015DD8A0-C3DD-B6A1-1079-9479D3C7146F>: monitoring actor started
+I: 23-07-19 21:33:05 perf</video_processing-0-0.0.1-D615C86A-31E7-D6A0-E18C-8A6975E62274>: monitoring actor started
+I: 23-07-19 21:33:06 perf</pyaes-0-0.0.1-7D418EE3-DB34-A186-5CC1-7FB03E0FA5EF>: shutting down actor
+I: 23-07-19 21:33:06 perf</video_processing-0-0.0.1-C591A323-8ACF-5E3B-61E3-145D301029BD>: monitoring actor started
+I: 23-07-19 21:33:06 perf</image_processing-0-0.0.1-AACE7E06-23EE-E76A-1000-1807B0243367>: monitoring actor started
+I: 23-07-19 21:33:06 perf</image_processing-0-0.0.1-0A0B14ED-EBD5-A3BB-E357-2904106A2C88>: monitoring actor started
+I: 23-07-19 21:33:07 perf</dd-0-0.0.1-471E8A48-C387-8234-6857-64B674AFC522>: monitoring actor started
+I: 23-07-19 21:33:07 perf</image_processing-0-0.0.1-61CFDACC-6A91-1916-23EC-B50F360B60C3>: monitoring actor started
+I: 23-07-19 21:33:08 perf</pyaes-0-0.0.1-1064E007-9175-40FE-6B96-C87601A016F8>: monitoring actor started
+I: 23-07-19 21:33:08 perf</dd-0-0.0.1-95B163D2-6FE6-1654-CAAE-7A909BAF96E2>: monitoring actor started
+I: 23-07-19 21:33:09 perf</image_processing-0-0.0.1-24B524F4-4B53-A85E-8955-A80ECCF296C5>: monitoring actor started
+I: 23-07-19 21:33:09 perf</dd-0-0.0.1-19942E18-E7C0-773F-2B66-D966F22C567B>: monitoring actor started
+I: 23-07-19 21:33:10 perf</image_processing-0-0.0.1-FEB1B1E2-F0A2-051D-5444-8D958C442ECE>: monitoring actor started
+I: 23-07-19 21:33:10 perf</video_processing-0-0.0.1-7D0267A9-3E02-0DDD-9DC7-16CDB69B7786>: monitoring actor started
+I: 23-07-19 21:33:11 perf</pyaes-0-0.0.1-F15A2F04-EDE2-DD11-ECDA-384BB1A5AFE6>: monitoring actor started
+I: 23-07-19 21:33:29 perf</video_processing-0-0.0.1-72FC5099-3039-1241-D556-32EDA08750D3>: monitoring actor started
+I: 23-07-19 21:33:30 perf</video_processing-0-0.0.1-B3B768AD-CC8E-4E00-70AD-86A43EA60DC2>: monitoring actor started
+I: 23-07-19 21:33:31 perf</video_processing-0-0.0.1-5DA52A7B-3AEB-472F-C4FE-D293BB2227BC>: monitoring actor started
+I: 23-07-19 21:34:14 perf</video_processing-0-0.0.1-7EC7E8D2-18CE-DD4A-7CD1-B37AABAF6764>: monitoring actor started
+I: 23-07-19 21:34:58 perf</pyaes-0-0.0.1-C20D992C-1AD7-8818-7705-EBF86A965467>: monitoring actor started
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-B3B768AD-CC8E-4E00-70AD-86A43EA60DC2>: shutting down actor
+I: 23-07-19 21:40:01 perf</image_processing-0-0.0.1-24B524F4-4B53-A85E-8955-A80ECCF296C5>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-D615C86A-31E7-D6A0-E18C-8A6975E62274>: shutting down actor
+I: 23-07-19 21:40:01 perf</pyaes-0-0.0.1-C20D992C-1AD7-8818-7705-EBF86A965467>: shutting down actor
+I: 23-07-19 21:40:01 perf</pyaes-0-0.0.1-F5168AE7-F1FB-283C-4F54-8A4E03498EEA>: shutting down actor
+I: 23-07-19 21:40:01 perf</pyaes-0-0.0.1-5356DBDD-686C-01CC-E9C1-0591A83F7DBA>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-7EC7E8D2-18CE-DD4A-7CD1-B37AABAF6764>: shutting down actor
+I: 23-07-19 21:40:01 perf</dd-0-0.0.1-471E8A48-C387-8234-6857-64B674AFC522>: shutting down actor
+I: 23-07-19 21:40:01 perf</pyaes-0-0.0.1-6130B9E1-C47D-DAAA-781F-0F42E929B4B8>: shutting down actor
+I: 23-07-19 21:40:01 perf</pyaes-0-0.0.1-1064E007-9175-40FE-6B96-C87601A016F8>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-3D3A6DED-B578-6EA4-3B74-70BEB0EF9CDB>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-C591A323-8ACF-5E3B-61E3-145D301029BD>: shutting down actor
+I: 23-07-19 21:40:01 perf</image_processing-0-0.0.1-61CFDACC-6A91-1916-23EC-B50F360B60C3>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-015DD8A0-C3DD-B6A1-1079-9479D3C7146F>: shutting down actor
+I: 23-07-19 21:40:01 perf</pyaes-0-0.0.1-F15A2F04-EDE2-DD11-ECDA-384BB1A5AFE6>: shutting down actor
+I: 23-07-19 21:40:01 perf</dd-0-0.0.1-5FEBAADC-C153-188C-3C9A-3DD3810F179F>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-72FC5099-3039-1241-D556-32EDA08750D3>: shutting down actor
+I: 23-07-19 21:40:01 perf</image_processing-0-0.0.1-FEB1B1E2-F0A2-051D-5444-8D958C442ECE>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-5DA52A7B-3AEB-472F-C4FE-D293BB2227BC>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-7D0267A9-3E02-0DDD-9DC7-16CDB69B7786>: shutting down actor
+I: 23-07-19 21:40:01 perf</dd-0-0.0.1-95B163D2-6FE6-1654-CAAE-7A909BAF96E2>: shutting down actor
+I: 23-07-19 21:40:01 perf</default>: shutting down actor
+I: 23-07-19 21:40:01 perf</dd-0-0.0.1-19942E18-E7C0-773F-2B66-D966F22C567B>: shutting down actor
+I: 23-07-19 21:40:01 perf</video_processing-0-0.0.1-406D50BD-B53D-F2A0-BB6F-61BD2AFD3A45>: shutting down actor
+I: 23-07-19 21:40:01 perf</image_processing-0-0.0.1-AACE7E06-23EE-E76A-1000-1807B0243367>: shutting down actor
+I: 23-07-19 21:40:01 perf</image_processing-0-0.0.1-0A0B14ED-EBD5-A3BB-E357-2904106A2C88>: shutting down actor
+I: 23-07-19 21:40:01 perf</dd-0-0.0.1-6DFB4125-9294-FFB1-81DE-B470FA967832>: shutting down actor
+I: 23-07-19 21:40:01 perf<all>: shutting down actor
+I: 23-07-19 21:40:01 reporting: bye!

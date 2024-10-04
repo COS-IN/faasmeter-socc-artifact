@@ -1,0 +1,42 @@
+[100%] Built target hwpc-sensor
+I: 23-08-05 21:04:30 build: version undefined (rev: undefined)
+I: 23-08-05 21:04:30 uname: Linux 5.15.0-78-generic #85~20.04.1-Ubuntu SMP Mon Jul 17 09:42:39 UTC 2023 x86_64
+I: 23-08-05 21:04:30 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-08-05 21:04:30 pmu: found perf 'perf_events generic PMU' having 192 events, 0 counters (0 general, 0 fixed)
+I: 23-08-05 21:04:30 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-08-05 21:04:30 sensor: configuration is valid, starting monitoring...
+I: 23-08-05 21:04:30 perf<all>: monitoring actor started
+I: 23-08-05 21:04:30 perf<>: monitoring actor started
+I: 23-08-05 21:05:34 perf<>: shutting down actor
+I: 23-08-05 21:05:34 perf</pyaes-0-0.0.1-BA07A09E-6F9F-1C43-CA54-D956CAE3D182>: monitoring actor started
+I: 23-08-05 21:05:34 perf</video_processing-0-0.0.1-E93D0F0E-AB36-9F51-C962-EC5D87697E9F>: monitoring actor started
+I: 23-08-05 21:05:36 perf</dd-0-0.0.1-C104D970-3571-375C-E44A-28EA572D174D>: monitoring actor started
+I: 23-08-05 21:05:36 perf</dd-0-0.0.1-5BD736B9-3361-2874-B37B-30F85A555C9B>: monitoring actor started
+I: 23-08-05 21:05:44 perf</video_processing-0-0.0.1-D8BCAD94-DE79-D9EE-23C9-328A805674EF>: monitoring actor started
+I: 23-08-05 21:06:05 perf</pyaes-0-0.0.1-C7AF6CEE-4CB6-CD0B-621E-08A9BDC33FB9>: monitoring actor started
+I: 23-08-05 21:06:37 perf</dd-0-0.0.1-706A1550-8993-EC45-4A8D-DA31B872B6E6>: monitoring actor started
+I: 23-08-05 21:06:56 perf</video_processing-0-0.0.1-C2B6CDA5-BE3B-1F76-BD19-84C2FBAEC965>: monitoring actor started
+I: 23-08-05 21:07:16 perf</video_processing-0-0.0.1-532FB4E2-1630-464E-B0FD-426F56719868>: monitoring actor started
+I: 23-08-05 21:07:16 perf</video_processing-0-0.0.1-AD584AA4-C698-A696-99A2-A185C39D247E>: monitoring actor started
+I: 23-08-05 21:07:16 perf</video_processing-0-0.0.1-5FBF7687-B735-7E3A-5562-3C52B7B5D682>: monitoring actor started
+I: 23-08-05 21:07:16 perf</video_processing-0-0.0.1-35CD87C1-EAAC-8832-C4C3-C9A2921CF545>: monitoring actor started
+I: 23-08-05 21:07:25 perf</pyaes-0-0.0.1-F3EB1DFA-997C-FA73-7A40-8D0D47116961>: monitoring actor started
+I: 23-08-05 21:07:28 perf</pyaes-0-0.0.1-665A5AC4-6DE1-17DA-9A56-B33BE17E8E3E>: monitoring actor started
+I: 23-08-05 21:09:02 perf</dd-0-0.0.1-44D5D507-941B-1DB5-E023-2AAA863B2533>: monitoring actor started
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-5FBF7687-B735-7E3A-5562-3C52B7B5D682>: shutting down actor
+I: 23-08-05 21:12:32 perf</dd-0-0.0.1-44D5D507-941B-1DB5-E023-2AAA863B2533>: shutting down actor
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-E93D0F0E-AB36-9F51-C962-EC5D87697E9F>: shutting down actor
+I: 23-08-05 21:12:32 perf</pyaes-0-0.0.1-665A5AC4-6DE1-17DA-9A56-B33BE17E8E3E>: shutting down actor
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-D8BCAD94-DE79-D9EE-23C9-328A805674EF>: shutting down actor
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-532FB4E2-1630-464E-B0FD-426F56719868>: shutting down actor
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-AD584AA4-C698-A696-99A2-A185C39D247E>: shutting down actor
+I: 23-08-05 21:12:32 perf</pyaes-0-0.0.1-F3EB1DFA-997C-FA73-7A40-8D0D47116961>: shutting down actor
+I: 23-08-05 21:12:32 perf</pyaes-0-0.0.1-BA07A09E-6F9F-1C43-CA54-D956CAE3D182>: shutting down actor
+I: 23-08-05 21:12:32 perf</pyaes-0-0.0.1-C7AF6CEE-4CB6-CD0B-621E-08A9BDC33FB9>: shutting down actor
+I: 23-08-05 21:12:32 perf</dd-0-0.0.1-706A1550-8993-EC45-4A8D-DA31B872B6E6>: shutting down actor
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-C2B6CDA5-BE3B-1F76-BD19-84C2FBAEC965>: shutting down actor
+I: 23-08-05 21:12:32 perf</video_processing-0-0.0.1-35CD87C1-EAAC-8832-C4C3-C9A2921CF545>: shutting down actor
+I: 23-08-05 21:12:32 perf</dd-0-0.0.1-C104D970-3571-375C-E44A-28EA572D174D>: shutting down actor
+I: 23-08-05 21:12:32 perf</dd-0-0.0.1-5BD736B9-3361-2874-B37B-30F85A555C9B>: shutting down actor
+I: 23-08-05 21:12:32 perf<all>: shutting down actor
+I: 23-08-05 21:12:32 reporting: bye!
