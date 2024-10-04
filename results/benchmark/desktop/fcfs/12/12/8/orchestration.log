@@ -1,0 +1,261 @@
+Efaas Version: 
+ea48efdf3fa0d50073d2bba34f12ad7bbf5aa7a5
+iluvatar-energy-experiments Version: 
+d974fa698939d8aa439cd75d56733c781ee790ad
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "722246710781.3454438",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/722246710781.3454438",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=1    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+Benchmarking functions: [ToBenchmarkFunction { name: "pyaes", image_name: "docker.io/aarehman/pyaes-iluvatar-action:latest" }, ToBenchmarkFunction { name: "video_processing", image_name: "docker.io/aarehman/video_processing-iluvatar-action:latest" }, ToBenchmarkFunction { name: "model_training", image_name: "docker.io/aarehman/model_training-iluvatar-action:latest" }, ToBenchmarkFunction { name: "hello", image_name: "docker.io/aarehman/hello-iluvatar-action:latest" }, ToBenchmarkFunction { name: "json_dumps_loads", image_name: "docker.io/aarehman/json_dumps_loads-iluvatar-action:latest" }, ToBenchmarkFunction { name: "gzip_compression", image_name: "docker.io/aarehman/gzip_compression-iluvatar-action:latest" }, ToBenchmarkFunction { name: "chameleon", image_name: "docker.io/aarehman/chameleon-iluvatar-action:latest" }, ToBenchmarkFunction { name: "lin_pack", image_name: "docker.io/aarehman/lin_pack-iluvatar-action:latest" }, ToBenchmarkFunction { name: "image_processing", image_name: "docker.io/aarehman/image_processing-iluvatar-action:latest" }, ToBenchmarkFunction { name: "cnn_image_classification", image_name: "docker.io/aarehman/cnn_image_classification-iluvatar-action:latest" }, ToBenchmarkFunction { name: "dd", image_name: "docker.io/aarehman/dd-iluvatar-action:latest" }, ToBenchmarkFunction { name: "float_operation", image_name: "docker.io/aarehman/float_operation-iluvatar-action:latest" }]
+pyaes
+pyaes
+pyaes
+pyaes
+pyaes
+pyaes
+pyaes
+pyaes
+video_processing
+video_processing
+video_processing
+video_processing
+video_processing
+video_processing
+video_processing
+video_processing
+model_training
+model_training
+model_training
+model_training
+model_training
+model_training
+model_training
+model_training
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+json_dumps_loads
+json_dumps_loads
+json_dumps_loads
+json_dumps_loads
+json_dumps_loads
+json_dumps_loads
+json_dumps_loads
+json_dumps_loads
+gzip_compression
+gzip_compression
+gzip_compression
+gzip_compression
+gzip_compression
+gzip_compression
+gzip_compression
+gzip_compression
+chameleon
+chameleon
+chameleon
+chameleon
+chameleon
+chameleon
+chameleon
+chameleon
+lin_pack
+lin_pack
+lin_pack
+lin_pack
+lin_pack
+lin_pack
+lin_pack
+lin_pack
+image_processing
+image_processing
+image_processing
+image_processing
+image_processing
+image_processing
+image_processing
+image_processing
+cnn_image_classification
+cnn_image_classification
+cnn_image_classification
+cnn_image_classification
+cnn_image_classification
+cnn_image_classification
+cnn_image_classification
+cnn_image_classification
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+float_operation
+float_operation
+float_operation
+float_operation
+float_operation
+float_operation
+float_operation
+float_operation
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=3454447) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=3454447)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=9    changed=3    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+

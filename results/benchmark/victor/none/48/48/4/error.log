@@ -1,0 +1,35 @@
+{
+    "timestamp": "2023-07-18 11:33:30.849035342",
+    "level": "ERROR",
+    "fields": {
+        "message": "HTTP error when trying to connect to container",
+        "tid": "78d3d5a1to98e3to8c59to1f71tob8f3d3aebf96",
+        "error": "error sending request for url (http://10.10.86.90:8080/invoke): connection closed before message completed",
+        "container_id": "dd.CPU.0-0-CD553FF6-8139-0E52-7908-6259D0706E67"
+    },
+    "target": "iluvatar_worker_library::services::containers::containerd::containerdstructs",
+    "span": {
+        "fqdn": "dd.CPU.0-0",
+        "tid": "78d3d5a1to98e3to8c59to1f71tob8f3d3aebf96",
+        "name": "ContainerdContainer::invoke"
+    },
+    "spans": [
+        {
+            "fqdn": "dd.CPU.0-0",
+            "tid": "78d3d5a1to98e3to8c59to1f71tob8f3d3aebf96",
+            "name": "ContainerdContainer::invoke"
+        }
+    ]
+}
+
+invoke failure "{ 
+    \"Error\": \"Invocation error: [RCPWorkerAPI:invoke] RPC connection failed because: 
+    Status { code: Unavailable,     
+        message: \"error trying to connect: tcp connect error: Connection refused (os error 111)\", 
+        source: Some(tonic::transport::Error(Transport, hyper::Error(Connect, ConnectError(\"tcp connect error\", 
+        Os { code: 111, kind: ConnectionRefused, message: \"Connection refused\" }
+        )))) 
+    }\" 
+}"
+
+

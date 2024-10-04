@@ -1,0 +1,12 @@
+cnn_image_classification CPU
+chameleon CPU
+image_processing CPU
+lin_pack CPU
+json_dumps_loads CPU
+float_operation CPU
+hello CPU
+model_training CPU
+gzip_compression CPU
+pyaes CPU
+dd CPU
+invoke failure "{ \"Error\": \"Deserialization error: missing field `body` at line 1 column 33; { \"Error\": \"Create task failed\" }\" }"
