@@ -1,0 +1,316 @@
+Warning: Battery logs not available: ../../experiments/victor/MarginalCost_a/battery.log
+Warning: Instek GPM logs not available: ../../experiments/victor/MarginalCost_a/igpm.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-17 16:50:50.125703763  ...  json_dumps_loads-0-0.0.1
+1    2022-10-17 16:50:52.115165841  ...  json_dumps_loads-0-0.0.1
+2    2022-10-17 16:50:48.955073561  ...  image_processing-0-0.0.1
+3    2022-10-17 16:50:51.281307042  ...  image_processing-0-0.0.1
+4    2022-10-17 16:50:52.191596559  ...  image_processing-0-0.0.1
+...                            ...  ...                       ...
+2392 2022-10-17 17:20:43.874722354  ...  image_processing-0-0.0.1
+2393 2022-10-17 17:20:47.854874857  ...  json_dumps_loads-0-0.0.1
+2394 2022-10-17 17:20:45.697927761  ...  image_processing-0-0.0.1
+2395 2022-10-17 17:20:45.579418869  ...  image_processing-0-0.0.1
+2396 2022-10-17 17:20:48.324480987  ...  image_processing-0-0.0.1
+
+[2397 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz',
+       ...
+       'kern_cpu90_hz', 'kern_cpu91_hz', 'kern_cpu92_hz', 'kern_cpu93_hz',
+       'kern_cpu94_hz', 'kern_cpu95_hz', 'power', 'rapl', 'energy_ram',
+       'retired_instructions'],
+      dtype='object', length=208)
+                               cpu_pct_process  ... retired_instructions
+timestamp                                       ...                     
+2022-10-17 16:44:50.164346469            0.800  ...         3.171811e+09
+2022-10-17 16:44:51.743881456            0.800  ...         3.171811e+09
+2022-10-17 16:44:52.010445484            0.800  ...         3.171811e+09
+2022-10-17 16:44:52.330006694            0.825  ...         3.171811e+09
+2022-10-17 16:44:52.863023841            0.850  ...         3.171811e+09
+...                                        ...  ...                  ...
+2022-10-17 17:21:50.376096094            7.200  ...         3.164918e+08
+2022-10-17 17:21:50.514559000            7.200  ...         3.477645e+08
+2022-10-17 17:21:50.568324323            7.200  ...         3.477645e+08
+2022-10-17 17:21:50.608790244            7.200  ...         3.477645e+08
+2022-10-17 17:21:50.901747855            7.200  ...         3.477645e+08
+
+[8980 rows x 208 columns]
+Warning: Battery logs not available: ../../experiments/victor/MarginalCost_lookbusy/battery.log
+Warning: Instek GPM logs not available: ../../experiments/victor/MarginalCost_lookbusy/igpm.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-18 12:37:08.913604318  ...  image_processing-0-0.0.1
+1    2022-10-18 12:37:13.306676425  ...  json_dumps_loads-0-0.0.1
+2    2022-10-18 12:37:11.621164188  ...  image_processing-0-0.0.1
+3    2022-10-18 12:37:13.363791538  ...          lookbusy-0-0.0.1
+4    2022-10-18 12:37:15.217442765  ...  json_dumps_loads-0-0.0.1
+...                            ...  ...                       ...
+4821 2022-10-18 13:07:04.435300994  ...  video_processing-0-0.0.1
+4822 2022-10-18 13:07:04.269762132  ...  video_processing-0-0.0.1
+4823 2022-10-18 13:07:04.981663248  ...  video_processing-0-0.0.1
+4824 2022-10-18 13:07:08.036892121  ...  video_processing-0-0.0.1
+4825 2022-10-18 13:07:08.619683525  ...  video_processing-0-0.0.1
+
+[4826 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz',
+       ...
+       'kern_cpu90_hz', 'kern_cpu91_hz', 'kern_cpu92_hz', 'kern_cpu93_hz',
+       'kern_cpu94_hz', 'kern_cpu95_hz', 'power', 'rapl', 'energy_ram',
+       'retired_instructions'],
+      dtype='object', length=208)
+                               cpu_pct_process  ... retired_instructions
+timestamp                                       ...                     
+2022-10-18 12:30:28.568337696              0.6  ...         1.598529e+09
+2022-10-18 12:30:30.186828578              0.6  ...         1.598529e+09
+2022-10-18 12:30:30.444923056              0.6  ...         1.598529e+09
+2022-10-18 12:30:30.864569292              0.6  ...         1.598529e+09
+2022-10-18 12:30:31.005667000              0.6  ...         1.598529e+09
+...                                        ...  ...                  ...
+2022-10-18 13:08:14.648289251              5.6  ...         2.994370e+08
+2022-10-18 13:08:14.793801000              5.6  ...         2.810248e+08
+2022-10-18 13:08:15.164466819              5.6  ...         2.810248e+08
+2022-10-18 13:08:15.688685576              5.6  ...         2.810248e+08
+2022-10-18 13:08:15.705822551              5.6  ...         2.810248e+08
+
+[9155 rows x 208 columns]
+Warning: Battery logs not available: ../../experiments/victor/MarginalCost_i/battery.log
+Warning: Instek GPM logs not available: ../../experiments/victor/MarginalCost_i/igpm.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-17 17:27:15.097198420  ...  video_processing-0-0.0.1
+1    2022-10-17 17:27:14.974239691  ...  video_processing-0-0.0.1
+2    2022-10-17 17:27:17.540706840  ...    model_training-0-0.0.1
+3    2022-10-17 17:27:21.266791809  ...    model_training-0-0.0.1
+4    2022-10-17 17:27:28.196622607  ...  json_dumps_loads-0-0.0.1
+...                            ...  ...                       ...
+1536 2022-10-17 17:57:11.106717121  ...  video_processing-0-0.0.1
+1537 2022-10-17 17:57:10.754452902  ...  video_processing-0-0.0.1
+1538 2022-10-17 17:57:12.657436541  ...  video_processing-0-0.0.1
+1539 2022-10-17 17:57:13.349861566  ...  video_processing-0-0.0.1
+1540 2022-10-17 17:57:14.152460780  ...  video_processing-0-0.0.1
+
+[1541 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz',
+       ...
+       'kern_cpu90_hz', 'kern_cpu91_hz', 'kern_cpu92_hz', 'kern_cpu93_hz',
+       'kern_cpu94_hz', 'kern_cpu95_hz', 'power', 'rapl', 'energy_ram',
+       'retired_instructions'],
+      dtype='object', length=208)
+                               cpu_pct_process  ... retired_instructions
+timestamp                                       ...                     
+2022-10-17 17:22:50.424357404            0.800  ...         2.054271e+09
+2022-10-17 17:22:51.996385696            0.800  ...         2.054271e+09
+2022-10-17 17:22:52.260857355            0.800  ...         2.054271e+09
+2022-10-17 17:22:52.547944358            0.825  ...         2.054271e+09
+2022-10-17 17:22:53.005867000            0.850  ...         2.054271e+09
+...                                        ...  ...                  ...
+2022-10-17 17:58:19.341155425            6.200  ...         2.637351e+08
+2022-10-17 17:58:19.368681000            6.200  ...         2.295270e+08
+2022-10-17 17:58:19.864384815            6.200  ...         2.295270e+08
+2022-10-17 17:58:20.030816377            6.200  ...         2.295270e+08
+2022-10-17 17:58:20.399540893            6.200  ...         2.295270e+08
+
+[8604 rows x 208 columns]
+Warning: Battery logs not available: ../../experiments/victor/MarginalCost_j/battery.log
+Warning: Instek GPM logs not available: ../../experiments/victor/MarginalCost_j/igpm.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-18 19:01:18.846380925  ...  image_processing-0-0.0.1
+1    2022-10-18 19:01:19.558959534  ...  video_processing-0-0.0.1
+2    2022-10-18 19:01:24.670798762  ...  image_processing-0-0.0.1
+3    2022-10-18 19:01:21.080763117  ...  video_processing-0-0.0.1
+4    2022-10-18 19:01:21.227076031  ...  video_processing-0-0.0.1
+...                            ...  ...                       ...
+1964 2022-10-18 19:31:09.151261803  ...  image_processing-0-0.0.1
+1965 2022-10-18 19:31:10.842888719  ...  image_processing-0-0.0.1
+1966 2022-10-18 19:31:10.771896307  ...  image_processing-0-0.0.1
+1967 2022-10-18 19:31:13.327625216  ...  image_processing-0-0.0.1
+1968 2022-10-18 19:31:18.240491004  ...  image_processing-0-0.0.1
+
+[1969 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz',
+       ...
+       'kern_cpu90_hz', 'kern_cpu91_hz', 'kern_cpu92_hz', 'kern_cpu93_hz',
+       'kern_cpu94_hz', 'kern_cpu95_hz', 'power', 'rapl', 'energy_ram',
+       'retired_instructions'],
+      dtype='object', length=208)
+                               cpu_pct_process  ... retired_instructions
+timestamp                                       ...                     
+2022-10-18 18:56:40.612296785              0.8  ...         2.526347e+09
+2022-10-18 18:56:42.176445616              0.8  ...         2.526347e+09
+2022-10-18 18:56:42.456387716              0.8  ...         2.526347e+09
+2022-10-18 18:56:42.702341591              0.8  ...         2.526347e+09
+2022-10-18 18:56:43.005633000              0.8  ...         2.526347e+09
+...                                        ...  ...                  ...
+2022-10-18 19:32:20.317930446              7.1  ...         1.909114e+08
+2022-10-18 19:32:20.852228731              7.1  ...         1.909114e+08
+2022-10-18 19:32:20.857057021              7.1  ...         1.909114e+08
+2022-10-18 19:32:20.972337535              7.1  ...         1.909114e+08
+2022-10-18 19:32:21.376560556              7.1  ...         1.909114e+08
+
+[8651 rows x 208 columns]
+Warning: Battery logs not available: ../../experiments/victor/MarginalCost_v/battery.log
+Warning: Instek GPM logs not available: ../../experiments/victor/MarginalCost_v/igpm.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-17 19:16:56.442645310  ...  json_dumps_loads-0-0.0.1
+1    2022-10-17 19:16:53.311982884  ...  image_processing-0-0.0.1
+2    2022-10-17 19:16:55.238502731  ...  image_processing-0-0.0.1
+3    2022-10-17 19:16:59.066305066  ...  image_processing-0-0.0.1
+4    2022-10-17 19:16:59.816999088  ...  image_processing-0-0.0.1
+...                            ...  ...                       ...
+1554 2022-10-17 19:46:38.030772471  ...  image_processing-0-0.0.1
+1555 2022-10-17 19:46:39.717646627  ...  image_processing-0-0.0.1
+1556 2022-10-17 19:46:45.262709248  ...  image_processing-0-0.0.1
+1557 2022-10-17 19:46:38.332252484  ...    model_training-0-0.0.1
+1558 2022-10-17 19:46:48.237160937  ...  image_processing-0-0.0.1
+
+[1559 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz',
+       ...
+       'kern_cpu90_hz', 'kern_cpu91_hz', 'kern_cpu92_hz', 'kern_cpu93_hz',
+       'kern_cpu94_hz', 'kern_cpu95_hz', 'power', 'rapl', 'energy_ram',
+       'retired_instructions'],
+      dtype='object', length=208)
+                               cpu_pct_process  ... retired_instructions
+timestamp                                       ...                     
+2022-10-17 19:12:33.580285179            0.800  ...         3.313145e+09
+2022-10-17 19:12:35.136900403            0.800  ...         3.313145e+09
+2022-10-17 19:12:35.218283866            0.800  ...         3.313145e+09
+2022-10-17 19:12:35.660917071            0.825  ...         3.313145e+09
+2022-10-17 19:12:36.005472000            0.850  ...         3.313145e+09
+...                                        ...  ...                  ...
+2022-10-17 19:47:49.674172000            5.800  ...         3.004403e+08
+2022-10-17 19:47:49.714842043            5.800  ...         3.004403e+08
+2022-10-17 19:47:50.241143487            5.800  ...         3.004403e+08
+2022-10-17 19:47:50.267294200            5.800  ...         3.004403e+08
+2022-10-17 19:47:50.777707220            5.800  ...         3.004403e+08
+
+[8556 rows x 208 columns]
+Warning: Battery logs not available: ../../experiments/victor/MarginalCost_m/battery.log
+Warning: Instek GPM logs not available: ../../experiments/victor/MarginalCost_m/igpm.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-18 19:37:58.276516129  ...  image_processing-0-0.0.1
+1    2022-10-18 19:37:59.595008480  ...  image_processing-0-0.0.1
+2    2022-10-18 19:37:56.229897745  ...  video_processing-0-0.0.1
+3    2022-10-18 19:37:56.597944703  ...  video_processing-0-0.0.1
+4    2022-10-18 19:38:03.700635786  ...  image_processing-0-0.0.1
+...                            ...  ...                       ...
+2189 2022-10-18 20:07:51.155889774  ...  video_processing-0-0.0.1
+2190 2022-10-18 20:07:53.022587874  ...  video_processing-0-0.0.1
+2191 2022-10-18 20:07:53.269633709  ...  video_processing-0-0.0.1
+2192 2022-10-18 20:07:53.751678851  ...  video_processing-0-0.0.1
+2193 2022-10-18 20:07:54.535084212  ...  video_processing-0-0.0.1
+
+[2194 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz',
+       ...
+       'kern_cpu90_hz', 'kern_cpu91_hz', 'kern_cpu92_hz', 'kern_cpu93_hz',
+       'kern_cpu94_hz', 'kern_cpu95_hz', 'power', 'rapl', 'energy_ram',
+       'retired_instructions'],
+      dtype='object', length=208)
+                               cpu_pct_process  ... retired_instructions
+timestamp                                       ...                     
+2022-10-18 19:33:21.940345469            0.800  ...         3.216206e+09
+2022-10-18 19:33:23.738873675            0.800  ...         3.216206e+09
+2022-10-18 19:33:24.021097341            0.800  ...         3.216206e+09
+2022-10-18 19:33:24.262829502            0.825  ...         3.216206e+09
+2022-10-18 19:33:24.787234371            0.850  ...         3.216206e+09
+...                                        ...  ...                  ...
+2022-10-18 20:09:01.912380971            6.400  ...         1.840236e+08
+2022-10-18 20:09:02.354805000            6.400  ...         1.524780e+08
+2022-10-18 20:09:02.364368976            6.400  ...         1.524780e+08
+2022-10-18 20:09:02.436294055            6.400  ...         1.524780e+08
+2022-10-18 20:09:02.722576912            6.400  ...         1.524780e+08
+
+[8653 rows x 208 columns]
+{'all': {'end': Timestamp('2022-10-17 17:20:51.353401320'),
+         'start': Timestamp('2022-10-17 16:50:50.125703763'),
+         'total_energy': {'rapl': 249719.46282069822,
+                          'src': 446220.81871229457}},
+ 'func': {'end': 0,
+          'per_inv': {'exec_time_avg': 0,
+                      'exec_time_var': 0,
+                      'rapl': {'marg_eng': 0, 'marg_power': 0},
+                      'src': {'marg_eng': 0, 'marg_power': 0}},
+          'start': 0,
+          'total_energy': {'rapl': 0, 'src': 0},
+          'total_invocations': {'all': 0, 'olog': 0}},
+ 'image_processing': {'end': Timestamp('2022-10-17 17:57:20.441709461'),
+                      'per_inv': {'exec_time_avg': 2.9226303898500574,
+                                  'exec_time_var': 0.15866018591924275,
+                                  'rapl': {'marg_eng': 19.960080194988482,
+                                           'marg_power': 6.829491770258542},
+                                  'src': {'marg_eng': 25.105866416731008,
+                                          'marg_power': 8.59016128208365}},
+                      'start': Timestamp('2022-10-17 17:27:15.097198420'),
+                      'total_energy': {'rapl': 232414.0732916432,
+                                       'src': 424454.0325289888},
+                      'total_invocations': {'all': 867, 'olog': 0}},
+ 'json_dumps_loads': {'end': Timestamp('2022-10-18 19:31:21.401191896'),
+                      'per_inv': {'exec_time_avg': 0.3154788419753086,
+                                  'exec_time_var': 0.08628645269037101,
+                                  'rapl': {'marg_eng': 0.14886200662140367,
+                                           'marg_power': 0.47186050794827805},
+                                  'src': {'marg_eng': -1.4381241387610013,
+                                          'marg_power': -4.558543862264963}},
+                      'start': Timestamp('2022-10-18 19:01:18.846380925'),
+                      'total_energy': {'rapl': 249659.17370801655,
+                                       'src': 446803.2589884928},
+                      'total_invocations': {'all': 405, 'olog': 0}},
+ 'lb_all': {'end': Timestamp('2022-10-18 13:07:15.676611083'),
+            'per_inv': {'exec_time_avg': 0,
+                        'exec_time_var': 0,
+                        'rapl': {'marg_eng': 0, 'marg_power': 0},
+                        'src': {'marg_eng': 0, 'marg_power': 0}},
+            'start': Timestamp('2022-10-18 12:37:08.913604318'),
+            'total_energy': {'rapl': 328892.904545657,
+                             'src': 533475.3627881842},
+            'total_invocations': {'all': 0, 'olog': 0}},
+ 'lookbusy': {'end': Timestamp('2022-10-18 13:07:15.676611083'),
+              'per_inv': {'exec_time_avg': 2.020718177130045,
+                          'exec_time_var': 7.863545058442038e-06,
+                          'rapl': {'marg_eng': 214.2299858539002,
+                                   'marg_power': 106.0167559625576},
+                          'src': {'marg_eng': 237.70713504579993,
+                                  'marg_power': 117.6349763841918}},
+              'start': Timestamp('2022-10-18 12:37:08.913604318'),
+              'total_energy': {'rapl': 233346.3308548175,
+                               'src': 427457.98055775743},
+              'total_invocations': {'all': 446, 'olog': 0}},
+ 'model_training': {'end': Timestamp('2022-10-18 20:08:02.694532612'),
+                    'per_inv': {'exec_time_avg': 8.383158151111111,
+                                'exec_time_var': 5.02834276822387,
+                                'rapl': {'marg_eng': 72.7694754039143,
+                                         'marg_power': 8.680436906020837},
+                                'src': {'marg_eng': 83.39039179794284,
+                                        'marg_power': 9.947371896698645}},
+                    'start': Timestamp('2022-10-18 19:37:58.276516129'),
+                    'total_energy': {'rapl': 233346.3308548175,
+                                     'src': 427457.98055775743},
+                    'total_invocations': {'all': 225, 'olog': 0}},
+ 'video_processing': {'end': Timestamp('2022-10-17 19:46:51.252564103'),
+                      'per_inv': {'exec_time_avg': 7.010583253333334,
+                                  'exec_time_var': 0.30571156892693907,
+                                  'rapl': {'marg_eng': 82.20566808705496,
+                                           'marg_power': 11.725938501332038},
+                                  'src': {'marg_eng': 92.440956604373,
+                                          'marg_power': 13.185915246127337}},
+                      'start': Timestamp('2022-10-17 19:16:56.442645310'),
+                      'total_energy': {'rapl': 175734.36154234875,
+                                       'src': 363023.9577683589},
+                      'total_invocations': {'all': 900, 'olog': 0}}}

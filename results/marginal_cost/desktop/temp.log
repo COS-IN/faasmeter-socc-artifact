@@ -1,0 +1,340 @@
+Warning: Battery logs not available: ../../experiments/desktop/MarginalCost_a/battery.log
+Warning: IPMI logs not available: ../../experiments/desktop/MarginalCost_a/energy-ipmi.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-03 18:18:05.765288900  ...  image_processing-0-0.0.1
+1    2022-10-03 18:18:06.936536216  ...  json_dumps_loads-0-0.0.1
+2    2022-10-03 18:18:08.926026703  ...  json_dumps_loads-0-0.0.1
+3    2022-10-03 18:18:08.092416413  ...  image_processing-0-0.0.1
+4    2022-10-03 18:18:08.482407032  ...  image_processing-0-0.0.1
+...                            ...  ...                       ...
+2392 2022-10-03 18:48:00.686853085  ...  image_processing-0-0.0.1
+2393 2022-10-03 18:48:02.390444401  ...  image_processing-0-0.0.1
+2394 2022-10-03 18:48:02.510956208  ...  image_processing-0-0.0.1
+2395 2022-10-03 18:48:04.668831634  ...  json_dumps_loads-0-0.0.1
+2396 2022-10-03 18:48:05.134731504  ...  image_processing-0-0.0.1
+
+[2397 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz', 'hw_cpu2_hz', 'hw_cpu3_hz', 'hw_cpu4_hz',
+       'hw_cpu5_hz', 'hw_cpu6_hz', 'hw_cpu7_hz', 'hw_cpu8_hz', 'hw_cpu9_hz',
+       'hw_cpu10_hz', 'hw_cpu11_hz', 'kern_cpu_hz_mean', 'kern_cpu_hz_max',
+       'kern_cpu_hz_min', 'kern_cpu_hz_std', 'kern_cpu0_hz', 'kern_cpu1_hz',
+       'kern_cpu2_hz', 'kern_cpu3_hz', 'kern_cpu4_hz', 'kern_cpu5_hz',
+       'kern_cpu6_hz', 'kern_cpu7_hz', 'kern_cpu8_hz', 'kern_cpu9_hz',
+       'kern_cpu10_hz', 'kern_cpu11_hz', 'rapl', 'energy_ram',
+       'retired_instructions', 'power', 'voltage', 'current', 'power_factor',
+       'discard'],
+      dtype='object')
+                               cpu_pct_process  cpu_time  ...  power_factor  discard
+timestamp                                                 ...                       
+2022-10-03 18:17:35.280728000              4.5  00:00:00  ...        0.4766      0.0
+2022-10-03 18:17:35.531305000              4.5  00:00:00  ...        0.4671      0.0
+2022-10-03 18:17:35.781877000              4.5  00:00:00  ...        0.4049      0.0
+2022-10-03 18:17:36.032347000              4.5  00:00:00  ...        0.5394      0.0
+2022-10-03 18:17:36.282765000              4.5  00:00:00  ...        0.4029      0.0
+...                                        ...       ...  ...           ...      ...
+2022-10-03 18:49:05.763473000              3.6  00:01:08  ...           NaN      NaN
+2022-10-03 18:49:05.783890000              3.6  00:01:08  ...        0.5355      0.0
+2022-10-03 18:49:05.963644769              3.6  00:01:08  ...           NaN      NaN
+2022-10-03 18:49:06.034416000              3.6  00:01:08  ...        0.4212      0.0
+2022-10-03 18:49:06.284980000              3.6  00:01:08  ...        0.5775      0.0
+
+[11663 rows x 44 columns]
+Warning: Battery logs not available: ../../experiments/desktop/MarginalCost_lookbusy/battery.log
+Warning: IPMI logs not available: ../../experiments/desktop/MarginalCost_lookbusy/energy-ipmi.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-18 17:41:45.049562205  ...  image_processing-0-0.0.1
+1    2022-10-18 17:41:48.919635196  ...  json_dumps_loads-0-0.0.1
+2    2022-10-18 17:41:48.267993890  ...  image_processing-0-0.0.1
+3    2022-10-18 17:41:45.643715536  ...  video_processing-0-0.0.1
+4    2022-10-18 17:41:49.468136832  ...  json_dumps_loads-0-0.0.1
+...                            ...  ...                       ...
+2443 2022-10-18 18:11:40.994861455  ...  image_processing-0-0.0.1
+2444 2022-10-18 18:11:38.429985006  ...  video_processing-0-0.0.1
+2445 2022-10-18 18:11:40.505129089  ...  video_processing-0-0.0.1
+2446 2022-10-18 18:11:41.709149226  ...  video_processing-0-0.0.1
+2447 2022-10-18 18:11:42.987225769  ...  video_processing-0-0.0.1
+
+[2448 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz', 'hw_cpu2_hz', 'hw_cpu3_hz', 'hw_cpu4_hz',
+       'hw_cpu5_hz', 'hw_cpu6_hz', 'hw_cpu7_hz', 'hw_cpu8_hz', 'hw_cpu9_hz',
+       'hw_cpu10_hz', 'hw_cpu11_hz', 'kern_cpu_hz_mean', 'kern_cpu_hz_max',
+       'kern_cpu_hz_min', 'kern_cpu_hz_std', 'kern_cpu0_hz', 'kern_cpu1_hz',
+       'kern_cpu2_hz', 'kern_cpu3_hz', 'kern_cpu4_hz', 'kern_cpu5_hz',
+       'kern_cpu6_hz', 'kern_cpu7_hz', 'kern_cpu8_hz', 'kern_cpu9_hz',
+       'kern_cpu10_hz', 'kern_cpu11_hz', 'rapl', 'energy_ram',
+       'retired_instructions', 'power', 'voltage', 'current', 'power_factor',
+       'discard'],
+      dtype='object')
+                               cpu_pct_process  cpu_time  ...  power_factor  discard
+timestamp                                                 ...                       
+2022-10-18 17:41:12.046647000              8.0  00:00:00  ...        0.5862      0.0
+2022-10-18 17:41:12.297178000              8.0  00:00:00  ...        0.4112      0.0
+2022-10-18 17:41:12.547721000              8.0  00:00:00  ...        0.5768      0.0
+2022-10-18 17:41:12.798238000              8.0  00:00:00  ...        0.4311      0.0
+2022-10-18 17:41:13.048791000              8.0  00:00:00  ...        0.5498      0.0
+...                                        ...       ...  ...           ...      ...
+2022-10-18 18:12:48.602238000              3.4  00:01:04  ...        0.5993      0.0
+2022-10-18 18:12:48.852788000              3.4  00:01:04  ...        0.5339      0.0
+2022-10-18 18:12:49.103326000              3.4  00:01:04  ...        0.5797      0.0
+2022-10-18 18:12:49.143148282              3.4  00:01:04  ...           NaN      NaN
+2022-10-18 18:12:49.353879000              3.4  00:01:04  ...        0.5875      0.0
+
+[11703 rows x 44 columns]
+Warning: Battery logs not available: ../../experiments/desktop/MarginalCost_i/battery.log
+Warning: IPMI logs not available: ../../experiments/desktop/MarginalCost_i/energy-ipmi.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-03 18:50:07.582086150  ...  video_processing-0-0.0.1
+1    2022-10-03 18:50:07.705044244  ...  video_processing-0-0.0.1
+2    2022-10-03 18:50:10.148306548  ...    model_training-0-0.0.1
+3    2022-10-03 18:50:13.872607334  ...    model_training-0-0.0.1
+4    2022-10-03 18:50:20.804945459  ...  json_dumps_loads-0-0.0.1
+...                            ...  ...                       ...
+1536 2022-10-03 19:20:03.363546009  ...  video_processing-0-0.0.1
+1537 2022-10-03 19:20:03.715476290  ...  video_processing-0-0.0.1
+1538 2022-10-03 19:20:05.266264713  ...  video_processing-0-0.0.1
+1539 2022-10-03 19:20:05.959740883  ...  video_processing-0-0.0.1
+1540 2022-10-03 19:20:06.762377683  ...  video_processing-0-0.0.1
+
+[1541 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz', 'hw_cpu2_hz', 'hw_cpu3_hz', 'hw_cpu4_hz',
+       'hw_cpu5_hz', 'hw_cpu6_hz', 'hw_cpu7_hz', 'hw_cpu8_hz', 'hw_cpu9_hz',
+       'hw_cpu10_hz', 'hw_cpu11_hz', 'kern_cpu_hz_mean', 'kern_cpu_hz_max',
+       'kern_cpu_hz_min', 'kern_cpu_hz_std', 'kern_cpu0_hz', 'kern_cpu1_hz',
+       'kern_cpu2_hz', 'kern_cpu3_hz', 'kern_cpu4_hz', 'kern_cpu5_hz',
+       'kern_cpu6_hz', 'kern_cpu7_hz', 'kern_cpu8_hz', 'kern_cpu9_hz',
+       'kern_cpu10_hz', 'kern_cpu11_hz', 'rapl', 'energy_ram',
+       'retired_instructions', 'power', 'voltage', 'current', 'power_factor',
+       'discard'],
+      dtype='object')
+                               cpu_pct_process  cpu_time  ...  power_factor  discard
+timestamp                                                 ...                       
+2022-10-03 18:49:29.020289000              4.5  00:00:00  ...        0.3985      0.0
+2022-10-03 18:49:29.270853000              4.5  00:00:00  ...        0.5710      0.0
+2022-10-03 18:49:29.521428000              4.5  00:00:00  ...        0.4814      0.0
+2022-10-03 18:49:29.771993000              4.5  00:00:00  ...        0.4451      0.0
+2022-10-03 18:49:30.022558000              4.5  00:00:00  ...        0.4318      0.0
+...                                        ...       ...  ...           ...      ...
+2022-10-03 19:21:12.377078000              3.2  00:01:00  ...        0.5333      0.0
+2022-10-03 19:21:12.627632000              3.2  00:01:00  ...        0.5744      0.0
+2022-10-03 19:21:12.836601000              3.2  00:01:00  ...           NaN      NaN
+2022-10-03 19:21:12.878184000              3.2  00:01:00  ...        0.5326      0.0
+2022-10-03 19:21:12.978203398              3.2  00:01:00  ...           NaN      NaN
+
+[11744 rows x 44 columns]
+Warning: Battery logs not available: ../../experiments/desktop/MarginalCost_j/battery.log
+Warning: IPMI logs not available: ../../experiments/desktop/MarginalCost_j/energy-ipmi.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-03 19:22:20.046030232  ...  image_processing-0-0.0.1
+1    2022-10-03 19:22:20.765122123  ...  video_processing-0-0.0.1
+2    2022-10-03 19:22:25.869926481  ...  image_processing-0-0.0.1
+3    2022-10-03 19:22:22.280269313  ...  video_processing-0-0.0.1
+4    2022-10-03 19:22:22.426786802  ...  video_processing-0-0.0.1
+...                            ...  ...                       ...
+1964 2022-10-03 19:52:10.356859188  ...  image_processing-0-0.0.1
+1965 2022-10-03 19:52:11.978139518  ...  image_processing-0-0.0.1
+1966 2022-10-03 19:52:12.049090689  ...  image_processing-0-0.0.1
+1967 2022-10-03 19:52:14.533070908  ...  image_processing-0-0.0.1
+1968 2022-10-03 19:52:19.445631713  ...  image_processing-0-0.0.1
+
+[1969 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz', 'hw_cpu2_hz', 'hw_cpu3_hz', 'hw_cpu4_hz',
+       'hw_cpu5_hz', 'hw_cpu6_hz', 'hw_cpu7_hz', 'hw_cpu8_hz', 'hw_cpu9_hz',
+       'hw_cpu10_hz', 'hw_cpu11_hz', 'kern_cpu_hz_mean', 'kern_cpu_hz_max',
+       'kern_cpu_hz_min', 'kern_cpu_hz_std', 'kern_cpu0_hz', 'kern_cpu1_hz',
+       'kern_cpu2_hz', 'kern_cpu3_hz', 'kern_cpu4_hz', 'kern_cpu5_hz',
+       'kern_cpu6_hz', 'kern_cpu7_hz', 'kern_cpu8_hz', 'kern_cpu9_hz',
+       'kern_cpu10_hz', 'kern_cpu11_hz', 'rapl', 'energy_ram',
+       'retired_instructions', 'power', 'voltage', 'current', 'power_factor',
+       'discard'],
+      dtype='object')
+                               cpu_pct_process  cpu_time  ...  power_factor  discard
+timestamp                                                 ...                       
+2022-10-03 19:21:32.523720000              4.5  00:00:00  ...        0.4168      0.0
+2022-10-03 19:21:32.774293000              4.5  00:00:00  ...        0.5290      0.0
+2022-10-03 19:21:33.024865000              4.5  00:00:00  ...        0.4033      0.0
+2022-10-03 19:21:33.275424000              4.5  00:00:00  ...        0.4379      0.0
+2022-10-03 19:21:33.525988000              4.5  00:00:00  ...        0.5037      0.0
+...                                        ...       ...  ...           ...      ...
+2022-10-03 19:53:20.052837000              3.4  00:01:06  ...        0.4312      0.0
+2022-10-03 19:53:20.303403000              3.4  00:01:06  ...        0.5369      0.0
+2022-10-03 19:53:20.449150858              3.4  00:01:06  ...           NaN      NaN
+2022-10-03 19:53:20.553971000              3.4  00:01:06  ...        0.5871      0.0
+2022-10-03 19:53:20.595422268              3.4  00:01:06  ...           NaN      NaN
+
+[11770 rows x 44 columns]
+Warning: Battery logs not available: ../../experiments/desktop/MarginalCost_v/battery.log
+Warning: IPMI logs not available: ../../experiments/desktop/MarginalCost_v/energy-ipmi.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-03 20:26:02.135108680  ...  image_processing-0-0.0.1
+1    2022-10-03 20:26:05.265257421  ...  json_dumps_loads-0-0.0.1
+2    2022-10-03 20:26:04.165190478  ...  image_processing-0-0.0.1
+3    2022-10-03 20:26:02.011319844  ...    model_training-0-0.0.1
+4    2022-10-03 20:26:07.984568657  ...  image_processing-0-0.0.1
+...                            ...  ...                       ...
+1554 2022-10-03 20:55:46.850525759  ...  image_processing-0-0.0.1
+1555 2022-10-03 20:55:48.678569891  ...  image_processing-0-0.0.1
+1556 2022-10-03 20:55:47.170043412  ...    model_training-0-0.0.1
+1557 2022-10-03 20:55:54.083323849  ...  image_processing-0-0.0.1
+1558 2022-10-03 20:55:57.057844331  ...  image_processing-0-0.0.1
+
+[1559 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz', 'hw_cpu2_hz', 'hw_cpu3_hz', 'hw_cpu4_hz',
+       'hw_cpu5_hz', 'hw_cpu6_hz', 'hw_cpu7_hz', 'hw_cpu8_hz', 'hw_cpu9_hz',
+       'hw_cpu10_hz', 'hw_cpu11_hz', 'kern_cpu_hz_mean', 'kern_cpu_hz_max',
+       'kern_cpu_hz_min', 'kern_cpu_hz_std', 'kern_cpu0_hz', 'kern_cpu1_hz',
+       'kern_cpu2_hz', 'kern_cpu3_hz', 'kern_cpu4_hz', 'kern_cpu5_hz',
+       'kern_cpu6_hz', 'kern_cpu7_hz', 'kern_cpu8_hz', 'kern_cpu9_hz',
+       'kern_cpu10_hz', 'kern_cpu11_hz', 'rapl', 'energy_ram',
+       'retired_instructions', 'power', 'voltage', 'current', 'power_factor',
+       'discard'],
+      dtype='object')
+                               cpu_pct_process  cpu_time  ...  power_factor  discard
+timestamp                                                 ...                       
+2022-10-03 20:25:32.095170000              4.5  00:00:00  ...        0.4024      0.0
+2022-10-03 20:25:32.345747000              4.5  00:00:00  ...        0.4660      0.0
+2022-10-03 20:25:32.596315000              4.5  00:00:00  ...        0.4760      0.0
+2022-10-03 20:25:32.846878000              4.5  00:00:00  ...        0.4024      0.0
+2022-10-03 20:25:33.097459000              4.5  00:00:00  ...        0.5060      0.0
+...                                        ...       ...  ...           ...      ...
+2022-10-03 20:56:57.716969000              2.1  00:00:39  ...        0.5571      0.0
+2022-10-03 20:56:57.967643000              2.1  00:00:39  ...        0.4191      0.0
+2022-10-03 20:56:58.070518677              2.1  00:00:39  ...           NaN      NaN
+2022-10-03 20:56:58.085130000              2.1  00:00:39  ...           NaN      NaN
+2022-10-03 20:56:58.218213000              2.1  00:00:39  ...        0.5735      0.0
+
+[11633 rows x 44 columns]
+Warning: Battery logs not available: ../../experiments/desktop/MarginalCost_m/battery.log
+Warning: IPMI logs not available: ../../experiments/desktop/MarginalCost_m/energy-ipmi.log
+Columns: Index(['fn_start', 'fn_end', 'tid', 'fqdn'], dtype='object')
+                          fn_start  ...                      fqdn
+0    2022-10-03 19:54:10.631353721  ...  image_processing-0-0.0.1
+1    2022-10-03 19:54:11.948182290  ...  image_processing-0-0.0.1
+2    2022-10-03 19:54:08.583140923  ...  video_processing-0-0.0.1
+3    2022-10-03 19:54:08.950943191  ...  video_processing-0-0.0.1
+4    2022-10-03 19:54:16.053330921  ...  image_processing-0-0.0.1
+...                            ...  ...                       ...
+2189 2022-10-03 20:24:03.508895271  ...  video_processing-0-0.0.1
+2190 2022-10-03 20:24:05.374422714  ...  video_processing-0-0.0.1
+2191 2022-10-03 20:24:05.621381044  ...  video_processing-0-0.0.1
+2192 2022-10-03 20:24:06.104045182  ...  video_processing-0-0.0.1
+2193 2022-10-03 20:24:06.887532369  ...  video_processing-0-0.0.1
+
+[2194 rows x 4 columns]
+Columns: Index(['cpu_pct_process', 'cpu_time', 'load_avg_1minute', 'cpu_pct',
+       'hw_cpu_hz_mean', 'hw_cpu_hz_max', 'hw_cpu_hz_min', 'hw_cpu_hz_std',
+       'hw_cpu0_hz', 'hw_cpu1_hz', 'hw_cpu2_hz', 'hw_cpu3_hz', 'hw_cpu4_hz',
+       'hw_cpu5_hz', 'hw_cpu6_hz', 'hw_cpu7_hz', 'hw_cpu8_hz', 'hw_cpu9_hz',
+       'hw_cpu10_hz', 'hw_cpu11_hz', 'kern_cpu_hz_mean', 'kern_cpu_hz_max',
+       'kern_cpu_hz_min', 'kern_cpu_hz_std', 'kern_cpu0_hz', 'kern_cpu1_hz',
+       'kern_cpu2_hz', 'kern_cpu3_hz', 'kern_cpu4_hz', 'kern_cpu5_hz',
+       'kern_cpu6_hz', 'kern_cpu7_hz', 'kern_cpu8_hz', 'kern_cpu9_hz',
+       'kern_cpu10_hz', 'kern_cpu11_hz', 'rapl', 'energy_ram',
+       'retired_instructions', 'power', 'voltage', 'current', 'power_factor',
+       'discard'],
+      dtype='object')
+                               cpu_pct_process  cpu_time  ...  power_factor  discard
+timestamp                                                 ...                       
+2022-10-03 19:53:40.570171000              4.0  00:00:00  ...        0.4125      0.0
+2022-10-03 19:53:40.820726000              4.0  00:00:00  ...        0.4936      0.0
+2022-10-03 19:53:41.071291000              4.0  00:00:00  ...        0.4479      0.0
+2022-10-03 19:53:41.321841000              4.0  00:00:00  ...        0.7210      0.0
+2022-10-03 19:53:41.572414000              4.0  00:00:00  ...        0.4115      0.0
+...                                        ...       ...  ...           ...      ...
+2022-10-03 20:25:12.225766000              3.3  00:01:02  ...        0.5888      0.0
+2022-10-03 20:25:12.476347000              3.3  00:01:02  ...        0.5605      0.0
+2022-10-03 20:25:12.726901000              3.3  00:01:02  ...        0.6786      0.0
+2022-10-03 20:25:12.977465000              3.3  00:01:02  ...        0.4184      0.0
+2022-10-03 20:25:13.011656210              3.3  00:01:02  ...           NaN      NaN
+
+[11673 rows x 44 columns]
+{'all': {'end': Timestamp('2022-10-03 18:48:06.473815978'),
+         'start': Timestamp('2022-10-03 18:18:05.765288900'),
+         'total_energy': {'rapl': 62193.64890322978,
+                          'src': 102795.74520737476}},
+ 'func': {'end': 0,
+          'per_inv': {'exec_time_avg': 0,
+                      'exec_time_var': 0,
+                      'rapl': {'marg_eng': 0, 'marg_power': 0},
+                      'src': {'marg_eng': 0, 'marg_power': 0}},
+          'start': 0,
+          'total_energy': {'rapl': 0, 'src': 0},
+          'total_invocations': {'all': 0, 'olog': 0}},
+ 'image_processing': {'end': Timestamp('2022-10-03 19:20:12.895481262'),
+                      'per_inv': {'exec_time_avg': 1.6914303506343715,
+                                  'exec_time_var': 0.17994086610394622,
+                                  'rapl': {'marg_eng': 13.797156888984528,
+                                           'marg_power': 8.157094310037596},
+                                  'src': {'marg_eng': 19.298453690505802,
+                                          'marg_power': 11.409546768075854}},
+                      'start': Timestamp('2022-10-03 18:50:07.582086150'),
+                      'total_energy': {'rapl': 50231.5138804802,
+                                       'src': 86063.98585770623},
+                      'total_invocations': {'all': 867, 'olog': 0}},
+ 'json_dumps_loads': {'end': Timestamp('2022-10-03 19:52:20.802481052'),
+                      'per_inv': {'exec_time_avg': 0.41308324938271607,
+                                  'exec_time_var': 0.15018938365955398,
+                                  'rapl': {'marg_eng': 2.7740904317616324,
+                                           'marg_power': 6.715572311167415},
+                                  'src': {'marg_eng': 4.0056720207019545,
+                                          'marg_power': 9.697009081553809}},
+                      'start': Timestamp('2022-10-03 19:22:20.046030232'),
+                      'total_energy': {'rapl': 61070.14227836632,
+                                       'src': 101173.44803899046},
+                      'total_invocations': {'all': 405, 'olog': 0}},
+ 'lb_all': {'end': Timestamp('2022-10-18 18:11:49.435637862'),
+            'per_inv': {'exec_time_avg': 0,
+                        'exec_time_var': 0,
+                        'rapl': {'marg_eng': 0, 'marg_power': 0},
+                        'src': {'marg_eng': 0, 'marg_power': 0}},
+            'start': Timestamp('2022-10-18 17:41:45.049562205'),
+            'total_energy': {'rapl': 61504.56704080693,
+                             'src': 104364.5585589249},
+            'total_invocations': {'all': 0, 'olog': 0}},
+ 'lookbusy': {'end': Timestamp('2022-10-18 18:11:49.435637862'),
+              'per_inv': {'exec_time_avg': 4.314556742222222,
+                          'exec_time_var': 0.0991385378069511,
+                          'rapl': {'marg_eng': 50.80383415358021,
+                                   'marg_power': 11.774983431418168},
+                          'src': {'marg_eng': 83.85098456956071,
+                                  'marg_power': 19.43443778337542}},
+              'start': Timestamp('2022-10-18 17:41:45.049562205'),
+              'total_energy': {'rapl': 50073.70435625138,
+                               'src': 85498.08703077374},
+              'total_invocations': {'all': 225, 'olog': 0}},
+ 'model_training': {'end': Timestamp('2022-10-03 20:24:13.198645899'),
+                    'per_inv': {'exec_time_avg': 5.981824133333333,
+                                'exec_time_var': 0.9178198559449822,
+                                'rapl': {'marg_eng': 53.86642020879291,
+                                         'marg_power': 9.0050156955678},
+                                'src': {'marg_eng': 76.87848078489343,
+                                        'marg_power': 12.852012876221652}},
+                    'start': Timestamp('2022-10-03 19:54:10.631353721'),
+                    'total_energy': {'rapl': 50073.70435625138,
+                                     'src': 85498.08703077374},
+                    'total_invocations': {'all': 225, 'olog': 0}},
+ 'video_processing': {'end': Timestamp('2022-10-03 20:55:58.413349559'),
+                      'per_inv': {'exec_time_avg': 6.845504634444445,
+                                  'exec_time_var': 0.810444342804744,
+                                  'rapl': {'marg_eng': 29.18689890459952,
+                                           'marg_power': 4.2636592133383635},
+                                  'src': {'marg_eng': 41.915356658458805,
+                                          'marg_power': 6.123048467099679}},
+                      'start': Timestamp('2022-10-03 20:26:02.135108680'),
+                      'total_energy': {'rapl': 35925.439889090216,
+                                       'src': 65071.92421476183},
+                      'total_invocations': {'all': 900, 'olog': 0}}}
