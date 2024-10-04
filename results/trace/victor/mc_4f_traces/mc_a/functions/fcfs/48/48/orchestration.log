@@ -1,0 +1,239 @@
+Efaas Version: 
+06fd40c746f509370a2b4538935c5e907306279d
+iluvatar-energy-experiments Version: 
+c156be6598f6b963f7058cac45347fa00354aa9d reverts
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "555757513402.4083903",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/555757513402.4083903",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+FAILED - RETRYING: [worker1]: wait until the worker on this host is up and running (10 retries left).
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=1    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+PowerAPI sensor started
+         local pid 2822958
+         remote pid 4084687
+video_processing-0 mapped to function 'video_processing'
+gzip_compression-0 mapped to function 'gzip_compression'
+image_processing-0 mapped to function 'image_processing'
+model_training-0 mapped to function 'model_training'
+A total of 0 prewarmed containers
+2023-03-09 12:45:08.098003486 prewarming 0 containers for function 'model_training-0'
+2023-03-09 12:45:08.098086167 prewarming 0 containers for function 'image_processing-0'
+2023-03-09 12:45:08.098123277 prewarming 0 containers for function 'gzip_compression-0'
+2023-03-09 12:45:08.098161999 prewarming 0 containers for function 'video_processing-0'
+2023-03-09 12:45:08.098302652 starting live trace run
+PowerAPI sensor stopped
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=4083920) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=4083920)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=9    changed=3    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+
+Starting analysis
++ for i in "$@"
++ case $i in
++ TARGET_PLATFORM=victor
++ rm '/tmp/formula_output/*' -rf
++ cd /data2/ar/smartwatts-formula
++ sudo chmod a+wr /tmp/sensor_output/core.csv /tmp/sensor_output/rapl.csv
++ python3 -m smartwatts --name formula_smarwatts powerapi/smartwatts-formula --config-file /data2/ar/powerapi_personal/config_formula_smartwatts_victor.json
+mv: cannot stat 'igpm_*png': No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces/mc_a//functions/fcfs/48/48//smartwatt_output//formula_output/sensor-//*//PowerReport.csv'/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 25: /data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces/mc_a//functions/fcfs/48/48//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+: No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 28: /data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces/mc_a//functions/fcfs/48/48//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces/mc_a//functions/fcfs/48/48//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+mv: cannot stat '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces/mc_a//functions/fcfs/48/48//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv': No such file or directory
+Traceback (most recent call last):
+  File "/N/u/a/abrehman/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'igpm'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 79, in <module>
+    kf.kalman_over_time(N_init, N, delta, "kalman")
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Kalman_Filter.py", line 79, in kalman_over_time
+    A, W = ldf.build_A_W(ts, N_init, delta)
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 827, in build_A_W
+    W = self.build_J_matrix(ts, N, delta) 
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 788, in build_J_matrix
+    J_avg, all_matched_entries = self.J_at(t, delta, self.power_col, lag=0)
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 766, in J_at
+    J_avg = np.mean(sdf[col])
+  File "/N/u/a/abrehman/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/N/u/a/abrehman/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'igpm'
+
+real	0m6.715s
+user	0m27.924s
+sys	0m20.480s

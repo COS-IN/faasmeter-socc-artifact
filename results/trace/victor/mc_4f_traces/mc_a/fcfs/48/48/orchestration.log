@@ -1,0 +1,41 @@
+Efaas Version: 
+06fd40c746f509370a2b4538935c5e907306279d
+iluvatar-energy-experiments Version: 
+929f4c510a60c4368a45df20f96e7e7210d203be
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=3948862) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=3948862)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************

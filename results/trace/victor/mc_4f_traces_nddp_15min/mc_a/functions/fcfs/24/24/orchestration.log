@@ -1,0 +1,106 @@
+Efaas Version: 
+2f216962767330ece154937e45da7542e1f311da
+iluvatar-energy-experiments Version: 
+5f43a2d93c6539b78cb73cdec133c01ecab4c4f5
+  Turning off target cores 24 47
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Create bin directory] ****************************************************
+changed: [worker1]
+
+TASK [copy worker executable] **************************************************
+changed: [worker1]
+
+TASK [copy worker config] ******************************************************
+changed: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=5    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+

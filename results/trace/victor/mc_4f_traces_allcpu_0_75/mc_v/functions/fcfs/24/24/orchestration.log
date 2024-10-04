@@ -1,0 +1,309 @@
+Efaas Version: 
+74d81bf3c572bbe3cefb38d42a350bb85543de30
+iluvatar-energy-experiments Version: 
+e2b6a444a610244a98e578f74c048400ed8a0d92
+  Turning off target cores 24 47
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "884277480216.2600445",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/884277480216.2600445",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+FAILED - RETRYING: [worker1]: wait until the worker on this host is up and running (10 retries left).
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=1    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+PowerAPI sensor started
+         local pid 2707746
+         remote pid 2601031
+image_processing-0 mapped to function 'image_processing'
+pyaes-0 mapped to function 'pyaes'
+float_operation-0 mapped to function 'float_operation'
+A total of 0 prewarmed containers
+2023-04-13 15:05:47.982972289 prewarming 0 containers for function 'float_operation-0'
+2023-04-13 15:05:47.983042652 prewarming 0 containers for function 'image_processing-0'
+2023-04-13 15:05:47.983082324 prewarming 0 containers for function 'pyaes-0'
+2023-04-13 15:05:47.98321111 starting live trace run
+PowerAPI sensor stopped
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "172.29.200.221"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=2600464) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=2600464)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=9    changed=3    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+
+Starting analysis
++ for i in "$@"
++ case $i in
++ TARGET_PLATFORM=victor
++ rm '/tmp/formula_output/*' -rf
++ cd /data2/ar/smartwatts-formula
++ sudo chmod a+wr /tmp/sensor_output/core.csv /tmp/sensor_output/global.csv
++ python3 -m smartwatts --name formula_smarwatts powerapi/smartwatts-formula --config-file /data2/ar/powerapi_personal/config_formula_smartwatts_victor.json
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_queueing.py", line 1, in <module>
+    from queueing import calc_queue_times
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/queueing.py", line 6, in <module>
+    from Logs_to_df import Logs_to_df
+ModuleNotFoundError: No module named 'Logs_to_df'
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_e2etime.py", line 1, in <module>
+    from queueing import calc_queue_times
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/queueing.py", line 6, in <module>
+    from Logs_to_df import Logs_to_df
+ModuleNotFoundError: No module named 'Logs_to_df'
+mv: cannot stat 'igpm_*png': No such file or directory
+rm: cannot remove '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces_allcpu_0_75/mc_v//functions/fcfs/24/24//smartwatt_output/': No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 25: /data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces_allcpu_0_75/mc_v//functions/fcfs/24/24//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces_allcpu_0_75/mc_v//functions/fcfs/24/24//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 28: /data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces_allcpu_0_75/mc_v//functions/fcfs/24/24//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces_allcpu_0_75/mc_v//functions/fcfs/24/24//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+mv: cannot stat '/data2/ar/iluvatar-energy-experiments/results/trace/victor//./mc_4f_traces_allcpu_0_75/mc_v//functions/fcfs/24/24//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv': No such file or directory
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 27, in <module>
+    edata = Logs_to_df(args.logs_folder, args.mc_type)
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 152, in __init__
+    self.populate_system_settings()
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 208, in populate_system_settings
+    self.cpu_shr_config( use_default=self.mc_type )
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 1454, in cpu_shr_config
+    sw_config['cfeatures'] = cfeatures
+UnboundLocalError: local variable 'cfeatures' referenced before assignment
+/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py:1556: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sw_swgs_f[tg] = 'os_cp'
+/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py:1612: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sw_cc_t[contr] = 0.0
+
+real	0m5.355s
+user	0m20.790s
+sys	0m16.010s

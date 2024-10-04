@@ -1,0 +1,176 @@
+[100%] Built target hwpc-sensor
+I: 23-03-07 13:43:31 build: version undefined (rev: undefined)
+I: 23-03-07 13:43:31 uname: Linux 5.4.0-137-generic #154-Ubuntu SMP Thu Jan 5 17:03:22 UTC 2023 x86_64
+I: 23-03-07 13:43:31 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 11 counters (8 general, 3 fixed)
+I: 23-03-07 13:43:31 pmu: found perf 'perf_events generic PMU' having 179 events, 0 counters (0 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found rapl 'Intel RAPL' having 2 events, 3 counters (0 general, 3 fixed)
+I: 23-03-07 13:43:31 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx 'Intel Skylake X' having 85 events, 11 counters (8 general, 3 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha0 'Intel SkylakeX CHA0 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha1 'Intel SkylakeX CHA1 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha2 'Intel SkylakeX CHA2 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha3 'Intel SkylakeX CHA3 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha4 'Intel SkylakeX CHA4 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha5 'Intel SkylakeX CHA5 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha6 'Intel SkylakeX CHA6 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha7 'Intel SkylakeX CHA7 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha8 'Intel SkylakeX CHA8 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha9 'Intel SkylakeX CHA9 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha10 'Intel SkylakeX CHA10 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha11 'Intel SkylakeX CHA11 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha12 'Intel SkylakeX CHA12 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha13 'Intel SkylakeX CHA13 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha14 'Intel SkylakeX CHA14 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha15 'Intel SkylakeX CHA15 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha16 'Intel SkylakeX CHA16 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha17 'Intel SkylakeX CHA17 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha18 'Intel SkylakeX CHA18 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha19 'Intel SkylakeX CHA19 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha20 'Intel SkylakeX CHA20 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha21 'Intel SkylakeX CHA21 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha22 'Intel SkylakeX CHA22 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_cha23 'Intel SkylakeX CHA23 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_iio0 'Intel SkylakeX IIO0 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_iio1 'Intel SkylakeX IIO1 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_iio2 'Intel SkylakeX IIO2 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_iio3 'Intel SkylakeX IIO3 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_iio4 'Intel SkylakeX IIO4 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_iio5 'Intel SkylakeX IIO5 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_imc0 'Intel SkylakeX IMC0 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_imc1 'Intel SkylakeX IMC1 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_imc2 'Intel SkylakeX IMC2 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_imc3 'Intel SkylakeX IMC3 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_imc4 'Intel SkylakeX IMC4 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_imc5 'Intel SkylakeX IMC5 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_m2m0 'Intel SkylakeX M2M0 uncore' having 121 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_m2m1 'Intel SkylakeX M2M1 uncore' having 121 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_m3upi0 'Intel SkylakeX M3UPI0 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_m3upi1 'Intel SkylakeX M3UPI1 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_m3upi2 'Intel SkylakeX M3UPI2 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_pcu 'Intel SkylakeX PCU uncore' having 29 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_ubo 'Intel SkylakeX U-Box uncore' having 5 events, 3 counters (2 general, 1 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_upi0 'Intel SkylakeX UPI0 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_upi1 'Intel SkylakeX UPI1 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 pmu: found skx_unc_upi2 'Intel SkylakeX UPI2 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-03-07 13:43:31 sensor: configuration is valid, starting monitoring...
+I: 23-03-07 13:43:31 perf<all>: monitoring actor started
+I: 23-03-07 13:43:31 perf<>: monitoring actor started
+I: 23-03-07 13:44:39 perf<>: shutting down actor
+I: 23-03-07 13:44:39 perf</gzip_compression-0-0.0.1-07CBB938-3FF9-6BC5-2C41-DF474186B889>: monitoring actor started
+I: 23-03-07 13:44:39 perf</gzip_compression-0-0.0.1-69DB0983-E9B3-71D9-A042-922FC04C56F2>: monitoring actor started
+I: 23-03-07 13:44:39 perf</gzip_compression-0-0.0.1-050541DB-AB24-6788-DFDF-A5DA5A5CA545>: monitoring actor started
+I: 23-03-07 13:44:40 perf</gzip_compression-0-0.0.1-BB21D701-EBC5-1ADF-7FE4-18CF4D2ED406>: monitoring actor started
+I: 23-03-07 13:44:40 perf</gzip_compression-0-0.0.1-C5780130-88A8-6B0E-3479-5A507EA2746C>: monitoring actor started
+I: 23-03-07 13:44:40 perf</gzip_compression-0-0.0.1-3EC53FE8-22A0-0F8D-EC77-F5F6FEE85863>: monitoring actor started
+I: 23-03-07 13:44:41 perf</gzip_compression-0-0.0.1-F0CE96B3-24B2-984E-D056-1DAB58FFE1C4>: monitoring actor started
+I: 23-03-07 13:44:41 perf</gzip_compression-0-0.0.1-FD7069C0-7F41-A6BA-E888-CA29A7AE1552>: monitoring actor started
+I: 23-03-07 13:44:42 perf</gzip_compression-0-0.0.1-18B99EE5-A168-153A-900A-A1C8F4DDDB92>: monitoring actor started
+I: 23-03-07 13:44:42 perf</gzip_compression-0-0.0.1-8633492C-0CCD-318D-3248-70FFF847D63B>: monitoring actor started
+I: 23-03-07 13:44:43 perf</image_processing-0-0.0.1-6595E22B-0DFA-8E4E-0803-94DFD7212381>: monitoring actor started
+I: 23-03-07 13:44:43 perf</gzip_compression-0-0.0.1-3B931E67-E86A-33DC-D73B-0811E1CC8A97>: monitoring actor started
+I: 23-03-07 13:44:43 perf</gzip_compression-0-0.0.1-68725305-2143-8AC3-3886-0EB5BD61D2C6>: monitoring actor started
+I: 23-03-07 13:44:44 perf</image_processing-0-0.0.1-385DE95F-43C1-014B-0C36-E3E07E4F9C7C>: monitoring actor started
+I: 23-03-07 13:44:44 perf</gzip_compression-0-0.0.1-3992B44E-500C-06F8-D128-7F560D2DC3B7>: monitoring actor started
+I: 23-03-07 13:44:45 perf</gzip_compression-0-0.0.1-4DAF80DC-F0FA-9892-972A-3A37101E9560>: monitoring actor started
+I: 23-03-07 13:44:45 perf</model_training-0-0.0.1-2D126FE9-A239-D791-3C38-56BC787035A4>: monitoring actor started
+I: 23-03-07 13:44:45 perf</gzip_compression-0-0.0.1-7567CBA5-03FF-3A03-CD49-64719680CE45>: monitoring actor started
+I: 23-03-07 13:44:46 perf</gzip_compression-0-0.0.1-0F8A1011-63A1-36A6-6A8F-7F1406E9565F>: monitoring actor started
+I: 23-03-07 13:44:46 perf</gzip_compression-0-0.0.1-EB82C641-3A67-F5B0-0EBC-163FD23EF259>: monitoring actor started
+I: 23-03-07 13:44:47 perf</image_processing-0-0.0.1-5F18F069-E194-9C06-C817-2C0AD0FADC2E>: monitoring actor started
+I: 23-03-07 13:44:47 perf</gzip_compression-0-0.0.1-9816991E-8523-3640-0A50-F79680717480>: monitoring actor started
+I: 23-03-07 13:44:47 perf</gzip_compression-0-0.0.1-05EEE7C3-C87F-3A70-F6AD-8609063171F8>: monitoring actor started
+I: 23-03-07 13:44:48 perf</gzip_compression-0-0.0.1-B7387123-61C1-7F60-EB52-BF6507681A5E>: monitoring actor started
+I: 23-03-07 13:44:48 perf</gzip_compression-0-0.0.1-FF14457A-4C1A-8BCC-9DD9-E56277F33DF0>: monitoring actor started
+I: 23-03-07 13:44:49 perf</gzip_compression-0-0.0.1-AD90CEA2-1C40-80A8-A27D-F09608E90F9B>: monitoring actor started
+I: 23-03-07 13:44:49 perf</gzip_compression-0-0.0.1-16DA6FBC-7903-1E6B-BD7E-CFF62975931F>: monitoring actor started
+I: 23-03-07 13:44:50 perf</model_training-0-0.0.1-F7D6C083-13F3-32FB-7114-E0FF58CA8F6C>: monitoring actor started
+I: 23-03-07 13:44:50 perf</gzip_compression-0-0.0.1-6D362F93-60BF-7B04-C3A8-FE1CE3526A75>: monitoring actor started
+I: 23-03-07 13:44:50 perf</model_training-0-0.0.1-63BED8F1-5DFC-77C0-675E-78112A719F82>: monitoring actor started
+I: 23-03-07 13:44:51 perf</gzip_compression-0-0.0.1-6CB5A50A-C1B8-638E-1A69-CFA8C89E20CC>: monitoring actor started
+I: 23-03-07 13:44:51 perf</video_processing-0-0.0.1-601514EF-40E7-37A1-CDD7-334DCD81EE0B>: monitoring actor started
+I: 23-03-07 13:44:52 perf</image_processing-0-0.0.1-D7F31349-409F-04AD-7607-ACB1E813BF03>: monitoring actor started
+I: 23-03-07 13:44:52 perf</video_processing-0-0.0.1-4A955911-535B-C4C1-F0B5-69044ED82943>: monitoring actor started
+I: 23-03-07 13:44:52 perf</image_processing-0-0.0.1-CD1B1DE7-A16E-480D-67A8-14AD0D3D856A>: monitoring actor started
+I: 23-03-07 13:44:53 perf</video_processing-0-0.0.1-B5CE305F-D59D-8B46-38AB-599DC215E37D>: monitoring actor started
+I: 23-03-07 13:44:53 perf</image_processing-0-0.0.1-84D1F054-5F26-7567-E3AB-07E119DE3A7A>: monitoring actor started
+I: 23-03-07 13:44:54 perf</image_processing-0-0.0.1-8327EFC7-D7B9-A928-E64B-CBD20EFB9520>: monitoring actor started
+I: 23-03-07 13:44:54 perf</image_processing-0-0.0.1-2D81739B-94EA-ABC9-DA8F-1AF279A31AFE>: monitoring actor started
+I: 23-03-07 13:44:54 perf</video_processing-0-0.0.1-5C4FBA4A-A00B-4B17-A37C-0E0D1B8D93F8>: monitoring actor started
+I: 23-03-07 13:44:56 perf</image_processing-0-0.0.1-8FB80A83-04F6-473E-D9B3-0E198F88559E>: monitoring actor started
+I: 23-03-07 13:44:56 perf</video_processing-0-0.0.1-135F55A4-F505-83C3-C7FD-BE69C0CDAEF7>: monitoring actor started
+I: 23-03-07 13:44:56 perf</video_processing-0-0.0.1-55742B25-ED5A-849C-4209-DB6CB5B94A10>: monitoring actor started
+I: 23-03-07 13:44:57 perf</video_processing-0-0.0.1-C3B12BD5-16F3-609C-3345-2A225EA96D98>: monitoring actor started
+I: 23-03-07 13:44:57 perf</video_processing-0-0.0.1-031B85AF-D9F9-221E-3FF6-192ECE6D1D65>: monitoring actor started
+I: 23-03-07 13:44:57 perf</video_processing-0-0.0.1-907E1E36-7C0C-0C11-0B2E-340AE498B5C9>: monitoring actor started
+I: 23-03-07 13:44:58 perf</video_processing-0-0.0.1-FD024D91-5FF0-0A50-4E43-D83C6FA3392F>: monitoring actor started
+I: 23-03-07 13:44:59 perf</video_processing-0-0.0.1-C3D4CC8B-D6B0-3FC7-3103-7071BEFC736A>: monitoring actor started
+I: 23-03-07 13:44:59 perf</video_processing-0-0.0.1-C1036FB2-EFBF-657F-53B7-6F3000D6DB6D>: monitoring actor started
+I: 23-03-07 13:45:00 perf</video_processing-0-0.0.1-BF40D8A2-E861-9382-1864-12FD6A2943BA>: monitoring actor started
+I: 23-03-07 13:45:00 perf</model_training-0-0.0.1-49324E81-7191-44CF-CE6E-C0A80A97D997>: monitoring actor started
+I: 23-03-07 13:45:00 perf</model_training-0-0.0.1-1B5AED1F-F330-EEC4-D8B6-9E76F1917E35>: monitoring actor started
+I: 23-03-07 13:45:23 perf</model_training-0-0.0.1-03B9FB3C-FEF3-3D5E-25F5-3B9E4047529F>: monitoring actor started
+I: 23-03-07 13:45:24 perf</model_training-0-0.0.1-9557CE0B-4753-474E-2381-E0A4AD6D024E>: monitoring actor started
+I: 23-03-07 13:47:32 perf</model_training-0-0.0.1-1851C17E-E268-0E76-8DE5-BF5D4FD8F177>: monitoring actor started
+I: 23-03-07 13:47:48 perf</video_processing-0-0.0.1-E87952EE-8167-111E-9D0F-B7D5E172DA72>: monitoring actor started
+I: 23-03-07 13:47:49 perf</video_processing-0-0.0.1-DE339603-6C43-9E05-B332-AC7C5FB7514E>: monitoring actor started
+I: 23-03-07 13:47:49 perf</video_processing-0-0.0.1-C5867EDB-5707-5B81-0B52-C75C7223ACE9>: monitoring actor started
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-E87952EE-8167-111E-9D0F-B7D5E172DA72>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-BF40D8A2-E861-9382-1864-12FD6A2943BA>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-5C4FBA4A-A00B-4B17-A37C-0E0D1B8D93F8>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-03B9FB3C-FEF3-3D5E-25F5-3B9E4047529F>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-8FB80A83-04F6-473E-D9B3-0E198F88559E>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-2D126FE9-A239-D791-3C38-56BC787035A4>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-DE339603-6C43-9E05-B332-AC7C5FB7514E>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-C1036FB2-EFBF-657F-53B7-6F3000D6DB6D>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-F7D6C083-13F3-32FB-7114-E0FF58CA8F6C>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-5F18F069-E194-9C06-C817-2C0AD0FADC2E>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-B7387123-61C1-7F60-EB52-BF6507681A5E>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-0F8A1011-63A1-36A6-6A8F-7F1406E9565F>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-18B99EE5-A168-153A-900A-A1C8F4DDDB92>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-C5867EDB-5707-5B81-0B52-C75C7223ACE9>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-9557CE0B-4753-474E-2381-E0A4AD6D024E>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-69DB0983-E9B3-71D9-A042-922FC04C56F2>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-6595E22B-0DFA-8E4E-0803-94DFD7212381>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-B5CE305F-D59D-8B46-38AB-599DC215E37D>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-601514EF-40E7-37A1-CDD7-334DCD81EE0B>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-F0CE96B3-24B2-984E-D056-1DAB58FFE1C4>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-907E1E36-7C0C-0C11-0B2E-340AE498B5C9>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-D7F31349-409F-04AD-7607-ACB1E813BF03>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-68725305-2143-8AC3-3886-0EB5BD61D2C6>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-CD1B1DE7-A16E-480D-67A8-14AD0D3D856A>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-8327EFC7-D7B9-A928-E64B-CBD20EFB9520>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-7567CBA5-03FF-3A03-CD49-64719680CE45>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-EB82C641-3A67-F5B0-0EBC-163FD23EF259>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-16DA6FBC-7903-1E6B-BD7E-CFF62975931F>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-3B931E67-E86A-33DC-D73B-0811E1CC8A97>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-C3D4CC8B-D6B0-3FC7-3103-7071BEFC736A>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-135F55A4-F505-83C3-C7FD-BE69C0CDAEF7>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-050541DB-AB24-6788-DFDF-A5DA5A5CA545>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-385DE95F-43C1-014B-0C36-E3E07E4F9C7C>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-1851C17E-E268-0E76-8DE5-BF5D4FD8F177>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-8633492C-0CCD-318D-3248-70FFF847D63B>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-3992B44E-500C-06F8-D128-7F560D2DC3B7>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-FD024D91-5FF0-0A50-4E43-D83C6FA3392F>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-63BED8F1-5DFC-77C0-675E-78112A719F82>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-FF14457A-4C1A-8BCC-9DD9-E56277F33DF0>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-C5780130-88A8-6B0E-3479-5A507EA2746C>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-55742B25-ED5A-849C-4209-DB6CB5B94A10>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-2D81739B-94EA-ABC9-DA8F-1AF279A31AFE>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-4A955911-535B-C4C1-F0B5-69044ED82943>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-6D362F93-60BF-7B04-C3A8-FE1CE3526A75>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-07CBB938-3FF9-6BC5-2C41-DF474186B889>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-031B85AF-D9F9-221E-3FF6-192ECE6D1D65>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-3EC53FE8-22A0-0F8D-EC77-F5F6FEE85863>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-6CB5A50A-C1B8-638E-1A69-CFA8C89E20CC>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-49324E81-7191-44CF-CE6E-C0A80A97D997>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-05EEE7C3-C87F-3A70-F6AD-8609063171F8>: shutting down actor
+I: 23-03-07 13:51:33 perf</image_processing-0-0.0.1-84D1F054-5F26-7567-E3AB-07E119DE3A7A>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-BB21D701-EBC5-1ADF-7FE4-18CF4D2ED406>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-FD7069C0-7F41-A6BA-E888-CA29A7AE1552>: shutting down actor
+I: 23-03-07 13:51:33 perf</model_training-0-0.0.1-1B5AED1F-F330-EEC4-D8B6-9E76F1917E35>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-9816991E-8523-3640-0A50-F79680717480>: shutting down actor
+I: 23-03-07 13:51:33 perf</video_processing-0-0.0.1-C3B12BD5-16F3-609C-3345-2A225EA96D98>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-4DAF80DC-F0FA-9892-972A-3A37101E9560>: shutting down actor
+I: 23-03-07 13:51:33 perf</gzip_compression-0-0.0.1-AD90CEA2-1C40-80A8-A27D-F09608E90F9B>: shutting down actor
+I: 23-03-07 13:51:33 perf<all>: shutting down actor
+I: 23-03-07 13:51:33 reporting: bye!
