@@ -1,0 +1,287 @@
+Efaas Version: 
+9e700cd2ad66c7fddf259e6f7f9ef15697c5a3d9
+iluvatar-energy-experiments Version: 
+6de725d9ed82e011bfab617d6afd7d3cc2d97e89
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "149.159.200.89"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+fatal: [worker1]: FAILED! => {"changed": false, "cmd": "'/tmp/ilúvatar/bin/ilúvatar_worker' -c '/tmp/ilúvatar/bin/worker1.json' clean", "msg": "[Errno 8] Exec format error: b'/tmp/il\\xc3\\xbavatar/bin/il\\xc3\\xbavatar_worker'", "rc": 8, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=6    changed=1    unreachable=0    failed=1    skipped=3    rescued=0    ignored=0   
+
+IGPM logging started
+video_processing-0 mapped to function 'image_processing'
+image_processing-0 mapped to function 'json_dumps_loads'
+dd-0 mapped to function 'image_processing'
+A total of 0 prewarmed containers
+2023-08-06 19:43:39.395415114 prewarming Some(0) containers for function 'video_processing-0'
+2023-08-06 19:43:39.395656257 prewarming Some(0) containers for function 'image_processing-0'
+2023-08-06 19:43:39.395819191 prewarming Some(0) containers for function 'dd-0'
+2023-08-06 19:43:39.396869708 starting live trace run
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "149.159.200.89"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=19807) 
+skipping: [worker1] => (item=19808) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=19807)
+changed: [worker1] => (item=19808)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+changed: [worker1]
+
+TASK [copy worker config] ******************************************************
+changed: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+fatal: [worker1]: FAILED! => {"changed": false, "cmd": "'/tmp/ilúvatar/bin/ilúvatar_worker' -c '/tmp/ilúvatar/bin/worker1.json' clean", "msg": "[Errno 8] Exec format error: b'/tmp/il\\xc3\\xbavatar/bin/il\\xc3\\xbavatar_worker'", "rc": 8, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=7    changed=4    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+
+Starting analysis
++ TARGET_BASE=./
++ TRACE_NAME=trace
+++ pwd
++ CUR_DIR=/data2/ar/iluvatar-energy-experiments/scripts/experiments/jetson/traced
++ BASE_DIR=/data2/ar/iluvatar-energy-experiments
++ for i in "$@"
++ case $i in
++ TARGET_BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/
++ for i in "$@"
++ case $i in
++ TRACE_NAME=mc_p
+++ dirname_uptill /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/ trace
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/
+++ TARGET=trace
+++ to_return=
+++ [[ -n 1==1 ]]
+++ last=
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/
+++ cur=12
+++ [[ 12 == \t\r\a\c\e ]]
+++ [[ 12 == \/ ]]
+++ to_return=12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12
+++ [[ -n 1==1 ]]
+++ last=12
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12
+++ cur=12
+++ [[ 12 == \t\r\a\c\e ]]
+++ [[ 12 == \/ ]]
+++ to_return=12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs
+++ [[ -n 1==1 ]]
+++ last=12
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs
+++ cur=fcfs
+++ [[ fcfs == \t\r\a\c\e ]]
+++ [[ fcfs == \/ ]]
+++ to_return=fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions
+++ [[ -n 1==1 ]]
+++ last=fcfs
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions
+++ cur=functions
+++ [[ functions == \t\r\a\c\e ]]
+++ [[ functions == \/ ]]
+++ to_return=functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p
+++ [[ -n 1==1 ]]
+++ last=functions
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p
+++ cur=mc_p
+++ [[ mc_p == \t\r\a\c\e ]]
+++ [[ mc_p == \/ ]]
+++ to_return=mc_p/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp
+++ [[ -n 1==1 ]]
+++ last=mc_p
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp
+++ cur=mc_4f_traces_ddp
+++ [[ mc_4f_traces_ddp == \t\r\a\c\e ]]
+++ [[ mc_4f_traces_ddp == \/ ]]
+++ to_return=mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//.
+++ [[ -n 1==1 ]]
+++ last=mc_4f_traces_ddp
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson//.
+++ cur=.
+++ [[ . == \t\r\a\c\e ]]
+++ [[ . == \/ ]]
+++ to_return=./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson//.
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/jetson
+++ [[ -n 1==1 ]]
+++ last=.
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/jetson
+++ cur=jetson
+++ [[ jetson == \t\r\a\c\e ]]
+++ [[ jetson == \/ ]]
+++ to_return=jetson/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/jetson
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace
+++ [[ -n 1==1 ]]
+++ last=jetson
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace
+++ cur=trace
+++ [[ trace == \t\r\a\c\e ]]
+++ break
+++ echo jetson/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
++ TARGET_PLATFORM=jetson/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
+++ dirname_front jetson/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
+++ s=jetson/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
++++ expr index jetson/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/ /
+++ i=7
+++ [[ i != 0 ]]
+++ i=6
+++ s_r=/./mc_4f_traces_ddp/mc_p/functions/fcfs/12/12/
+++ s=jetson
+++ echo jetson
++ TARGET_PLATFORM=jetson
++ echo 10000
++ python3 /data2/ar/efaas//src/load/analysis/parse_logs.py -l /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/ -m /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//dummy_max_rapl.txt
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/Gen_DFs.py -d /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/ -m desk
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/analysis/results/Gen_DFs.py", line 27, in <module>
+    lg.process_all_logs()
+  File "/data2/ar/iluvatar-perf22/scripts/experiments/victor/plotting/Logs_to_df.py", line 360, in process_all_logs
+    self.worker_log_to_df()
+  File "/data2/ar/iluvatar-perf22/scripts/experiments/victor/plotting/Logs_to_df.py", line 176, in worker_log_to_df
+    cpu_freq_mean = np.array(status["kernel_cpu_freqs"]).mean()
+KeyError: 'kernel_cpu_freqs'
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/parse_function_map.py -l /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//orchestration.log
++ '[' -f /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//tegrastats.log ']'
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/parse_tegrastats.py --log /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//tegrastats.log
++ '[' -f /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//igpm.log ']'
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/plot_igpm_against_tegrastats.py --tlog /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//tegrastats.csv --ilog /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//igpm.log
++ cd /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12/
++ mkdir -p igpm_plots
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/igpm/plot_log.py -l ./igpm.log
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/responsetime_distribution.py
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/status_plot.py -l ./
++ python3 /data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py -l ./ -t desk -o stacked_kf_plot.png -c pulse
++ tmp_so=/tmp/sensor_output
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_queueing.py -l ./worker_worker1.log -c ./output-mc_p.csv
++ tmp_fo=/tmp/formula_output
++ sw_result=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output/
++ mkdir -p /tmp/sensor_output
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_e2etime.py -c ./output-mc_p.csv
++ mkdir -p /tmp/formula_output
++ cp '/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//sensor_output/*' /tmp/sensor_output/
+cp: cannot stat '/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//sensor_output/*': No such file or directory
++ /data2/ar/smartwatts-formula/run_formula.sh -p=jetson
++ for i in "$@"
++ case $i in
++ TARGET_PLATFORM=jetson
++ rm '/tmp/formula_output/*' -rf
++ cd /data2/ar/smartwatts-formula
++ sudo chmod a+wr '/tmp/sensor_output/*'
+chmod: cannot access '/tmp/sensor_output/*': No such file or directory
++ python3 -m smartwatts --name formula_smarwatts powerapi/smartwatts-formula --config-file /data2/ar/powerapi_personal/config_formula_smartwatts_jetson.json
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_e2etime.py", line 1, in <module>
+    from queueing import calc_queue_times
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/queueing.py", line 6, in <module>
+    from Logs_to_df import Logs_to_df
+ModuleNotFoundError: No module named 'Logs_to_df'
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_queueing.py", line 1, in <module>
+    from queueing import calc_queue_times
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/queueing.py", line 6, in <module>
+    from Logs_to_df import Logs_to_df
+ModuleNotFoundError: No module named 'Logs_to_df'
+ERROR:root:Configuration Error: configuration file not found
++ rm -r /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output/
+rm: cannot remove '/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output/': No such file or directory
++ mkdir -p /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output/
++ cp /tmp/formula_output /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output// -r
++ /data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh -d=/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-/
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 25: /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 28: /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
++ mv /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv /data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//
+mv: cannot stat '/data2/ar/iluvatar-energy-experiments/results/trace/jetson//./mc_4f_traces_ddp/mc_p//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv': No such file or directory
++ rm /tmp/sensor_output -rf
++ rm /tmp/formula_output -rf
+++ jobs -p
++ wait 2056567 2056569 2056571 2056573
++ mv igpm_i.png igpm_pf.png igpm_p.png igpm_v.png ./igpm_plots/
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 185, in <module>
+    stack_plot(
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 25, in stack_plot
+    edata = Logs_to_df(logs_folder, mc_type, output_type='indiv')
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 200, in __init__
+    self.populate_system_settings()
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 264, in populate_system_settings
+    self.cpu_shr_config( use_default=self.mc_type )
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 1975, in cpu_shr_config
+    sw_config['cfeatures'] = cfeatures
+UnboundLocalError: local variable 'cfeatures' referenced before assignment
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/status_plot.py", line 38, in <module>
+    ldf.normalize_times()
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 768, in normalize_times
+    earliest_time = min([self.status_df.index[0], self.proc_df.index[0]])
+AttributeError: 'NoneType' object has no attribute 'index'
++ cd /data2/ar/iluvatar-energy-experiments/scripts/experiments/jetson/traced
+
+real	0m9.526s
+user	0m26.928s
+sys	0m17.921s
