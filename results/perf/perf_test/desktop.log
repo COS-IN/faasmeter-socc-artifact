@@ -1,0 +1,94 @@
+ 1: vmlinux symtab matches kallsyms            : Skip
+ 2: Detect openat syscall event                : Ok
+ 3: Detect openat syscall event on all cpus    : Ok
+ 4: Read samples using the mmap interface      : Ok
+ 5: Test data source output                    : Ok
+ 6: Parse event definition strings             : Ok
+ 7: Simple expression parser                   : Ok
+ 8: PERF_RECORD_* events & perf_sample fields  : Ok
+ 9: Parse perf pmu format                      : Ok
+10: PMU events                                 :
+10.1: PMU event table sanity                           : Ok
+10.2: PMU event map aliases                            : Ok
+10.3: Parsing of PMU event table metrics               : Skip (some metrics failed)
+10.4: Parsing of PMU event table metrics with fake PMUs: FAILED!
+11: DSO data read                              : Ok
+12: DSO data cache                             : Ok
+13: DSO data reopen                            : Ok
+14: Roundtrip evsel->name                      : Ok
+15: Parse sched tracepoints fields             : Ok
+16: syscalls:sys_enter_openat event fields     : Ok
+17: Setup struct perf_event_attr               : Skip
+18: Match and link multiple hists              : Ok
+19: 'import perf' in python                    : Ok
+20: Breakpoint overflow signal handler         : Ok
+21: Breakpoint overflow sampling               : Ok
+22: Breakpoint accounting                      : Ok
+23: Watchpoint                                 :
+23.1: Read Only Watchpoint                     : Skip (missing hardware support)
+23.2: Write Only Watchpoint                    : Ok
+23.3: Read / Write Watchpoint                  : Ok
+23.4: Modify Watchpoint                        : Ok
+24: Number of exit events of a simple workload : Ok
+25: Software clock events period values        : Ok
+26: Object code reading                        : Ok
+27: Sample parsing                             : Ok
+28: Use a dummy software event to keep tracking: Ok
+29: Parse with no sample_id_all bit set        : Ok
+30: Filter hist entries                        : Ok
+31: Lookup mmap thread                         : Ok
+32: Share thread maps                          : Ok
+33: Sort output of hist entries                : Ok
+34: Cumulate child hist entries                : Ok
+35: Track with sched_switch                    : Ok
+36: Filter fds with revents mask in a fdarray  : Ok
+37: Add fd to a fdarray, making it autogrow    : Ok
+38: kmod_path__parse                           : Ok
+39: Thread map                                 : Ok
+40: LLVM search and compile                    :
+40.1: Basic BPF llvm compile                    : Skip
+40.2: kbuild searching                          : Skip
+40.3: Compile source for BPF prologue generation: Skip
+40.4: Compile source for BPF relocation         : Skip
+41: Session topology                           : Ok
+42: BPF filter                                 :
+42.1: Basic BPF filtering                      : Skip
+42.2: BPF pinning                              : Skip
+42.3: BPF prologue generation                  : Skip
+43: Synthesize thread map                      : Ok
+44: Remove thread map                          : Ok
+45: Synthesize cpu map                         : Ok
+46: Synthesize stat config                     : Ok
+47: Synthesize stat                            : Ok
+48: Synthesize stat round                      : Ok
+49: Synthesize attr update                     : Ok
+50: Event times                                : Ok
+51: Read backward ring buffer                  : Ok
+52: Print cpu map                              : Ok
+53: Merge cpu map                              : Ok
+54: Probe SDT events                           : Skip
+55: is_printable_array                         : Ok
+56: Print bitmap                               : Ok
+57: perf hooks                                 : Ok
+58: builtin clang support                      : Skip (not compiled in)
+59: unit_number__scnprintf                     : Ok
+60: mem2node                                   : Ok
+61: time utils                                 : Ok
+62: Test jit_write_elf                         : Ok
+63: Test libpfm4 support                       : Skip (not compiled in)
+64: Test api io                                : Ok
+65: maps__merge_in                             : Ok
+66: Demangle Java                              : Ok
+67: Demangle OCaml                             : Ok
+68: Parse and process metrics                  : Ok
+69: PE file support                            : Skip
+70: Event expansion for cgroups                : Ok
+71: Convert perf time to TSC                   : Ok
+72: dlfilter C API                             : Skip
+73: x86 rdpmc                                  : Ok
+74: DWARF unwind                               : FAILED!
+75: x86 instruction decoder - new instructions : Ok
+76: Intel PT packet decoder                    : Ok
+77: x86 bp modify                              : Ok
+78: x86 Sample parsing                         : Ok
+failed to open shell test directory: /usr/libexec/perf-core/tests/shell
