@@ -3,24 +3,11 @@ import matplotlib
 import numpy as np
 from statsmodels.distributions.empirical_distribution import ECDF
 from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
-
-paths = [
-    # "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting",
-    # "/data2/ar/iluvatar-energy-experiments/faasmeter",
-    "/data2/ar/faasmeter/faasmeter",
-    "/data2/ar/iluvatar-energy-experiments/scripts/experiments/desktop/native_func_stuff/native_func",
-]
-
-for p in paths:
-    current = path.Path( os.path.realpath( p ) ).abspath()
-    sys.path.append( current )
-    print( "added {} to PATH".format( current ) )
-
 import numpy as np
 import pandas as pd
 
 from plotting.base import PlotBase
-from helper_funcs import *
+from faasmeter.faasmeter.helper_funcs import *
 import matplotlib.pyplot as plt
 
 def get_func_name( f ):
