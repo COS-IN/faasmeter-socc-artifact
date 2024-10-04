@@ -10,6 +10,12 @@ Figure 6
 Figure 8
 ![Fig 8](./results/trace/fig_9/desktop/mc_4f_traces_nddp_15min/mc_a/functions/fcfs/12/12/dfs/plots/standalone/fig_9.png)
 
+Figure 10a
+![Fig 10a](./results/trace/desktop/mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/dfs/plots/standalone/stacked_f23.png)
+
+Figure 10b
+![Fig 10b](./results/trace/desktop/mc_4f_traces_ddp_30min_more_funcs/mc_a_burst/functions/fcfs/12/12/dfs/plots/standalone/stacked_f23.png)
+
 Figure 10c
 ![Fig 10c](./plotting/execution_scripts/jpt_error_All.png)
 

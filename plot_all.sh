@@ -8,7 +8,7 @@ venv="plot_venv"
 # python3 -m pip install -r reqs.txt
 
 pushd $scripts_dir
-. ./fig_2.sh &> fig_2.log
+# . ./fig_2.sh &> fig_2.log
 
 # . ./fig_6.sh &> fig_6.log
 
@@ -19,6 +19,8 @@ pushd $scripts_dir
 # . ./jpt_cdf_single.sh &> jpt_cdf_single.log
 
 # . ./error_all_exps.sh &> error_all_exps.log
+
+. ./stacked.sh &> stacked.log
 popd
 
 # deactivate
