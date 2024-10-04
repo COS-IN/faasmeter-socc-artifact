@@ -1,0 +1,136 @@
+[100%] Built target hwpc-sensor
+I: 23-08-28 18:32:14 build: version undefined (rev: undefined)
+I: 23-08-28 18:32:14 uname: Linux 5.4.0-155-generic #172-Ubuntu SMP Fri Jul 7 16:10:02 UTC 2023 x86_64
+I: 23-08-28 18:32:14 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 11 counters (8 general, 3 fixed)
+I: 23-08-28 18:32:14 pmu: found perf 'perf_events generic PMU' having 179 events, 0 counters (0 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found rapl 'Intel RAPL' having 2 events, 3 counters (0 general, 3 fixed)
+I: 23-08-28 18:32:14 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx 'Intel Skylake X' having 85 events, 11 counters (8 general, 3 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha0 'Intel SkylakeX CHA0 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha1 'Intel SkylakeX CHA1 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha2 'Intel SkylakeX CHA2 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha3 'Intel SkylakeX CHA3 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha4 'Intel SkylakeX CHA4 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha5 'Intel SkylakeX CHA5 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha6 'Intel SkylakeX CHA6 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha7 'Intel SkylakeX CHA7 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha8 'Intel SkylakeX CHA8 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha9 'Intel SkylakeX CHA9 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha10 'Intel SkylakeX CHA10 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha11 'Intel SkylakeX CHA11 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha12 'Intel SkylakeX CHA12 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha13 'Intel SkylakeX CHA13 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha14 'Intel SkylakeX CHA14 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha15 'Intel SkylakeX CHA15 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha16 'Intel SkylakeX CHA16 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha17 'Intel SkylakeX CHA17 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha18 'Intel SkylakeX CHA18 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha19 'Intel SkylakeX CHA19 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha20 'Intel SkylakeX CHA20 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha21 'Intel SkylakeX CHA21 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha22 'Intel SkylakeX CHA22 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_cha23 'Intel SkylakeX CHA23 uncore' having 99 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_iio0 'Intel SkylakeX IIO0 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_iio1 'Intel SkylakeX IIO1 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_iio2 'Intel SkylakeX IIO2 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_iio3 'Intel SkylakeX IIO3 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_iio4 'Intel SkylakeX IIO4 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_iio5 'Intel SkylakeX IIO5 uncore' having 16 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_imc0 'Intel SkylakeX IMC0 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_imc1 'Intel SkylakeX IMC1 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_imc2 'Intel SkylakeX IMC2 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_imc3 'Intel SkylakeX IMC3 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_imc4 'Intel SkylakeX IMC4 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_imc5 'Intel SkylakeX IMC5 uncore' having 46 events, 5 counters (4 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_m2m0 'Intel SkylakeX M2M0 uncore' having 121 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_m2m1 'Intel SkylakeX M2M1 uncore' having 121 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_m3upi0 'Intel SkylakeX M3UPI0 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_m3upi1 'Intel SkylakeX M3UPI1 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_m3upi2 'Intel SkylakeX M3UPI2 uncore' having 111 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_pcu 'Intel SkylakeX PCU uncore' having 29 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_ubo 'Intel SkylakeX U-Box uncore' having 5 events, 3 counters (2 general, 1 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_upi0 'Intel SkylakeX UPI0 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_upi1 'Intel SkylakeX UPI1 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 pmu: found skx_unc_upi2 'Intel SkylakeX UPI2 uncore' having 34 events, 4 counters (4 general, 0 fixed)
+I: 23-08-28 18:32:14 hwinfo: cpu38 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu28 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu46 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu36 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu26 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu44 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu34 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu24 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu42 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu32 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu40 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu30 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu39 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu29 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu47 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu37 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu27 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu45 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu35 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu25 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu43 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu33 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu41 is offline and will be ignored
+I: 23-08-28 18:32:14 hwinfo: cpu31 is offline and will be ignored
+I: 23-08-28 18:32:14 sensor: configuration is valid, starting monitoring...
+I: 23-08-28 18:32:14 perf<all>: monitoring actor started
+I: 23-08-28 18:32:14 perf<>: monitoring actor started
+I: 23-08-28 18:33:21 perf<>: shutting down actor
+I: 23-08-28 18:33:21 perf</image_processing-0-0.0.1-07ECA4A2-ACDA-DC69-FF78-4CF47B20E80D>: monitoring actor started
+I: 23-08-28 18:33:22 perf</dd-0-0.0.1-7366E8C3-32BE-F0E4-43B3-CF305D3D6BC7>: monitoring actor started
+I: 23-08-28 18:33:22 perf</dd-0-0.0.1-30A499C3-6FFC-07FC-6BA3-B4ECFBB0A9FE>: monitoring actor started
+I: 23-08-28 18:33:23 perf</image_processing-0-0.0.1-D94A06D1-C290-BEF1-4561-C1F3B169E0A4>: monitoring actor started
+I: 23-08-28 18:33:23 perf</pyaes-0-0.0.1-8C9A3A83-2F52-FF6A-C39E-629EF7F49909>: monitoring actor started
+I: 23-08-28 18:33:24 perf</dd-0-0.0.1-F67A8233-57F6-7844-9C1B-49C00AEB8A61>: monitoring actor started
+I: 23-08-28 18:33:24 perf</image_processing-0-0.0.1-7752242D-104A-721F-7B67-C26D36401D4B>: monitoring actor started
+I: 23-08-28 18:33:25 perf</pyaes-0-0.0.1-4364DCB3-E34F-4008-351C-3A86A1497765>: monitoring actor started
+I: 23-08-28 18:33:25 perf</pyaes-0-0.0.1-22716E71-BDED-A0A6-EF0A-FFEEE151DD1F>: monitoring actor started
+I: 23-08-28 18:33:25 perf</pyaes-0-0.0.1-5A06E2F4-8462-BE4B-FEA1-AAAFFBC4D996>: monitoring actor started
+I: 23-08-28 18:33:26 perf</pyaes-0-0.0.1-942B3DB8-1D16-846F-A278-103D834E9643>: monitoring actor started
+I: 23-08-28 18:33:26 perf</pyaes-0-0.0.1-2C6357A5-AA03-D1D2-1E29-53EFB6048ED5>: monitoring actor started
+I: 23-08-28 18:33:27 perf</pyaes-0-0.0.1-612B4107-09B7-FE40-E046-0E801E5E8EBB>: monitoring actor started
+I: 23-08-28 18:33:28 perf</pyaes-0-0.0.1-807F7112-5E65-1AFD-B831-7022DEB35558>: monitoring actor started
+I: 23-08-28 18:33:28 perf</pyaes-0-0.0.1-E93E213A-73E4-3303-B34A-7C193EE7C703>: monitoring actor started
+I: 23-08-28 18:33:29 perf</image_processing-0-0.0.1-5A6471F2-D098-BA2A-7CED-099BCB2FC739>: monitoring actor started
+I: 23-08-28 18:33:34 perf</image_processing-0-0.0.1-F775AB63-D744-3154-1264-3D87A58BF517>: monitoring actor started
+I: 23-08-28 18:33:34 perf</image_processing-0-0.0.1-E632E0DE-E42B-36B7-57DB-72F5F594F18C>: monitoring actor started
+I: 23-08-28 18:33:41 perf</dd-0-0.0.1-779473A9-2EA0-A8BC-2791-156562A4BC98>: monitoring actor started
+I: 23-08-28 18:34:19 perf</dd-0-0.0.1-BF9C05BA-94F9-BD57-7AA5-B871D6781B40>: monitoring actor started
+I: 23-08-28 18:34:31 perf</image_processing-0-0.0.1-A9D8C374-CF9B-07C6-D216-72A368A994F3>: monitoring actor started
+I: 23-08-28 18:36:04 perf</image_processing-0-0.0.1-D41CC27A-9073-5E79-3246-09EF6A28CB00>: monitoring actor started
+I: 23-08-28 18:37:29 perf</dd-0-0.0.1-386FE571-88BD-DD82-1048-73AEA8BE65FE>: monitoring actor started
+I: 23-08-28 18:43:05 perf</pyaes-0-0.0.1-1E6BEE3A-7DB0-1CA3-A449-8B1E640643E8>: monitoring actor started
+I: 23-08-28 18:46:11 perf</image_processing-0-0.0.1-96E160A3-D6F7-9D19-2B04-22242D81ED21>: monitoring actor started
+I: 23-08-28 18:46:11 perf</image_processing-0-0.0.1-B2063DB0-3DF6-B839-DDBD-7CF459326002>: monitoring actor started
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-96E160A3-D6F7-9D19-2B04-22242D81ED21>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-D41CC27A-9073-5E79-3246-09EF6A28CB00>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-7752242D-104A-721F-7B67-C26D36401D4B>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-942B3DB8-1D16-846F-A278-103D834E9643>: shutting down actor
+I: 23-08-28 18:48:11 perf</dd-0-0.0.1-BF9C05BA-94F9-BD57-7AA5-B871D6781B40>: shutting down actor
+I: 23-08-28 18:48:11 perf</dd-0-0.0.1-F67A8233-57F6-7844-9C1B-49C00AEB8A61>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-8C9A3A83-2F52-FF6A-C39E-629EF7F49909>: shutting down actor
+I: 23-08-28 18:48:11 perf</dd-0-0.0.1-30A499C3-6FFC-07FC-6BA3-B4ECFBB0A9FE>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-5A06E2F4-8462-BE4B-FEA1-AAAFFBC4D996>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-1E6BEE3A-7DB0-1CA3-A449-8B1E640643E8>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-E632E0DE-E42B-36B7-57DB-72F5F594F18C>: shutting down actor
+I: 23-08-28 18:48:11 perf</dd-0-0.0.1-7366E8C3-32BE-F0E4-43B3-CF305D3D6BC7>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-807F7112-5E65-1AFD-B831-7022DEB35558>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-D94A06D1-C290-BEF1-4561-C1F3B169E0A4>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-F775AB63-D744-3154-1264-3D87A58BF517>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-B2063DB0-3DF6-B839-DDBD-7CF459326002>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-A9D8C374-CF9B-07C6-D216-72A368A994F3>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-07ECA4A2-ACDA-DC69-FF78-4CF47B20E80D>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-4364DCB3-E34F-4008-351C-3A86A1497765>: shutting down actor
+I: 23-08-28 18:48:11 perf</dd-0-0.0.1-386FE571-88BD-DD82-1048-73AEA8BE65FE>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-E93E213A-73E4-3303-B34A-7C193EE7C703>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-612B4107-09B7-FE40-E046-0E801E5E8EBB>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-2C6357A5-AA03-D1D2-1E29-53EFB6048ED5>: shutting down actor
+I: 23-08-28 18:48:11 perf</pyaes-0-0.0.1-22716E71-BDED-A0A6-EF0A-FFEEE151DD1F>: shutting down actor
+I: 23-08-28 18:48:11 perf</image_processing-0-0.0.1-5A6471F2-D098-BA2A-7CED-099BCB2FC739>: shutting down actor
+I: 23-08-28 18:48:11 perf</dd-0-0.0.1-779473A9-2EA0-A8BC-2791-156562A4BC98>: shutting down actor
+I: 23-08-28 18:48:11 perf<all>: shutting down actor
+I: 23-08-28 18:48:11 reporting: bye!
