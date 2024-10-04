@@ -1,0 +1,25 @@
+rdmsr: CPU 0 cannot read MSR 0x0000038c
+Reading 0x38C - IA32_PERF_GLOBAL_CTRL -> 
+ 
+ 
+Reading 0x38E - IA32_PERF_GLOBAL_STATUS -> 0
+ 
+ 
+Reading 0x390 - IA32_PERF_GLOBAL_OVF_CTRL -> 0
+ 
+ 
+Reading 0x38D - IA32_FIXED_CTR_CTRL -> 0
+        Control MSR for Fixed-Function Performance Counters 0-4
+ 
+Reading 0x309 - IA32_FIXED_CTR0 -> 8000001a57d9
+        Fixed-Function Performance Counter 0 (R/W): Counts Instr_Retired.Any.
+ 
+Reading 0x3OA - IA32_FIXED_CTR1 -> 80000015aed5
+        Fixed-Function Performance Counter 1 (R/W): Counts CPU_CLK_Unhalted.Core.
+ 
+Reading 0x3OB - IA32_FIXED_CTR2 -> 8000000fdf9f
+        Fixed-Function Performance Counter 2 (R/W): Counts CPU_CLK_Unhalted.Ref.
+ 
+Reading 0x606 - MSR_RAPL_POWER_UNIT -> a0e03
+        Unit multiplier to use with rapl msrs.
+ 
