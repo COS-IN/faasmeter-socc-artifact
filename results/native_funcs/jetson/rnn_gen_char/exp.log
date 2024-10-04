@@ -1,0 +1,50 @@
+mux_client_request_session: session request failed: Session open refused by peer
+ControlSocket /u/abrehman/.ssh/controlmasters/ar@149.159.200.89:22 already exists, disabling multiplexing
+tag_anchor:{"baseload_start": "Wed 12 Jul 2023 12:22:05 PM EDT"}
+tag_anchor:{"baseload_end": "Wed 12 Jul 2023 12:22:08 PM EDT"}
+tag_anchor:{"win_gpu_start": "Wed 12 Jul 2023 12:22:11 PM EDT"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_0": "4.389"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_1": "4.286"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_2": "4.323"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_3": "4.278"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_4": "4.451"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_5": "4.317"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_6": "4.329"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_7": "4.402"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_8": "4.407"}
+Running on cuda
+tag_anchor:{"win_gpu_e2e_9": "4.300"}
+tag_anchor:{"win_gpu_end": "Wed 12 Jul 2023 12:22:55 PM EDT"}
+tag_anchor:{"win_gpu_count": "10"}
+tag_anchor:{"win_cpu_start": "Wed 12 Jul 2023 12:22:58 PM EDT"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_0": "2.200"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_1": "2.086"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_2": "2.091"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_3": "2.103"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_4": "2.098"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_5": "2.082"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_6": "2.090"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_7": "2.168"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_8": "2.098"}
+Running on cpu
+tag_anchor:{"win_cpu_e2e_9": "2.111"}
+tag_anchor:{"win_cpu_end": "Wed 12 Jul 2023 12:23:19 PM EDT"}
+tag_anchor:{"win_cpu_count": "10"}

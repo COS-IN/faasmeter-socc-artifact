@@ -1,0 +1,840 @@
+mux_client_request_session: session request failed: Session open refused by peer
+ControlSocket /u/abrehman/.ssh/controlmasters/ar@149.159.200.89:22 already exists, disabling multiplexing
+tag_anchor:{"baseload_start": "Wed 12 Jul 2023 04:32:26 PM EDT"}
+tag_anchor:{"baseload_end": "Wed 12 Jul 2023 04:32:29 PM EDT"}
+tag_anchor:{"win_gpu_start": "Wed 12 Jul 2023 04:32:32 PM EDT"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89068)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00781)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_0": "19.290"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89081)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00780)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_1": "21.577"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89082)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00780)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_2": "18.937"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89066)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00782)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_3": "25.760"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89077)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00781)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_4": "18.332"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89078)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00781)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_5": "21.036"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89080)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00781)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_6": "19.251"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89071)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00781)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_7": "19.932"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89117)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00295)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_8": "19.012"}
+Running on /physical_device:GPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89057)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00782)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00118)
+tag_anchor:{"win_gpu_e2e_9": "16.302"}
+tag_anchor:{"win_gpu_end": "Wed 12 Jul 2023 04:35:51 PM EDT"}
+tag_anchor:{"win_gpu_count": "10"}
+tag_anchor:{"win_cpu_start": "Wed 12 Jul 2023 04:35:54 PM EDT"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_0": "11.854"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_1": "6.346"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_2": "6.352"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_3": "6.368"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_4": "6.384"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_5": "6.367"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_6": "6.335"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_7": "6.409"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_8": "6.368"}
+Traceback (most recent call last):
+  File "./main.py", line 15, in <module>
+    tf.keras.utils.disable_interactive_logging()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/ar/.local/lib/python3.8/site-packages/tensorflow/python/util/lazy_loader.py", line 41, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__init__.py", line 3, in <module>
+    from keras import __internal__
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/__init__.py", line 4, in <module>
+    from keras.__internal__ import layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/__internal__/layers/__init__.py", line 4, in <module>
+    from keras.src.layers.attention.base_dense_attention import BaseDenseAttention
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/__init__.py", line 21, in <module>
+    from keras.src import models
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/models/__init__.py", line 18, in <module>
+    from keras.src.engine.functional import Functional
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/functional.py", line 33, in <module>
+    from keras.src.engine import training as training_lib
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/training.py", line 32, in <module>
+    from keras.src.engine import compile_utils
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/compile_utils.py", line 24, in <module>
+    from keras.src import metrics as metrics_mod
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/__init__.py", line 87, in <module>
+    from keras.src.metrics.confusion_metrics import AUC
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/metrics/confusion_metrics.py", line 22, in <module>
+    from keras.src import activations
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/activations.py", line 22, in <module>
+    import keras.src.layers.activation as activation_layers
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/layers/__init__.py", line 21, in <module>
+    from keras.src.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.src.engine import data_adapter
+  File "/home/ar/.local/lib/python3.8/site-packages/keras/src/engine/data_adapter.py", line 51, in <module>
+    import pandas as pd
+  File "/usr/lib/python3/dist-packages/pandas/__init__.py", line 182, in <module>
+    import pandas.testing
+  File "/usr/lib/python3/dist-packages/pandas/testing.py", line 7, in <module>
+    from pandas.util.testing import (
+  File "/usr/lib/python3/dist-packages/pandas/util/testing.py", line 28, in <module>
+    import pandas._libs.testing as _testing
+  File "pandas/_libs/testing.pyx", line 10, in init pandas._libs.testing
+  File "/home/ar/.local/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+
+Running on /physical_device:CPU:0
+giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+custard apple (score = 0.00147)
+earthstar (score = 0.00117)
+tag_anchor:{"win_cpu_e2e_9": "6.368"}
+tag_anchor:{"win_cpu_end": "Wed 12 Jul 2023 04:37:03 PM EDT"}
+tag_anchor:{"win_cpu_count": "10"}
