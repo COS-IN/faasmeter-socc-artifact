@@ -1,0 +1,5 @@
+{
+    "cnn_image_classification_gpu-0": "cnn_image_classification_gpu",
+    "image_processing-0": "image_processing",
+    "pyaes-0": "pyaes"
+}
