@@ -1,0 +1,287 @@
+Efaas Version: 
+0f6e356c952d1014048820c085a6cbb2fcc356f0
+iluvatar-energy-experiments Version: 
+04beb736745827cc246a3c82ae0df48bfa7eb41e
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+fatal: [worker1]: FAILED! => {"changed": true, "cmd": ["/tmp/ilúvatar/bin/ilúvatar_worker", "-c", "/tmp/ilúvatar/bin/worker1.json", "clean"], "delta": "0:00:00.126919", "end": "2023-02-01 15:40:53.313581", "msg": "non-zero return code", "rc": -6, "start": "2023-02-01 15:40:53.186662", "stderr": "thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: missing field `bypass_duration_ms`', ilúvatar_worker/src/main.rs:71:67\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace", "stderr_lines": ["thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: missing field `bypass_duration_ms`', ilúvatar_worker/src/main.rs:71:67", "note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace"], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=6    changed=1    unreachable=0    failed=1    skipped=3    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "745270283520.1296177",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/745270283520.1296177",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+FAILED - RETRYING: [worker1]: wait until the worker on this host is up and running (10 retries left).
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=1    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+IGPM logging started
+lin_pack's IAT of 2500 -> 18.27902 * 0.0004 = 1 OR NaN = 0
+79c056f306 mapped to function 'lin_pack'
+hello's IAT of 4084.375 -> 5.90966 * 0.00024483550114766644 = 1 OR NaN = 0
+4e7e8ebac6 mapped to function 'hello'
+image_processing's IAT of 30000 -> 1351.7918200000001 * 0.000033333333333333335 = 1 OR NaN = 0
+f483216c72 mapped to function 'image_processing'
+image_processing's IAT of 11000 -> 1351.7918200000001 * 0.0000909090909090909 = 1 OR NaN = 0
+5aa9e4d025 mapped to function 'image_processing'
+dd's IAT of 500 -> 45.6255 * 0.002 = 1 OR NaN = 0
+c198f99f8f mapped to function 'dd'
+lin_pack's IAT of 2598.2490272373543 -> 18.27902 * 0.00038487457880943463 = 1 OR NaN = 0
+5cc5ecf3f5 mapped to function 'lin_pack'
+lin_pack's IAT of 970.310391363023 -> 18.27902 * 0.0010305980528511822 = 1 OR NaN = 0
+f0584b48e9 mapped to function 'lin_pack'
+dd's IAT of 500 -> 45.6255 * 0.002 = 1 OR NaN = 0
+5b69767576 mapped to function 'dd'
+dd's IAT of 3447.8371501272263 -> 45.6255 * 0.0002900369003690037 = 1 OR NaN = 0
+5360178133 mapped to function 'dd'
+cnn_image_classification's IAT of 30000 -> 1202.0268999999998 * 0.000033333333333333335 = 1 OR NaN = 0
+1966ae3b8d mapped to function 'cnn_image_classification'
+gzip_compression's IAT of 59250 -> 155.63798 * 0.000016877637130801688 = 1 OR NaN = 0
+33915e2823 mapped to function 'gzip_compression'
+lin_pack's IAT of 52400 -> 18.27902 * 0.000019083969465648855 = 1 OR NaN = 0
+9929acb484 mapped to function 'lin_pack'
+dd's IAT of 14357.142857142857 -> 45.6255 * 0.00006965174129353234 = 1 OR NaN = 0
+749d5687fc mapped to function 'dd'
+json_dumps_loads's IAT of 500 -> 378.86374 * 0.002 = 1 OR NaN = 0
+187636ba56 mapped to function 'json_dumps_loads'
+lin_pack's IAT of 48800 -> 18.27902 * 0.000020491803278688525 = 1 OR NaN = 0
+e45149da86 mapped to function 'lin_pack'
+A total of 15 prewarmed containers
+2023-02-01 15:41:37.979741204 prewarming 1 containers for function 'f0584b48e9'
+2023-02-01 15:41:37.97981538 prewarming 1 containers for function 'e45149da86'
+2023-02-01 15:41:37.979866446 prewarming 1 containers for function '5b69767576'
+2023-02-01 15:41:37.979910205 prewarming 1 containers for function '79c056f306'
+2023-02-01 15:41:37.979958901 prewarming 1 containers for function '33915e2823'
+2023-02-01 15:41:37.980049867 prewarming 1 containers for function '5360178133'
+2023-02-01 15:41:37.980093714 prewarming 1 containers for function 'c198f99f8f'
+2023-02-01 15:41:37.980131037 prewarming 1 containers for function '749d5687fc'
+2023-02-01 15:41:37.980171723 prewarming 1 containers for function 'f483216c72'
+2023-02-01 15:41:37.980263709 prewarming 1 containers for function '5cc5ecf3f5'
+2023-02-01 15:41:37.980305896 prewarming 1 containers for function '9929acb484'
+2023-02-01 15:41:37.980349364 prewarming 1 containers for function '5aa9e4d025'
+2023-02-01 15:41:37.980391894 prewarming 1 containers for function '4e7e8ebac6'
+2023-02-01 15:41:37.980427766 prewarming 1 containers for function '187636ba56'
+2023-02-01 15:41:37.980469817 prewarming 1 containers for function '1966ae3b8d'
+Error: prewarm failed because Prewarm errors: iteration 1: 'worker prewarm failed because Prewarm request failed';
+ iteration 2: 'worker prewarm failed because Prewarm request failed';
+ iteration 3: 'worker prewarm failed because Prewarm request failed';
+
+        Retrying load_gen try: ${i} 
+IGPM logging started
+dd's IAT of 3447.8371501272263 -> 45.6255 * 0.0002900369003690037 = 1 OR NaN = 0
+5360178133 mapped to function 'dd'
+image_processing's IAT of 30000 -> 1351.7918200000001 * 0.000033333333333333335 = 1 OR NaN = 0
+f483216c72 mapped to function 'image_processing'
+dd's IAT of 500 -> 45.6255 * 0.002 = 1 OR NaN = 0
+c198f99f8f mapped to function 'dd'
+dd's IAT of 14357.142857142857 -> 45.6255 * 0.00006965174129353234 = 1 OR NaN = 0
+749d5687fc mapped to function 'dd'
+json_dumps_loads's IAT of 500 -> 378.86374 * 0.002 = 1 OR NaN = 0
+187636ba56 mapped to function 'json_dumps_loads'
+lin_pack's IAT of 48800 -> 18.27902 * 0.000020491803278688525 = 1 OR NaN = 0
+e45149da86 mapped to function 'lin_pack'
+lin_pack's IAT of 970.310391363023 -> 18.27902 * 0.0010305980528511822 = 1 OR NaN = 0
+f0584b48e9 mapped to function 'lin_pack'
+hello's IAT of 4084.375 -> 5.90966 * 0.00024483550114766644 = 1 OR NaN = 0
+4e7e8ebac6 mapped to function 'hello'
+cnn_image_classification's IAT of 30000 -> 1202.0268999999998 * 0.000033333333333333335 = 1 OR NaN = 0
+1966ae3b8d mapped to function 'cnn_image_classification'
+dd's IAT of 500 -> 45.6255 * 0.002 = 1 OR NaN = 0
+5b69767576 mapped to function 'dd'
+gzip_compression's IAT of 59250 -> 155.63798 * 0.000016877637130801688 = 1 OR NaN = 0
+33915e2823 mapped to function 'gzip_compression'
+image_processing's IAT of 11000 -> 1351.7918200000001 * 0.0000909090909090909 = 1 OR NaN = 0
+5aa9e4d025 mapped to function 'image_processing'
+lin_pack's IAT of 2598.2490272373543 -> 18.27902 * 0.00038487457880943463 = 1 OR NaN = 0
+5cc5ecf3f5 mapped to function 'lin_pack'
+lin_pack's IAT of 2500 -> 18.27902 * 0.0004 = 1 OR NaN = 0
+79c056f306 mapped to function 'lin_pack'
+lin_pack's IAT of 52400 -> 18.27902 * 0.000019083969465648855 = 1 OR NaN = 0
+9929acb484 mapped to function 'lin_pack'
+A total of 15 prewarmed containers
+2023-02-01 15:42:12.997101342 prewarming 1 containers for function 'f0584b48e9'
+2023-02-01 15:42:12.997176753 prewarming 1 containers for function '5cc5ecf3f5'
+2023-02-01 15:42:12.997221783 prewarming 1 containers for function '79c056f306'
+2023-02-01 15:42:12.997270083 prewarming 1 containers for function '9929acb484'
+2023-02-01 15:42:12.997312044 prewarming 1 containers for function 'f483216c72'
+2023-02-01 15:42:12.997380758 prewarming 1 containers for function '33915e2823'
+2023-02-01 15:42:12.997419294 prewarming 1 containers for function '5360178133'
+2023-02-01 15:42:12.997458339 prewarming 1 containers for function '1966ae3b8d'
+2023-02-01 15:42:12.997497785 prewarming 1 containers for function 'e45149da86'
+2023-02-01 15:42:12.997593202 prewarming 1 containers for function 'c198f99f8f'
+2023-02-01 15:42:12.997630786 prewarming 1 containers for function '4e7e8ebac6'
+2023-02-01 15:42:12.997672348 prewarming 1 containers for function '5b69767576'
+2023-02-01 15:42:12.997713752 prewarming 1 containers for function '749d5687fc'
+2023-02-01 15:42:12.997753276 prewarming 1 containers for function '5aa9e4d025'
+2023-02-01 15:42:12.997795959 prewarming 1 containers for function '187636ba56'
+Error: prewarm failed because Prewarm errors: iteration 1: 'worker prewarm failed because Prewarm request failed';
+ iteration 2: 'worker prewarm failed because Prewarm request failed';
+ iteration 3: 'worker prewarm failed because Prewarm request failed';
+
+        Retrying load_gen try: ${i} 
+IGPM logging started
+lin_pack's IAT of 2500 -> 18.27902 * 0.0004 = 1 OR NaN = 0
+79c056f306 mapped to function 'lin_pack'
+lin_pack's IAT of 52400 -> 18.27902 * 0.000019083969465648855 = 1 OR NaN = 0
+9929acb484 mapped to function 'lin_pack'
+lin_pack's IAT of 970.310391363023 -> 18.27902 * 0.0010305980528511822 = 1 OR NaN = 0
+f0584b48e9 mapped to function 'lin_pack'
+cnn_image_classification's IAT of 30000 -> 1202.0268999999998 * 0.000033333333333333335 = 1 OR NaN = 0
+1966ae3b8d mapped to function 'cnn_image_classification'
+gzip_compression's IAT of 59250 -> 155.63798 * 0.000016877637130801688 = 1 OR NaN = 0
+33915e2823 mapped to function 'gzip_compression'
+dd's IAT of 500 -> 45.6255 * 0.002 = 1 OR NaN = 0
+5b69767576 mapped to function 'dd'
+dd's IAT of 500 -> 45.6255 * 0.002 = 1 OR NaN = 0
+c198f99f8f mapped to function 'dd'
+hello's IAT of 4084.375 -> 5.90966 * 0.00024483550114766644 = 1 OR NaN = 0
+4e7e8ebac6 mapped to function 'hello'
+dd's IAT of 14357.142857142857 -> 45.6255 * 0.00006965174129353234 = 1 OR NaN = 0
+749d5687fc mapped to function 'dd'
+json_dumps_loads's IAT of 500 -> 378.86374 * 0.002 = 1 OR NaN = 0
+187636ba56 mapped to function 'json_dumps_loads'
+image_processing's IAT of 11000 -> 1351.7918200000001 * 0.0000909090909090909 = 1 OR NaN = 0
+5aa9e4d025 mapped to function 'image_processing'
+dd's IAT of 3447.8371501272263 -> 45.6255 * 0.0002900369003690037 = 1 OR NaN = 0
+5360178133 mapped to function 'dd'
+lin_pack's IAT of 2598.2490272373543 -> 18.27902 * 0.00038487457880943463 = 1 OR NaN = 0
+5cc5ecf3f5 mapped to function 'lin_pack'
+lin_pack's IAT of 48800 -> 18.27902 * 0.000020491803278688525 = 1 OR NaN = 0
+e45149da86 mapped to function 'lin_pack'
+image_processing's IAT of 30000 -> 1351.7918200000001 * 0.000033333333333333335 = 1 OR NaN = 0
+f483216c72 mapped to function 'image_processing'
+A total of 15 prewarmed containers
+2023-02-01 15:42:47.229857222 prewarming 1 containers for function '79c056f306'
+2023-02-01 15:42:47.229941868 prewarming 1 containers for function '9929acb484'
+2023-02-01 15:42:47.229989577 prewarming 1 containers for function '33915e2823'
+2023-02-01 15:42:47.230028518 prewarming 1 containers for function '5b69767576'
+2023-02-01 15:42:47.230078144 prewarming 1 containers for function '187636ba56'
+2023-02-01 15:42:47.230150068 prewarming 1 containers for function 'f0584b48e9'
+2023-02-01 15:42:47.230190697 prewarming 1 containers for function 'e45149da86'
+2023-02-01 15:42:47.230230377 prewarming 1 containers for function 'f483216c72'
+2023-02-01 15:42:47.230274765 prewarming 1 containers for function '1966ae3b8d'
+2023-02-01 15:42:47.230370116 prewarming 1 containers for function '5cc5ecf3f5'
+2023-02-01 15:42:47.230407888 prewarming 1 containers for function '749d5687fc'
+2023-02-01 15:42:47.230454396 prewarming 1 containers for function '5360178133'
+2023-02-01 15:42:47.230496759 prewarming 1 containers for function '5aa9e4d025'
+2023-02-01 15:42:47.230532541 prewarming 1 containers for function 'c198f99f8f'
+2023-02-01 15:42:47.230574267 prewarming 1 containers for function '4e7e8ebac6'
+2023-02-01 15:42:50.978846345 starting live trace run
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=1296186) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=1296186)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+fatal: [worker1]: FAILED! => {"changed": true, "cmd": ["/tmp/ilúvatar/bin/ilúvatar_worker", "-c", "/tmp/ilúvatar/bin/worker1.json", "clean"], "delta": "0:00:00.115999", "end": "2023-02-01 15:44:30.019591", "msg": "non-zero return code", "rc": -6, "start": "2023-02-01 15:44:29.903592", "stderr": "thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: missing field `bypass_duration_ms`', ilúvatar_worker/src/main.rs:71:67\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace", "stderr_lines": ["thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: missing field `bypass_duration_ms`', ilúvatar_worker/src/main.rs:71:67", "note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace"], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=7    changed=2    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+
