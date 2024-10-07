@@ -1,0 +1,194 @@
+Efaas Version: 
+d00f4a89ee3efc675321bf2c73d3aea92abc68b2
+iluvatar-energy-experiments Version: 
+afacec4575f371f2f530693bc3c478083564e7bb 2b8a88051ce92549dc142a8ae2cf2127c7683fba c8c3dc73c34fa9ffbd6566efb76d7e1f5d141e9d 8ec88a20996194ff8ceb0dda22d3a19d42bf70bc db35b40dcc49974b37e8dc514120b022083cfe84
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+changed: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "793645203707.102021",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/793645203707.102021",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+FAILED - RETRYING: [worker1]: wait until the worker on this host is up and running (10 retries left).
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+IGPM logging started
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+PowerAPI sensor started
+         local pid 2010858
+         remote pid 102750
+cnn_image_classification-0 mapped to function 'cnn_image_classification'
+pyaes-0 mapped to function 'pyaes'
+dd-0 mapped to function 'dd'
+image_processing-0 mapped to function 'image_processing'
+A total of 0 prewarmed containers
+2023-09-15 13:16:07.641808601 prewarming Some(0) containers for function 'cnn_image_classification-0'
+2023-09-15 13:16:07.642077784 prewarming Some(0) containers for function 'pyaes-0'
+2023-09-15 13:16:07.64224163 prewarming Some(0) containers for function 'dd-0'
+2023-09-15 13:16:07.64240076 prewarming Some(0) containers for function 'image_processing-0'
+2023-09-15 13:16:07.643468024 starting live trace run
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=102030) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=102030)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+changed: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=9    changed=4    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+
