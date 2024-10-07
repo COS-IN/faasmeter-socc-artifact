@@ -1,0 +1,42 @@
+[100%] Built target hwpc-sensor
+I: 23-04-07 21:19:14 build: version undefined (rev: undefined)
+I: 23-04-07 21:19:14 uname: Linux 5.15.0-69-generic #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023 x86_64
+I: 23-04-07 21:19:14 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-04-07 21:19:14 pmu: found perf 'perf_events generic PMU' having 192 events, 0 counters (0 general, 0 fixed)
+I: 23-04-07 21:19:14 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-04-07 21:19:14 sensor: configuration is valid, starting monitoring...
+I: 23-04-07 21:19:14 perf<all>: monitoring actor started
+I: 23-04-07 21:19:14 perf<>: monitoring actor started
+I: 23-04-07 21:20:20 perf<>: shutting down actor
+I: 23-04-07 21:20:20 perf</pyaes-0-0.0.1-B7032C31-BD34-F91C-2D5B-A0001C75D086>: monitoring actor started
+I: 23-04-07 21:20:21 perf</video_processing-0-0.0.1-E8BD823E-E141-204B-FB0C-FF47730C2758>: monitoring actor started
+I: 23-04-07 21:20:21 perf</dd-0-0.0.1-769A956E-8CE9-D3A9-05DA-013F04FE4D4D>: monitoring actor started
+I: 23-04-07 21:20:26 perf</dd-0-0.0.1-4DA0D612-D202-CFCB-A3B6-1D651C77CDC5>: monitoring actor started
+I: 23-04-07 21:20:43 perf</pyaes-0-0.0.1-8224F25B-786A-25D9-4232-EC5D746B1906>: monitoring actor started
+I: 23-04-07 21:20:53 perf</dd-0-0.0.1-5883568E-DB59-2447-72FB-C1C470A880A9>: monitoring actor started
+I: 23-04-07 21:20:58 perf</video_processing-0-0.0.1-45CE6167-328B-4509-0CBE-0DDC9A1C04A7>: monitoring actor started
+I: 23-04-07 21:21:14 perf</video_processing-0-0.0.1-5AE34603-2E6C-3B16-582F-45E338353EFF>: monitoring actor started
+I: 23-04-07 21:21:56 perf</pyaes-0-0.0.1-796E0824-245E-97DF-11E0-33D4D0534359>: monitoring actor started
+I: 23-04-07 21:22:26 perf</pyaes-0-0.0.1-235B24ED-2194-E337-C029-1193FB5F9A1F>: monitoring actor started
+I: 23-04-07 21:23:07 perf</video_processing-0-0.0.1-2B2023B0-7AA9-46D2-87FA-7A23585676CA>: monitoring actor started
+I: 23-04-07 21:23:34 perf</video_processing-0-0.0.1-144135D7-3E9F-EA90-35F1-BE6522924978>: monitoring actor started
+I: 23-04-07 21:23:36 perf</video_processing-0-0.0.1-A4CFB128-1435-C393-B8D1-AB910B0B6B73>: monitoring actor started
+I: 23-04-07 21:26:24 perf</dd-0-0.0.1-933964B3-76F4-20E6-47CA-99BAEB53B6FE>: monitoring actor started
+I: 23-04-07 21:26:24 perf</dd-0-0.0.1-1CF595C9-EB46-57F5-52F7-33E87A7AE78A>: monitoring actor started
+I: 23-04-07 21:27:21 perf</pyaes-0-0.0.1-B7032C31-BD34-F91C-2D5B-A0001C75D086>: shutting down actor
+I: 23-04-07 21:27:21 perf</dd-0-0.0.1-769A956E-8CE9-D3A9-05DA-013F04FE4D4D>: shutting down actor
+I: 23-04-07 21:27:21 perf</video_processing-0-0.0.1-144135D7-3E9F-EA90-35F1-BE6522924978>: shutting down actor
+I: 23-04-07 21:27:21 perf</video_processing-0-0.0.1-2B2023B0-7AA9-46D2-87FA-7A23585676CA>: shutting down actor
+I: 23-04-07 21:27:21 perf</dd-0-0.0.1-933964B3-76F4-20E6-47CA-99BAEB53B6FE>: shutting down actor
+I: 23-04-07 21:27:21 perf</video_processing-0-0.0.1-A4CFB128-1435-C393-B8D1-AB910B0B6B73>: shutting down actor
+I: 23-04-07 21:27:21 perf</dd-0-0.0.1-4DA0D612-D202-CFCB-A3B6-1D651C77CDC5>: shutting down actor
+I: 23-04-07 21:27:21 perf</pyaes-0-0.0.1-235B24ED-2194-E337-C029-1193FB5F9A1F>: shutting down actor
+I: 23-04-07 21:27:21 perf</dd-0-0.0.1-1CF595C9-EB46-57F5-52F7-33E87A7AE78A>: shutting down actor
+I: 23-04-07 21:27:21 perf</dd-0-0.0.1-5883568E-DB59-2447-72FB-C1C470A880A9>: shutting down actor
+I: 23-04-07 21:27:21 perf</pyaes-0-0.0.1-8224F25B-786A-25D9-4232-EC5D746B1906>: shutting down actor
+I: 23-04-07 21:27:21 perf</pyaes-0-0.0.1-796E0824-245E-97DF-11E0-33D4D0534359>: shutting down actor
+I: 23-04-07 21:27:21 perf</video_processing-0-0.0.1-E8BD823E-E141-204B-FB0C-FF47730C2758>: shutting down actor
+I: 23-04-07 21:27:21 perf</video_processing-0-0.0.1-45CE6167-328B-4509-0CBE-0DDC9A1C04A7>: shutting down actor
+I: 23-04-07 21:27:21 perf</video_processing-0-0.0.1-5AE34603-2E6C-3B16-582F-45E338353EFF>: shutting down actor
+I: 23-04-07 21:27:21 perf<all>: shutting down actor
+I: 23-04-07 21:27:21 reporting: bye!
