@@ -1,0 +1,36 @@
+[100%] Built target hwpc-sensor
+I: 23-04-04 18:52:29 build: version undefined (rev: undefined)
+I: 23-04-04 18:52:29 uname: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023 x86_64
+I: 23-04-04 18:52:29 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-04-04 18:52:29 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-04-04 18:52:29 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-04-04 18:52:29 sensor: configuration is valid, starting monitoring...
+I: 23-04-04 18:52:29 perf<all>: monitoring actor started
+I: 23-04-04 18:53:34 perf</pyaes-0-0.0.1-036A81D9-BAEA-A583-E58F-FF3756BC896D>: monitoring actor started
+I: 23-04-04 18:53:34 perf</image_processing-0-0.0.1-4A2A8F8B-EB9A-C336-120B-FE080D801E58>: monitoring actor started
+I: 23-04-04 18:53:42 perf</image_processing-0-0.0.1-4CAE443E-8924-F134-1BF5-A4217EFF400D>: monitoring actor started
+I: 23-04-04 18:53:45 perf</video_processing-0-0.0.1-5D57E491-C549-A439-5A33-786E8DB77203>: monitoring actor started
+I: 23-04-04 18:53:46 perf</pyaes-0-0.0.1-7071D707-BBAB-38D4-F2DD-A1517D55C3D2>: monitoring actor started
+I: 23-04-04 18:53:46 perf</video_processing-0-0.0.1-16C9F864-F63C-C55A-4F3A-4FBF73EA8E61>: monitoring actor started
+I: 23-04-04 18:53:47 perf</video_processing-0-0.0.1-D5274405-3B5F-3E04-1B64-BB6330524177>: monitoring actor started
+I: 23-04-04 18:53:51 perf</video_processing-0-0.0.1-BDFE98C0-61B1-ABFC-28A6-D786262544E6>: monitoring actor started
+I: 23-04-04 18:53:57 perf</image_processing-0-0.0.1-643F50BA-57F3-39CE-8EE3-6E11209745BC>: monitoring actor started
+I: 23-04-04 18:53:57 perf</image_processing-0-0.0.1-3CE9D90A-5A44-0DEF-7C9B-BE68627B075C>: monitoring actor started
+I: 23-04-04 18:54:10 perf</pyaes-0-0.0.1-866B6F19-DBAC-30C5-E03A-817126272B28>: monitoring actor started
+I: 23-04-04 18:56:07 perf</video_processing-0-0.0.1-C3566EDA-EF4D-ACB6-2B04-C530807FE9C0>: monitoring actor started
+I: 23-04-04 18:56:08 perf</video_processing-0-0.0.1-C3E90F7B-CA13-CFB0-1FDE-7362F5DA66AC>: monitoring actor started
+I: 23-04-04 19:00:34 perf</video_processing-0-0.0.1-5D57E491-C549-A439-5A33-786E8DB77203>: shutting down actor
+I: 23-04-04 19:00:34 perf</video_processing-0-0.0.1-BDFE98C0-61B1-ABFC-28A6-D786262544E6>: shutting down actor
+I: 23-04-04 19:00:34 perf</video_processing-0-0.0.1-D5274405-3B5F-3E04-1B64-BB6330524177>: shutting down actor
+I: 23-04-04 19:00:34 perf</pyaes-0-0.0.1-866B6F19-DBAC-30C5-E03A-817126272B28>: shutting down actor
+I: 23-04-04 19:00:34 perf</image_processing-0-0.0.1-4CAE443E-8924-F134-1BF5-A4217EFF400D>: shutting down actor
+I: 23-04-04 19:00:34 perf</video_processing-0-0.0.1-16C9F864-F63C-C55A-4F3A-4FBF73EA8E61>: shutting down actor
+I: 23-04-04 19:00:34 perf</image_processing-0-0.0.1-3CE9D90A-5A44-0DEF-7C9B-BE68627B075C>: shutting down actor
+I: 23-04-04 19:00:34 perf</video_processing-0-0.0.1-C3E90F7B-CA13-CFB0-1FDE-7362F5DA66AC>: shutting down actor
+I: 23-04-04 19:00:34 perf</pyaes-0-0.0.1-036A81D9-BAEA-A583-E58F-FF3756BC896D>: shutting down actor
+I: 23-04-04 19:00:34 perf</pyaes-0-0.0.1-7071D707-BBAB-38D4-F2DD-A1517D55C3D2>: shutting down actor
+I: 23-04-04 19:00:34 perf</image_processing-0-0.0.1-4A2A8F8B-EB9A-C336-120B-FE080D801E58>: shutting down actor
+I: 23-04-04 19:00:34 perf</video_processing-0-0.0.1-C3566EDA-EF4D-ACB6-2B04-C530807FE9C0>: shutting down actor
+I: 23-04-04 19:00:34 perf</image_processing-0-0.0.1-643F50BA-57F3-39CE-8EE3-6E11209745BC>: shutting down actor
+I: 23-04-04 19:00:34 perf<all>: shutting down actor
+I: 23-04-04 19:00:34 reporting: bye!
