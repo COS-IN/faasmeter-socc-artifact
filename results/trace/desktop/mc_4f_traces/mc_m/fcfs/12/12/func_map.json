@@ -1,0 +1,5 @@
+{
+    "gzip_compression-0": "gzip_compression",
+    "image_processing-0": "image_processing",
+    "video_processing-0": "video_processing"
+}
