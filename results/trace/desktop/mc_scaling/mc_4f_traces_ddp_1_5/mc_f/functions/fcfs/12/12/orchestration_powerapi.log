@@ -1,0 +1,12 @@
+[100%] Built target hwpc-sensor
+I: 23-04-07 20:58:19 build: version undefined (rev: undefined)
+I: 23-04-07 20:58:19 uname: Linux 5.15.0-69-generic #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023 x86_64
+I: 23-04-07 20:58:19 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-04-07 20:58:19 pmu: found perf 'perf_events generic PMU' having 192 events, 0 counters (0 general, 0 fixed)
+I: 23-04-07 20:58:19 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-04-07 20:58:19 sensor: configuration is valid, starting monitoring...
+I: 23-04-07 20:58:19 perf<all>: monitoring actor started
+I: 23-04-07 20:58:19 perf<>: monitoring actor started
+I: 23-04-07 20:59:21 perf<>: shutting down actor
+I: 23-04-07 20:59:21 perf<all>: shutting down actor
+I: 23-04-07 20:59:21 reporting: bye!
