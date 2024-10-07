@@ -1,0 +1,28 @@
+{"baseload_start": "Wed 12 Jul 2023 04:32:26 PM EDT"}
+{"baseload_end": "Wed 12 Jul 2023 04:32:29 PM EDT"}
+{"win_gpu_start": "Wed 12 Jul 2023 04:32:32 PM EDT"}
+{"win_gpu_e2e_0": "19.290"}
+{"win_gpu_e2e_1": "21.577"}
+{"win_gpu_e2e_2": "18.937"}
+{"win_gpu_e2e_3": "25.760"}
+{"win_gpu_e2e_4": "18.332"}
+{"win_gpu_e2e_5": "21.036"}
+{"win_gpu_e2e_6": "19.251"}
+{"win_gpu_e2e_7": "19.932"}
+{"win_gpu_e2e_8": "19.012"}
+{"win_gpu_e2e_9": "16.302"}
+{"win_gpu_end": "Wed 12 Jul 2023 04:35:51 PM EDT"}
+{"win_gpu_count": "10"}
+{"win_cpu_start": "Wed 12 Jul 2023 04:35:54 PM EDT"}
+{"win_cpu_e2e_0": "11.854"}
+{"win_cpu_e2e_1": "6.346"}
+{"win_cpu_e2e_2": "6.352"}
+{"win_cpu_e2e_3": "6.368"}
+{"win_cpu_e2e_4": "6.384"}
+{"win_cpu_e2e_5": "6.367"}
+{"win_cpu_e2e_6": "6.335"}
+{"win_cpu_e2e_7": "6.409"}
+{"win_cpu_e2e_8": "6.368"}
+{"win_cpu_e2e_9": "6.368"}
+{"win_cpu_end": "Wed 12 Jul 2023 04:37:03 PM EDT"}
+{"win_cpu_count": "10"}
