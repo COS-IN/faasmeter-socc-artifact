@@ -1,0 +1,408 @@
+Efaas Version: 
+98a30b7e09fe0143ae87016b5437e746a3caeb45
+iluvatar-energy-experiments Version: 
+4ea1b51412f087290de373512ad9d036dd017b87
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+changed: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "203281834755.952283",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/203281834755.952283",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+FAILED - RETRYING: [worker1]: wait until the worker on this host is up and running (10 retries left).
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+IGPM logging started
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+PowerAPI sensor started
+         local pid 1238248
+         remote pid 952987
+video_processing-0 mapped to function 'video_processing'
+pyaes-0 mapped to function 'image_processing'
+dd-0 mapped to function 'image_processing'
+image_processing-0 mapped to function 'image_processing'
+A total of 0 prewarmed containers
+2023-07-25 23:03:01.739147332 prewarming Some(0) containers for function 'video_processing-0'
+2023-07-25 23:03:01.739389893 prewarming Some(0) containers for function 'pyaes-0'
+2023-07-25 23:03:01.739552266 prewarming Some(0) containers for function 'dd-0'
+2023-07-25 23:03:01.739710175 prewarming Some(0) containers for function 'image_processing-0'
+2023-07-25 23:03:01.740766401 starting live trace run
+PowerAPI sensor stopped
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=952292) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=952292)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+changed: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=9    changed=4    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+
+Starting analysis
++ TARGET_BASE=./
++ TRACE_NAME=trace
+++ pwd
++ CUR_DIR=/data2/ar/iluvatar-energy-experiments/scripts/experiments/desktop/traced
++ BASE_DIR=/data2/ar/iluvatar-energy-experiments
++ for i in "$@"
++ case $i in
++ TARGET_BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/
++ for i in "$@"
++ case $i in
++ TRACE_NAME=mc_a
+++ dirname_uptill /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/ trace
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/
+++ TARGET=trace
+++ to_return=
+++ [[ -n 1==1 ]]
+++ last=
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/
+++ cur=12
+++ [[ 12 == \t\r\a\c\e ]]
+++ [[ 12 == \/ ]]
+++ to_return=12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12
+++ [[ -n 1==1 ]]
+++ last=12
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12
+++ cur=12
+++ [[ 12 == \t\r\a\c\e ]]
+++ [[ 12 == \/ ]]
+++ to_return=12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs
+++ [[ -n 1==1 ]]
+++ last=12
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs
+++ cur=fcfs
+++ [[ fcfs == \t\r\a\c\e ]]
+++ [[ fcfs == \/ ]]
+++ to_return=fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions
+++ [[ -n 1==1 ]]
+++ last=fcfs
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions
+++ cur=functions
+++ [[ functions == \t\r\a\c\e ]]
+++ [[ functions == \/ ]]
+++ to_return=functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a
+++ [[ -n 1==1 ]]
+++ last=functions
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a
+++ cur=mc_a
+++ [[ mc_a == \t\r\a\c\e ]]
+++ [[ mc_a == \/ ]]
+++ to_return=mc_a/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty
+++ [[ -n 1==1 ]]
+++ last=mc_a
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty
+++ cur=mc_4f_traces_ddp_30min_bursty
+++ [[ mc_4f_traces_ddp_30min_bursty == \t\r\a\c\e ]]
+++ [[ mc_4f_traces_ddp_30min_bursty == \/ ]]
+++ to_return=mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//.
+++ [[ -n 1==1 ]]
+++ last=mc_4f_traces_ddp_30min_bursty
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop//.
+++ cur=.
+++ [[ . == \t\r\a\c\e ]]
+++ [[ . == \/ ]]
+++ to_return=./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop//.
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace/desktop
+++ [[ -n 1==1 ]]
+++ last=.
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace/desktop
+++ cur=desktop
+++ [[ desktop == \t\r\a\c\e ]]
+++ [[ desktop == \/ ]]
+++ to_return=desktop/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
++++ dirname /data2/ar/iluvatar-energy-experiments/results/trace/desktop
+++ BASE=/data2/ar/iluvatar-energy-experiments/results/trace
+++ [[ -n 1==1 ]]
+++ last=desktop
++++ basename /data2/ar/iluvatar-energy-experiments/results/trace
+++ cur=trace
+++ [[ trace == \t\r\a\c\e ]]
+++ break
+++ echo desktop/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
++ TARGET_PLATFORM=desktop/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
+++ dirname_front desktop/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
+++ s=desktop/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
++++ expr index desktop/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/ /
+++ i=8
+++ [[ i != 0 ]]
+++ i=7
+++ s_r=/./mc_4f_traces_ddp_30min_bursty/mc_a/functions/fcfs/12/12/
+++ s=desktop
+++ echo desktop
++ TARGET_PLATFORM=desktop
++ echo 10000
++ python3 /data2/ar/efaas//src/load/analysis/parse_logs.py -l /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/ -m /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//dummy_max_rapl.txt
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/Gen_DFs.py -d /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/ -m desk
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/analysis/results/Gen_DFs.py", line 27, in <module>
+    lg.process_all_logs()
+  File "/data2/ar/iluvatar-perf22/scripts/experiments/victor/plotting/Logs_to_df.py", line 360, in process_all_logs
+    self.worker_log_to_df()
+  File "/data2/ar/iluvatar-perf22/scripts/experiments/victor/plotting/Logs_to_df.py", line 176, in worker_log_to_df
+    cpu_freq_mean = np.array(status["kernel_cpu_freqs"]).mean()
+KeyError: 'kernel_cpu_freqs'
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/parse_function_map.py -l /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//orchestration.log
++ '[' -f /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//tegrastats.log ']'
++ cd /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12/
++ mkdir -p igpm_plots
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/igpm/plot_log.py -l ./igpm.log
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/analysis/results/responsetime_distribution.py
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/status_plot.py -l ./
++ python3 /data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py -l ./ -t desk -o stacked_kf_plot.png -c pulse
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_queueing.py -l ./worker_worker1.log -c ./output-mc_a.csv
++ tmp_so=/tmp/sensor_output
++ tmp_fo=/tmp/formula_output
++ sw_result=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output/
++ mkdir -p /tmp/sensor_output
++ python3 /data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_e2etime.py -c ./output-mc_a.csv
++ mkdir -p /tmp/formula_output
++ cp /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//sensor_output/core.csv /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//sensor_output/global.csv /tmp/sensor_output/
++ /data2/ar/smartwatts-formula/run_formula.sh -p=desktop
++ for i in "$@"
++ case $i in
++ TARGET_PLATFORM=desktop
++ rm '/tmp/formula_output/*' -rf
++ cd /data2/ar/smartwatts-formula
++ sudo chmod a+wr /tmp/sensor_output/core.csv /tmp/sensor_output/global.csv
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_queueing.py", line 1, in <module>
+    from queueing import calc_queue_times
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/queueing.py", line 6, in <module>
+    from Logs_to_df import Logs_to_df
+ModuleNotFoundError: No module named 'Logs_to_df'
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/plot_e2etime.py", line 1, in <module>
+    from queueing import calc_queue_times
+  File "/data2/ar/iluvatar-energy-experiments/scripts/experiments/victor/plotting/queueing.py", line 6, in <module>
+    from Logs_to_df import Logs_to_df
+ModuleNotFoundError: No module named 'Logs_to_df'
++ python3 -m smartwatts --name formula_smarwatts powerapi/smartwatts-formula --config-file /data2/ar/powerapi_personal/config_formula_smartwatts_desktop.json
++ rm -r /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output/
+rm: cannot remove '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output/': No such file or directory
++ mkdir -p /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output/
++ cp /tmp/formula_output /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output// -r
++ /data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh -d=/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-/
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 25: /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 28: /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
++ mv /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//
+mv: cannot stat '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_ddp_30min_bursty/mc_a//functions/fcfs/12/12//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv': No such file or directory
++ rm /tmp/sensor_output -rf
++ rm /tmp/formula_output -rf
+++ jobs -p
++ wait 1276770 1276773 1276774 1276776
++ mv igpm_i.png igpm_pf.png igpm_p.png igpm_v.png ./igpm_plots/
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 186, in <module>
+    stack_plot(
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 25, in stack_plot
+    edata = Logs_to_df(logs_folder, mc_type, output_type='indiv')
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 200, in __init__
+    self.populate_system_settings()
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 264, in populate_system_settings
+    self.cpu_shr_config( use_default=self.mc_type )
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 1982, in cpu_shr_config
+    sw_config['cfeatures'] = cfeatures
+UnboundLocalError: local variable 'cfeatures' referenced before assignment
+/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py:2084: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sw_swgs_f[tg] = 'os_cp'
+/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py:2140: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sw_cc_t[contr] = 0.0
++ cd /data2/ar/iluvatar-energy-experiments/scripts/experiments/desktop/traced
+
+real	0m14.200s
+user	0m30.856s
+sys	0m18.770s
