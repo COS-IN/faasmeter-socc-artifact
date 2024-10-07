@@ -1,0 +1,10 @@
+{
+    "dd-0": "dd",
+    "fetch_1gfile-0": "fetch_1gfile",
+    "float_operation-0": "float_operation",
+    "gzip_compression-0": "gzip_compression",
+    "image_processing-0": "image_processing",
+    "model_training-0": "model_training",
+    "pyaes-0": "pyaes",
+    "video_processing-0": "video_processing"
+}
