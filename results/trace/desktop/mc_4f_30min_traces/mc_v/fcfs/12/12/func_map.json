@@ -1,0 +1,5 @@
+{
+    "gzip_compression-0": "gzip_compression",
+    "image_processing-0": "image_processing",
+    "model_training-0": "model_training"
+}
