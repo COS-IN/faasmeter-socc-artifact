@@ -1,0 +1,7 @@
+{
+    "gzip_compression-0": "gzip_compression",
+    "image_processing-0": "image_processing",
+    "json_dumps_loads-0": "json_dumps_loads",
+    "model_training-0": "model_training",
+    "video_processing-0": "video_processing"
+}
