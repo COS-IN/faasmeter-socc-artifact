@@ -1,0 +1,28 @@
+[100%] Built target hwpc-sensor
+I: 23-08-04 17:19:00 build: version undefined (rev: undefined)
+I: 23-08-04 17:19:00 uname: Linux 5.15.0-76-generic #83~20.04.1-Ubuntu SMP Wed Jun 21 20:23:31 UTC 2023 x86_64
+I: 23-08-04 17:19:00 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-08-04 17:19:00 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-08-04 17:19:00 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-08-04 17:19:00 sensor: configuration is valid, starting monitoring...
+I: 23-08-04 17:19:00 perf<all>: monitoring actor started
+I: 23-08-04 17:19:00 perf<>: monitoring actor started
+I: 23-08-04 17:20:04 perf<>: shutting down actor
+I: 23-08-04 17:20:04 perf</json_dumps_loads-0-0.0.1-20ACDB0C-67BE-E95E-FD6F-846066080AF9>: monitoring actor started
+I: 23-08-04 17:20:04 perf</json_dumps_loads-0-0.0.1-5EEFEAA3-B10B-38A2-5B43-2BCA390AB502>: monitoring actor started
+I: 23-08-04 17:20:04 perf</json_dumps_loads-0-0.0.1-3D4A780A-A145-2B10-D5E6-EDB0B2AECE9B>: monitoring actor started
+I: 23-08-04 17:20:04 perf</json_dumps_loads-0-0.0.1-22C951C4-89FF-8F8D-7088-5A94609935D2>: monitoring actor started
+I: 23-08-04 17:20:04 perf</json_dumps_loads-0-0.0.1-6574D61E-EE4A-D0CB-E627-750EDBBFE0F2>: monitoring actor started
+I: 23-08-04 17:20:35 perf</json_dumps_loads-0-0.0.1-840C3A3C-1158-8876-91DB-4911246C34C0>: monitoring actor started
+I: 23-08-04 17:20:35 perf</json_dumps_loads-0-0.0.1-D2335D90-415C-7DE0-4C05-6CD06E6BF1D2>: monitoring actor started
+I: 23-08-04 17:20:35 perf</json_dumps_loads-0-0.0.1-6B785B1C-B9DC-84C7-57E4-684D6F8964F8>: monitoring actor started
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-20ACDB0C-67BE-E95E-FD6F-846066080AF9>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-840C3A3C-1158-8876-91DB-4911246C34C0>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-D2335D90-415C-7DE0-4C05-6CD06E6BF1D2>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-5EEFEAA3-B10B-38A2-5B43-2BCA390AB502>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-3D4A780A-A145-2B10-D5E6-EDB0B2AECE9B>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-22C951C4-89FF-8F8D-7088-5A94609935D2>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-6B785B1C-B9DC-84C7-57E4-684D6F8964F8>: shutting down actor
+I: 23-08-04 17:26:49 perf</json_dumps_loads-0-0.0.1-6574D61E-EE4A-D0CB-E627-750EDBBFE0F2>: shutting down actor
+I: 23-08-04 17:26:49 perf<all>: shutting down actor
+I: 23-08-04 17:26:49 reporting: bye!
