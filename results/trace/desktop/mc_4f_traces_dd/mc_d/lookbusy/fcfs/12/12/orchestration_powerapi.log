@@ -1,0 +1,56 @@
+[100%] Built target hwpc-sensor
+I: 23-03-27 17:12:46 build: version undefined (rev: undefined)
+I: 23-03-27 17:12:46 uname: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023 x86_64
+I: 23-03-27 17:12:46 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-03-27 17:12:46 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-03-27 17:12:46 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-03-27 17:12:46 sensor: configuration is valid, starting monitoring...
+I: 23-03-27 17:12:46 perf<all>: monitoring actor started
+I: 23-03-27 17:13:51 perf</image_processing-0-0.0.1-F6CDED11-B9D2-EA26-6BB0-70CCDCD96EFC>: monitoring actor started
+I: 23-03-27 17:13:51 perf</model_training-0-0.0.1-DB2DBC6D-2CDA-0C1E-C52D-D0F9E031B1F6>: monitoring actor started
+I: 23-03-27 17:13:54 perf</image_processing-0-0.0.1-D30EC3F4-D471-6E6F-C5D5-2BBBA3B29C9A>: monitoring actor started
+I: 23-03-27 17:13:55 perf</image_processing-0-0.0.1-C68FB364-1B7E-980B-33A5-A20DFEA70F01>: monitoring actor started
+I: 23-03-27 17:13:55 perf</image_processing-0-0.0.1-90B6F635-4562-1004-15A3-226E5C14707F>: monitoring actor started
+I: 23-03-27 17:13:55 perf</image_processing-0-0.0.1-F7D90077-1B46-870E-9E93-913790D6B452>: monitoring actor started
+I: 23-03-27 17:13:56 perf</video_processing-0-0.0.1-FA1EC2FE-DB1A-8807-6E6C-C86E892E48C4>: monitoring actor started
+I: 23-03-27 17:13:56 perf</model_training-0-0.0.1-2F51B26C-1960-EA37-683A-83F007F9B2E0>: monitoring actor started
+I: 23-03-27 17:13:57 perf</image_processing-0-0.0.1-7970CBC6-7E5E-F09E-F820-D4182703EC8C>: monitoring actor started
+I: 23-03-27 17:13:57 perf</model_training-0-0.0.1-0DA070AF-ABB9-741F-ABE4-BFB3B29705FC>: monitoring actor started
+I: 23-03-27 17:13:58 perf</video_processing-0-0.0.1-83CB8AAF-1E22-D00A-CF9D-7DFC5F550A21>: monitoring actor started
+I: 23-03-27 17:13:58 perf</video_processing-0-0.0.1-24D875A0-82C1-0694-1BA7-4A9F9F1B179E>: monitoring actor started
+I: 23-03-27 17:13:59 perf</video_processing-0-0.0.1-2B86FF7B-81D5-5581-9CB3-FA395CC0CB00>: monitoring actor started
+I: 23-03-27 17:14:00 perf</video_processing-0-0.0.1-D720119B-241F-CC57-FEB7-CF1B8E5DE481>: monitoring actor started
+I: 23-03-27 17:14:04 perf</video_processing-0-0.0.1-74C3FA10-4EFC-9C90-7B24-4529074EFD0B>: monitoring actor started
+I: 23-03-27 17:14:04 perf</video_processing-0-0.0.1-7C8B65A8-6A10-1FBF-207A-CB037DD495ED>: monitoring actor started
+I: 23-03-27 17:14:05 perf</video_processing-0-0.0.1-788264D8-C1D2-9455-B669-28AECA3FE70F>: monitoring actor started
+I: 23-03-27 17:14:06 perf</video_processing-0-0.0.1-2A33B734-AE1B-6D64-23F1-51CA591C599F>: monitoring actor started
+I: 23-03-27 17:14:09 perf</video_processing-0-0.0.1-47E9DEBA-F985-8035-2039-5C18A7CBA169>: monitoring actor started
+I: 23-03-27 17:14:17 perf</video_processing-0-0.0.1-270242AB-D2B9-5440-C094-CB4F4F2CBD04>: monitoring actor started
+I: 23-03-27 17:14:46 perf</model_training-0-0.0.1-0F69E9C1-DA7E-BF77-87A7-B0F470AD84F1>: monitoring actor started
+I: 23-03-27 17:14:54 perf</model_training-0-0.0.1-AE4F3847-1616-7371-8533-5596F6698621>: monitoring actor started
+I: 23-03-27 17:17:25 perf</video_processing-0-0.0.1-932FD4ED-CC09-E63D-F2F1-DC53F7F69524>: monitoring actor started
+I: 23-03-27 17:22:01 perf</image_processing-0-0.0.1-D30EC3F4-D471-6E6F-C5D5-2BBBA3B29C9A>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-D720119B-241F-CC57-FEB7-CF1B8E5DE481>: shutting down actor
+I: 23-03-27 17:22:01 perf</image_processing-0-0.0.1-C68FB364-1B7E-980B-33A5-A20DFEA70F01>: shutting down actor
+I: 23-03-27 17:22:01 perf</image_processing-0-0.0.1-90B6F635-4562-1004-15A3-226E5C14707F>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-788264D8-C1D2-9455-B669-28AECA3FE70F>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-47E9DEBA-F985-8035-2039-5C18A7CBA169>: shutting down actor
+I: 23-03-27 17:22:01 perf</model_training-0-0.0.1-0F69E9C1-DA7E-BF77-87A7-B0F470AD84F1>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-2B86FF7B-81D5-5581-9CB3-FA395CC0CB00>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-932FD4ED-CC09-E63D-F2F1-DC53F7F69524>: shutting down actor
+I: 23-03-27 17:22:01 perf</image_processing-0-0.0.1-F6CDED11-B9D2-EA26-6BB0-70CCDCD96EFC>: shutting down actor
+I: 23-03-27 17:22:01 perf</model_training-0-0.0.1-DB2DBC6D-2CDA-0C1E-C52D-D0F9E031B1F6>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-2A33B734-AE1B-6D64-23F1-51CA591C599F>: shutting down actor
+I: 23-03-27 17:22:01 perf</model_training-0-0.0.1-2F51B26C-1960-EA37-683A-83F007F9B2E0>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-24D875A0-82C1-0694-1BA7-4A9F9F1B179E>: shutting down actor
+I: 23-03-27 17:22:01 perf</model_training-0-0.0.1-0DA070AF-ABB9-741F-ABE4-BFB3B29705FC>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-83CB8AAF-1E22-D00A-CF9D-7DFC5F550A21>: shutting down actor
+I: 23-03-27 17:22:01 perf</image_processing-0-0.0.1-7970CBC6-7E5E-F09E-F820-D4182703EC8C>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-74C3FA10-4EFC-9C90-7B24-4529074EFD0B>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-FA1EC2FE-DB1A-8807-6E6C-C86E892E48C4>: shutting down actor
+I: 23-03-27 17:22:01 perf</image_processing-0-0.0.1-F7D90077-1B46-870E-9E93-913790D6B452>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-270242AB-D2B9-5440-C094-CB4F4F2CBD04>: shutting down actor
+I: 23-03-27 17:22:01 perf</model_training-0-0.0.1-AE4F3847-1616-7371-8533-5596F6698621>: shutting down actor
+I: 23-03-27 17:22:01 perf</video_processing-0-0.0.1-7C8B65A8-6A10-1FBF-207A-CB037DD495ED>: shutting down actor
+I: 23-03-27 17:22:01 perf<all>: shutting down actor
+I: 23-03-27 17:22:01 reporting: bye!
