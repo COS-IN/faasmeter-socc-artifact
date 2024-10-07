@@ -1,0 +1,20 @@
+[100%] Built target hwpc-sensor
+I: 23-08-04 17:27:57 build: version undefined (rev: undefined)
+I: 23-08-04 17:27:57 uname: Linux 5.15.0-76-generic #83~20.04.1-Ubuntu SMP Wed Jun 21 20:23:31 UTC 2023 x86_64
+I: 23-08-04 17:27:57 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-08-04 17:27:57 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-08-04 17:27:57 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-08-04 17:27:57 sensor: configuration is valid, starting monitoring...
+I: 23-08-04 17:27:57 perf<all>: monitoring actor started
+I: 23-08-04 17:27:57 perf<>: monitoring actor started
+I: 23-08-04 17:29:00 perf<>: shutting down actor
+I: 23-08-04 17:29:00 perf</pyaes_small-0-0.0.1-E120673A-AA20-CEF0-D0A3-BB69F3D19F87>: monitoring actor started
+I: 23-08-04 17:29:01 perf</pyaes_small-0-0.0.1-26C11342-ADC4-8229-64BA-99034F3C55E6>: monitoring actor started
+I: 23-08-04 17:29:04 perf</pyaes_small-0-0.0.1-0314EB96-7C64-BDA1-A925-73179962247C>: monitoring actor started
+I: 23-08-04 17:29:36 perf</pyaes_small-0-0.0.1-042AE236-4CAD-BA9F-B00D-726E1254CA0B>: monitoring actor started
+I: 23-08-04 17:36:00 perf</pyaes_small-0-0.0.1-0314EB96-7C64-BDA1-A925-73179962247C>: shutting down actor
+I: 23-08-04 17:36:00 perf</pyaes_small-0-0.0.1-042AE236-4CAD-BA9F-B00D-726E1254CA0B>: shutting down actor
+I: 23-08-04 17:36:00 perf</pyaes_small-0-0.0.1-E120673A-AA20-CEF0-D0A3-BB69F3D19F87>: shutting down actor
+I: 23-08-04 17:36:00 perf</pyaes_small-0-0.0.1-26C11342-ADC4-8229-64BA-99034F3C55E6>: shutting down actor
+I: 23-08-04 17:36:00 perf<all>: shutting down actor
+I: 23-08-04 17:36:00 reporting: bye!
