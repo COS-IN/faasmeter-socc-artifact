@@ -1,0 +1,56 @@
+[100%] Built target hwpc-sensor
+I: 23-03-27 18:59:16 build: version undefined (rev: undefined)
+I: 23-03-27 18:59:16 uname: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023 x86_64
+I: 23-03-27 18:59:16 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-03-27 18:59:16 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-03-27 18:59:16 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-03-27 18:59:16 sensor: configuration is valid, starting monitoring...
+I: 23-03-27 18:59:16 perf<all>: monitoring actor started
+I: 23-03-27 19:00:19 perf</gzip_compression-0-0.0.1-18D04210-38B9-6BDC-30D1-8B14C798D80E>: monitoring actor started
+I: 23-03-27 19:00:19 perf</gzip_compression-0-0.0.1-1379F413-447F-F4C2-D1F2-D423A68E4793>: monitoring actor started
+I: 23-03-27 19:00:20 perf</dd-0-0.0.1-5DC3D787-6D66-0CF2-458F-90163EF87D59>: monitoring actor started
+I: 23-03-27 19:00:20 perf</image_processing-0-0.0.1-34044504-DCA3-3A67-2081-99CBC2920F41>: monitoring actor started
+I: 23-03-27 19:00:21 perf</dd-0-0.0.1-72EF94FF-D92C-0012-355B-70D62135F33A>: monitoring actor started
+I: 23-03-27 19:00:21 perf</dd-0-0.0.1-DEEC3CA9-8C24-3410-B728-8EEB8988D50C>: monitoring actor started
+I: 23-03-27 19:00:22 perf</image_processing-0-0.0.1-D01D7684-BAB5-612C-DC20-48F2A3FFD077>: monitoring actor started
+I: 23-03-27 19:00:23 perf</image_processing-0-0.0.1-07393652-A097-35F7-7E80-C6C19930B138>: monitoring actor started
+I: 23-03-27 19:00:27 perf</dd-0-0.0.1-41179349-5E2A-75E7-0E0D-7A01F8B6BC0F>: monitoring actor started
+I: 23-03-27 19:00:31 perf</gzip_compression-0-0.0.1-DC99D0B0-4E6C-A3BA-308D-C1FF5EB473C7>: monitoring actor started
+I: 23-03-27 19:00:33 perf</image_processing-0-0.0.1-D7B04542-8B5F-88ED-C6C0-F42BF7CC83A7>: monitoring actor started
+I: 23-03-27 19:00:34 perf</image_processing-0-0.0.1-61AB245C-D0C5-D82C-D4ED-CAEA968C48FE>: monitoring actor started
+I: 23-03-27 19:00:34 perf</dd-0-0.0.1-35824F88-4C4A-5D28-5729-23F0D2BE6742>: monitoring actor started
+I: 23-03-27 19:00:47 perf</image_processing-0-0.0.1-8E901BC8-AB47-2246-EF54-56C1A76CFDD3>: monitoring actor started
+I: 23-03-27 19:01:02 perf</dd-0-0.0.1-E590CC37-4158-6F68-31C4-C177FCEDEA01>: monitoring actor started
+I: 23-03-27 19:01:04 perf</dd-0-0.0.1-4CE7F9F1-C759-3DF8-3F73-165850BE3449>: monitoring actor started
+I: 23-03-27 19:01:10 perf</dd-0-0.0.1-F49062A9-BD2A-2D18-92D6-F28DD531CE92>: monitoring actor started
+I: 23-03-27 19:01:11 perf</dd-0-0.0.1-C560D038-8797-44FD-8E5A-D2EFD078454B>: monitoring actor started
+I: 23-03-27 19:01:13 perf</gzip_compression-0-0.0.1-30D72930-E85E-F5A0-83B0-C30F18977F0F>: monitoring actor started
+I: 23-03-27 19:01:47 perf</dd-0-0.0.1-5DB8759B-54E2-9D03-F7B6-FB30DEC1800D>: monitoring actor started
+I: 23-03-27 19:02:22 perf</image_processing-0-0.0.1-C4DBE0B1-D254-CCC5-51CE-489B95028059>: monitoring actor started
+I: 23-03-27 19:02:30 perf</dd-0-0.0.1-B4693D3D-B8F8-1684-C9FC-3F2EAE6CCB23>: monitoring actor started
+I: 23-03-27 19:02:50 perf</dd-0-0.0.1-F7A24A32-7360-12A6-05FE-2C74E2A45BE6>: monitoring actor started
+I: 23-03-27 19:07:26 perf</gzip_compression-0-0.0.1-30D72930-E85E-F5A0-83B0-C30F18977F0F>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-35824F88-4C4A-5D28-5729-23F0D2BE6742>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-61AB245C-D0C5-D82C-D4ED-CAEA968C48FE>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-07393652-A097-35F7-7E80-C6C19930B138>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-D7B04542-8B5F-88ED-C6C0-F42BF7CC83A7>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-41179349-5E2A-75E7-0E0D-7A01F8B6BC0F>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-34044504-DCA3-3A67-2081-99CBC2920F41>: shutting down actor
+I: 23-03-27 19:07:26 perf</gzip_compression-0-0.0.1-DC99D0B0-4E6C-A3BA-308D-C1FF5EB473C7>: shutting down actor
+I: 23-03-27 19:07:26 perf</gzip_compression-0-0.0.1-18D04210-38B9-6BDC-30D1-8B14C798D80E>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-72EF94FF-D92C-0012-355B-70D62135F33A>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-F7A24A32-7360-12A6-05FE-2C74E2A45BE6>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-F49062A9-BD2A-2D18-92D6-F28DD531CE92>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-D01D7684-BAB5-612C-DC20-48F2A3FFD077>: shutting down actor
+I: 23-03-27 19:07:26 perf</gzip_compression-0-0.0.1-1379F413-447F-F4C2-D1F2-D423A68E4793>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-8E901BC8-AB47-2246-EF54-56C1A76CFDD3>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-5DB8759B-54E2-9D03-F7B6-FB30DEC1800D>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-E590CC37-4158-6F68-31C4-C177FCEDEA01>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-DEEC3CA9-8C24-3410-B728-8EEB8988D50C>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-C560D038-8797-44FD-8E5A-D2EFD078454B>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-5DC3D787-6D66-0CF2-458F-90163EF87D59>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-B4693D3D-B8F8-1684-C9FC-3F2EAE6CCB23>: shutting down actor
+I: 23-03-27 19:07:26 perf</image_processing-0-0.0.1-C4DBE0B1-D254-CCC5-51CE-489B95028059>: shutting down actor
+I: 23-03-27 19:07:26 perf</dd-0-0.0.1-4CE7F9F1-C759-3DF8-3F73-165850BE3449>: shutting down actor
+I: 23-03-27 19:07:26 perf<all>: shutting down actor
+I: 23-03-27 19:07:26 reporting: bye!
