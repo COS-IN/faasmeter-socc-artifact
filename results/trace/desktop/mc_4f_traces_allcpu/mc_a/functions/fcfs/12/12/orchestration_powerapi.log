@@ -1,0 +1,58 @@
+[100%] Built target hwpc-sensor
+I: 23-04-04 16:15:30 build: version undefined (rev: undefined)
+I: 23-04-04 16:15:30 uname: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023 x86_64
+I: 23-04-04 16:15:30 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-04-04 16:15:30 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-04-04 16:15:30 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-04-04 16:15:30 sensor: configuration is valid, starting monitoring...
+I: 23-04-04 16:15:30 perf<all>: monitoring actor started
+I: 23-04-04 16:16:33 perf</float_operation-0-0.0.1-2419B1CB-77AB-0406-1AF1-1518AC45A534>: monitoring actor started
+I: 23-04-04 16:16:33 perf</video_processing-0-0.0.1-9072126F-92AE-86F3-AF8B-02804E7BBBB0>: monitoring actor started
+I: 23-04-04 16:16:34 perf</video_processing-0-0.0.1-CBCC4137-3E8F-C8C4-2C39-8178187B341C>: monitoring actor started
+I: 23-04-04 16:16:34 perf</image_processing-0-0.0.1-FC2C71CE-0CBB-8DB8-CF4B-02BEC0DB4B94>: monitoring actor started
+I: 23-04-04 16:16:36 perf</video_processing-0-0.0.1-5CB2F086-E2C0-72B8-3143-386B588664BE>: monitoring actor started
+I: 23-04-04 16:16:37 perf</video_processing-0-0.0.1-E9D56E95-5189-D8C8-45EC-1A69CC1D5BC1>: monitoring actor started
+I: 23-04-04 16:16:38 perf</pyaes-0-0.0.1-416FB88B-F39E-D57C-BE04-70C3B0CE9B70>: monitoring actor started
+I: 23-04-04 16:16:38 perf</pyaes-0-0.0.1-F2D23255-B313-9D2B-0814-B87953DBA6B8>: monitoring actor started
+I: 23-04-04 16:16:39 perf</pyaes-0-0.0.1-0DB34E13-C3C5-4641-0483-1DA8EF2A0434>: monitoring actor started
+I: 23-04-04 16:16:40 perf</video_processing-0-0.0.1-952DD901-F534-939C-2D2E-EDC7FB38F1EF>: monitoring actor started
+I: 23-04-04 16:16:40 perf</video_processing-0-0.0.1-23793BE1-E906-FDC7-8BA7-0A6510E0CD67>: monitoring actor started
+I: 23-04-04 16:16:42 perf</image_processing-0-0.0.1-348950B8-02B1-9512-2F89-E9659C1167F3>: monitoring actor started
+I: 23-04-04 16:16:42 perf</pyaes-0-0.0.1-95D63CC3-707E-9043-1D24-93B4B8D29249>: monitoring actor started
+I: 23-04-04 16:16:44 perf</video_processing-0-0.0.1-7E81427F-1954-64A1-08E8-CED7AF402A5C>: monitoring actor started
+I: 23-04-04 16:16:44 perf</video_processing-0-0.0.1-A093B83E-5C3F-B690-CD82-0AE518A6B224>: monitoring actor started
+I: 23-04-04 16:16:46 perf</video_processing-0-0.0.1-EA5659A6-C0F5-1C9F-00BE-7394B7D34426>: monitoring actor started
+I: 23-04-04 16:16:46 perf</float_operation-0-0.0.1-22CAF295-F57C-580C-B65A-CBCA1074BC34>: monitoring actor started
+I: 23-04-04 16:16:47 perf</video_processing-0-0.0.1-2BDE71FF-00E6-47C0-FE41-2F0AD71A155E>: monitoring actor started
+I: 23-04-04 16:16:57 perf</image_processing-0-0.0.1-B4195EC6-1732-F2D3-82EB-1C09739D6E3B>: monitoring actor started
+I: 23-04-04 16:17:03 perf</float_operation-0-0.0.1-1901606E-F959-4C8D-537D-1D081601AA21>: monitoring actor started
+I: 23-04-04 16:17:18 perf</image_processing-0-0.0.1-403DBF90-D2F8-0882-96ED-0DF0CD16E4C2>: monitoring actor started
+I: 23-04-04 16:18:45 perf</float_operation-0-0.0.1-586EC5BB-6296-306F-361A-1F88A7C38FD8>: monitoring actor started
+I: 23-04-04 16:19:12 perf</pyaes-0-0.0.1-8678D40E-AE21-207C-3DE8-6DCFD76BD3D4>: monitoring actor started
+I: 23-04-04 16:22:17 perf</float_operation-0-0.0.1-89DD46FC-C139-F7B4-95D7-0EBAB1942AFD>: monitoring actor started
+I: 23-04-04 16:23:33 perf</pyaes-0-0.0.1-F2D23255-B313-9D2B-0814-B87953DBA6B8>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-23793BE1-E906-FDC7-8BA7-0A6510E0CD67>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-2BDE71FF-00E6-47C0-FE41-2F0AD71A155E>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-A093B83E-5C3F-B690-CD82-0AE518A6B224>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-9072126F-92AE-86F3-AF8B-02804E7BBBB0>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-7E81427F-1954-64A1-08E8-CED7AF402A5C>: shutting down actor
+I: 23-04-04 16:23:33 perf</float_operation-0-0.0.1-586EC5BB-6296-306F-361A-1F88A7C38FD8>: shutting down actor
+I: 23-04-04 16:23:33 perf</float_operation-0-0.0.1-22CAF295-F57C-580C-B65A-CBCA1074BC34>: shutting down actor
+I: 23-04-04 16:23:33 perf</float_operation-0-0.0.1-2419B1CB-77AB-0406-1AF1-1518AC45A534>: shutting down actor
+I: 23-04-04 16:23:33 perf</pyaes-0-0.0.1-416FB88B-F39E-D57C-BE04-70C3B0CE9B70>: shutting down actor
+I: 23-04-04 16:23:33 perf</image_processing-0-0.0.1-FC2C71CE-0CBB-8DB8-CF4B-02BEC0DB4B94>: shutting down actor
+I: 23-04-04 16:23:33 perf</float_operation-0-0.0.1-1901606E-F959-4C8D-537D-1D081601AA21>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-952DD901-F534-939C-2D2E-EDC7FB38F1EF>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-EA5659A6-C0F5-1C9F-00BE-7394B7D34426>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-5CB2F086-E2C0-72B8-3143-386B588664BE>: shutting down actor
+I: 23-04-04 16:23:33 perf</image_processing-0-0.0.1-348950B8-02B1-9512-2F89-E9659C1167F3>: shutting down actor
+I: 23-04-04 16:23:33 perf</pyaes-0-0.0.1-95D63CC3-707E-9043-1D24-93B4B8D29249>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-CBCC4137-3E8F-C8C4-2C39-8178187B341C>: shutting down actor
+I: 23-04-04 16:23:33 perf</float_operation-0-0.0.1-89DD46FC-C139-F7B4-95D7-0EBAB1942AFD>: shutting down actor
+I: 23-04-04 16:23:33 perf</video_processing-0-0.0.1-E9D56E95-5189-D8C8-45EC-1A69CC1D5BC1>: shutting down actor
+I: 23-04-04 16:23:33 perf</pyaes-0-0.0.1-0DB34E13-C3C5-4641-0483-1DA8EF2A0434>: shutting down actor
+I: 23-04-04 16:23:33 perf</image_processing-0-0.0.1-B4195EC6-1732-F2D3-82EB-1C09739D6E3B>: shutting down actor
+I: 23-04-04 16:23:33 perf</pyaes-0-0.0.1-8678D40E-AE21-207C-3DE8-6DCFD76BD3D4>: shutting down actor
+I: 23-04-04 16:23:33 perf</image_processing-0-0.0.1-403DBF90-D2F8-0882-96ED-0DF0CD16E4C2>: shutting down actor
+I: 23-04-04 16:23:33 perf<all>: shutting down actor
+I: 23-04-04 16:23:33 reporting: bye!
