@@ -1,0 +1,532 @@
+{
+    "data": {
+        "cnn_image_classification": {
+            "function_name": "cnn_image_classification",
+            "image_name": "docker.io/alfuerst/cnn_image_classification-iluvatar-action:latest",
+            "warm_results_sec": [
+                1.0628926753997805,
+                1.2272133827209473,
+                1.378063678741455
+            ],
+            "warm_over_results_us": [
+                2031.3246002194937,
+                2121.6172790527344,
+                2031.3212585449219
+            ],
+            "cold_results_sec": [
+                3.844815254211426,
+                3.844491004943848,
+                3.844794988632202
+            ],
+            "cold_over_results_us": [
+                2744022.745788574,
+                2744436.995056152,
+                2744261.011367798
+            ],
+            "warm_worker_duration_us": [
+                1063779,
+                1228274,
+                1379073
+            ],
+            "cold_worker_duration_us": [
+                6337023,
+                6328585,
+                6328893
+            ],
+            "warm_invoke_duration_us": [
+                1064924,
+                1229335,
+                1380095
+            ],
+            "cold_invoke_duration_us": [
+                6588838,
+                6588928,
+                6589056
+            ]
+        },
+        "lin_pack": {
+            "function_name": "lin_pack",
+            "image_name": "docker.io/alfuerst/lin_pack-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.0015690326690673828,
+                0.00013828277587890625,
+                0.007718563079833984
+            ],
+            "warm_over_results_us": [
+                2377.967330932617,
+                1763.7172241210938,
+                1677.4369201660156
+            ],
+            "cold_results_sec": [
+                0.06211280822753906,
+                0.02531909942626953,
+                0.004307746887207031
+            ],
+            "cold_over_results_us": [
+                552030.1917724609,
+                549870.9005737305,
+                549931.253112793
+            ],
+            "warm_worker_duration_us": [
+                2225,
+                851,
+                8330
+            ],
+            "cold_worker_duration_us": [
+                292124,
+                255308,
+                226372
+            ],
+            "warm_invoke_duration_us": [
+                3947,
+                1902,
+                9396
+            ],
+            "cold_invoke_duration_us": [
+                614143,
+                575190,
+                554239
+            ]
+        },
+        "pyaes": {
+            "function_name": "pyaes",
+            "image_name": "docker.io/alfuerst/pyaes-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.1407465934753418,
+                0.140106201171875,
+                0.14009499549865723
+            ],
+            "warm_over_results_us": [
+                1696.4065246582031,
+                1551.798828125,
+                1591.0045013427734
+            ],
+            "cold_results_sec": [
+                0.1404101848602295,
+                0.1404261589050293,
+                0.13949275016784668
+            ],
+            "cold_over_results_us": [
+                290225.8151397705,
+                307121.8410949707,
+                304141.2498321533
+            ],
+            "warm_worker_duration_us": [
+                141452,
+                140737,
+                140743
+            ],
+            "cold_worker_duration_us": [
+                201774,
+                198760,
+                194884
+            ],
+            "warm_invoke_duration_us": [
+                142443,
+                141658,
+                141686
+            ],
+            "cold_invoke_duration_us": [
+                430636,
+                447548,
+                443634
+            ]
+        },
+        "json_dumps_loads": {
+            "function_name": "json_dumps_loads",
+            "image_name": "docker.io/alfuerst/json_dumps_loads-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.26728224754333496,
+                0.10565447807312012,
+                0.24946975708007812
+            ],
+            "warm_over_results_us": [
+                2033.752456665039,
+                1614.5219268798828,
+                1612.242919921875
+            ],
+            "cold_results_sec": [
+                0.41414618492126465,
+                0.19457697868347168,
+                0.19548869132995603
+            ],
+            "cold_over_results_us": [
+                337792.81507873535,
+                322721.0213165283,
+                336641.30867004395
+            ],
+            "warm_worker_duration_us": [
+                268200,
+                106269,
+                250073
+            ],
+            "cold_worker_duration_us": [
+                474294,
+                251725,
+                254464
+            ],
+            "warm_invoke_duration_us": [
+                269316,
+                107269,
+                251082
+            ],
+            "cold_invoke_duration_us": [
+                751939,
+                517298,
+                532130
+            ]
+        },
+        "gzip_compression": {
+            "function_name": "gzip_compression",
+            "image_name": "docker.io/alfuerst/gzip_compression-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.1492009162902832,
+                0.14991211891174316,
+                0.14890241622924805
+            ],
+            "warm_over_results_us": [
+                1822.0837097167969,
+                1518.881088256836,
+                1615.5837707519531
+            ],
+            "cold_results_sec": [
+                0.14964938163757324,
+                0.1500546932220459,
+                0.1490800380706787
+            ],
+            "cold_over_results_us": [
+                340073.61836242676,
+                340645.3067779541,
+                343353.9619293213
+            ],
+            "warm_worker_duration_us": [
+                149916,
+                150505,
+                149540
+            ],
+            "cold_worker_duration_us": [
+                191929,
+                215161,
+                174738
+            ],
+            "warm_invoke_duration_us": [
+                151023,
+                151431,
+                150518
+            ],
+            "cold_invoke_duration_us": [
+                489723,
+                490700,
+                492434
+            ]
+        },
+        "dd": {
+            "function_name": "dd",
+            "image_name": "docker.io/alfuerst/dd-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.04694223403930664,
+                0.04729175567626953,
+                0.04771709442138672
+            ],
+            "warm_over_results_us": [
+                1775.7659606933594,
+                2042.2443237304688,
+                2305.9055786132812
+            ],
+            "cold_results_sec": [
+                0.04239702224731445,
+                0.04254722595214844,
+                0.0455775260925293
+            ],
+            "cold_over_results_us": [
+                336690.97775268555,
+                331896.77404785156,
+                322165.4739074707
+            ],
+            "warm_worker_duration_us": [
+                47683,
+                48263,
+                48793
+            ],
+            "cold_worker_duration_us": [
+                92904,
+                108242,
+                101337
+            ],
+            "warm_invoke_duration_us": [
+                48718,
+                49334,
+                50023
+            ],
+            "cold_invoke_duration_us": [
+                379088,
+                374444,
+                367743
+            ]
+        },
+        "float_operation": {
+            "function_name": "float_operation",
+            "image_name": "docker.io/alfuerst/float_operation-iluvatar-action:latest",
+            "warm_results_sec": [
+                6.198883056640625e-06,
+                5.7220458984375e-06,
+                6.198883056640625e-06
+            ],
+            "warm_over_results_us": [
+                1565.8011169433594,
+                1461.2779541015625,
+                1596.8011169433594
+            ],
+            "cold_results_sec": [
+                0.00012493133544921875,
+                0.0001883506774902344,
+                0.000194549560546875
+            ],
+            "cold_over_results_us": [
+                392176.0686645508,
+                384354.64932250977,
+                384176.4504394531
+            ],
+            "warm_worker_duration_us": [
+                519,
+                480,
+                628
+            ],
+            "cold_worker_duration_us": [
+                47379,
+                59804,
+                59331
+            ],
+            "warm_invoke_duration_us": [
+                1572,
+                1467,
+                1603
+            ],
+            "cold_invoke_duration_us": [
+                392301,
+                384543,
+                384371
+            ]
+        },
+        "hello": {
+            "function_name": "hello",
+            "image_name": "docker.io/alfuerst/hello-iluvatar-action:latest",
+            "warm_results_sec": [
+                7.152557373046875e-07,
+                4.76837158203125e-07,
+                7.152557373046875e-07
+            ],
+            "warm_over_results_us": [
+                1434.2847442626953,
+                1648.5231628417969,
+                1716.2847442626953
+            ],
+            "cold_results_sec": [
+                7.152557373046875e-07,
+                7.152557373046875e-07,
+                4.76837158203125e-07
+            ],
+            "cold_over_results_us": [
+                422500.2847442627,
+                415040.2847442627,
+                414660.5231628418
+            ],
+            "warm_worker_duration_us": [
+                402,
+                541,
+                637
+            ],
+            "cold_worker_duration_us": [
+                84498,
+                78579,
+                77892
+            ],
+            "warm_invoke_duration_us": [
+                1435,
+                1649,
+                1717
+            ],
+            "cold_invoke_duration_us": [
+                422501,
+                415041,
+                414661
+            ]
+        },
+        "video_processing": {
+            "function_name": "video_processing",
+            "image_name": "docker.io/alfuerst/video_processing-iluvatar-action:latest",
+            "warm_results_sec": [
+                4.491294860839844,
+                4.605308771133423,
+                4.526394367218018
+            ],
+            "warm_over_results_us": [
+                1859.13916015625,
+                1918.2288665771484,
+                2069.632781982422
+            ],
+            "cold_results_sec": [
+                4.462979555130005,
+                4.375864028930664,
+                4.4084296226501465
+            ],
+            "cold_over_results_us": [
+                491069.4448699951,
+                474519.97106933594,
+                489785.3773498535
+            ],
+            "warm_worker_duration_us": [
+                4492041,
+                4605975,
+                4527191
+            ],
+            "cold_worker_duration_us": [
+                4697894,
+                4625977,
+                4658003
+            ],
+            "warm_invoke_duration_us": [
+                4493154,
+                4607227,
+                4528464
+            ],
+            "cold_invoke_duration_us": [
+                4954049,
+                4850384,
+                4898215
+            ]
+        },
+        "model_training": {
+            "function_name": "model_training",
+            "image_name": "docker.io/alfuerst/model_training-iluvatar-action:latest",
+            "warm_results_sec": [
+                8.113024711608887,
+                8.796236991882324,
+                6.85840916633606
+            ],
+            "warm_over_results_us": [
+                61453.28839111328,
+                7165.008117675781,
+                7000.83366394043
+            ],
+            "cold_results_sec": [
+                9.9491868019104,
+                9.335200786590576,
+                9.33311653137207
+            ],
+            "cold_over_results_us": [
+                1124593.1980895996,
+                1126948.2134094238,
+                1127868.4686279297
+            ],
+            "warm_worker_duration_us": [
+                8119260,
+                8802213,
+                6863980
+            ],
+            "cold_worker_duration_us": [
+                10861286,
+                10249784,
+                10248251
+            ],
+            "warm_invoke_duration_us": [
+                8174478,
+                8803402,
+                6865410
+            ],
+            "cold_invoke_duration_us": [
+                11073780,
+                10462149,
+                10460985
+            ]
+        },
+        "image_processing": {
+            "function_name": "image_processing",
+            "image_name": "docker.io/alfuerst/image_processing-iluvatar-action:latest",
+            "warm_results_sec": [
+                1.5163297653198242,
+                1.6475944519042969,
+                1.6392409801483154
+            ],
+            "warm_over_results_us": [
+                1989.2346801757812,
+                1584.548095703125,
+                1861.0198516845703
+            ],
+            "cold_results_sec": [
+                2.0469069480895996,
+                2.055250644683838,
+                2.0497875213623047
+            ],
+            "cold_over_results_us": [
+                322889.0519104004,
+                322472.3553161621,
+                323355.4786376953
+            ],
+            "warm_worker_duration_us": [
+                1517116,
+                1648202,
+                1640011
+            ],
+            "cold_worker_duration_us": [
+                2113772,
+                2121867,
+                2117217
+            ],
+            "warm_invoke_duration_us": [
+                1518319,
+                1649179,
+                1641102
+            ],
+            "cold_invoke_duration_us": [
+                2369796,
+                2377723,
+                2373143
+            ]
+        },
+        "chameleon": {
+            "function_name": "chameleon",
+            "image_name": "docker.io/alfuerst/chameleon-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.005923032760620117,
+                0.005959510803222656,
+                0.006886005401611328
+            ],
+            "warm_over_results_us": [
+                1758.9672393798828,
+                1833.4891967773438,
+                1893.9945983886719
+            ],
+            "cold_results_sec": [
+                0.006926059722900391,
+                0.006914377212524414,
+                0.008099079132080078
+            ],
+            "cold_over_results_us": [
+                362489.9402770996,
+                340542.6227874756,
+                343845.9208679199
+            ],
+            "warm_worker_duration_us": [
+                6481,
+                6536,
+                7512
+            ],
+            "cold_worker_duration_us": [
+                69596,
+                83652,
+                88249
+            ],
+            "warm_invoke_duration_us": [
+                7682,
+                7793,
+                8780
+            ],
+            "cold_invoke_duration_us": [
+                369416,
+                347457,
+                351945
+            ]
+        }
+    }
+}

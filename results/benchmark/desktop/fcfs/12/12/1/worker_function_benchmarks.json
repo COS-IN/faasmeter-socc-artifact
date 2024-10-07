@@ -1,0 +1,368 @@
+{
+    "data": {
+        "float_operation": {
+            "function_name": "float_operation",
+            "image_name": "docker.io/aarehman/float_operation-iluvatar-action:latest",
+            "warm_results_sec": [
+                5.9604644775390625e-06
+            ],
+            "warm_over_results_us": [
+                1697.039535522461
+            ],
+            "cold_results_sec": [
+                6.341934204101562e-05
+            ],
+            "cold_over_results_us": [
+                324980.580657959
+            ],
+            "warm_worker_duration_us": [
+                587
+            ],
+            "cold_worker_duration_us": [
+                57707
+            ],
+            "warm_invoke_duration_us": [
+                1703
+            ],
+            "cold_invoke_duration_us": [
+                325044
+            ]
+        },
+        "fetch_1gfile": {
+            "function_name": "fetch_1gfile",
+            "image_name": "docker.io/aarehman/fetch_1gfile-iluvatar-action:latest",
+            "warm_results_sec": [
+                91.40843605995178
+            ],
+            "warm_over_results_us": [
+                6221.940048217773
+            ],
+            "cold_results_sec": [
+                91.53697657585144
+            ],
+            "cold_over_results_us": [
+                260480.42414855957
+            ],
+            "warm_worker_duration_us": [
+                91413136
+            ],
+            "cold_worker_duration_us": [
+                91592224
+            ],
+            "warm_invoke_duration_us": [
+                91414658
+            ],
+            "cold_invoke_duration_us": [
+                91797457
+            ]
+        },
+        "hello": {
+            "function_name": "hello",
+            "image_name": "docker.io/aarehman/hello-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.0
+            ],
+            "warm_over_results_us": [
+                0.0
+            ],
+            "cold_results_sec": [
+                7.152557373046875e-07
+            ],
+            "cold_over_results_us": [
+                266391.2847442627
+            ],
+            "warm_worker_duration_us": [
+                0
+            ],
+            "cold_worker_duration_us": [
+                46145
+            ],
+            "warm_invoke_duration_us": [
+                0
+            ],
+            "cold_invoke_duration_us": [
+                266392
+            ]
+        },
+        "dd": {
+            "function_name": "dd",
+            "image_name": "docker.io/aarehman/dd-iluvatar-action:latest",
+            "warm_results_sec": [
+                4.266121864318848
+            ],
+            "warm_over_results_us": [
+                49099.135681152344
+            ],
+            "cold_results_sec": [
+                4.288599252700806
+            ],
+            "cold_over_results_us": [
+                346327.74729919434
+            ],
+            "warm_worker_duration_us": [
+                4313856
+            ],
+            "cold_worker_duration_us": [
+                4380122
+            ],
+            "warm_invoke_duration_us": [
+                4315221
+            ],
+            "cold_invoke_duration_us": [
+                4634927
+            ]
+        },
+        "video_processing": {
+            "function_name": "video_processing",
+            "image_name": "docker.io/aarehman/video_processing-iluvatar-action:latest",
+            "warm_results_sec": [
+                4.110811948776245
+            ],
+            "warm_over_results_us": [
+                2037.0512237548828
+            ],
+            "cold_results_sec": [
+                4.763677597045898
+            ],
+            "cold_over_results_us": [
+                991548.4029541016
+            ],
+            "warm_worker_duration_us": [
+                4111532
+            ],
+            "cold_worker_duration_us": [
+                5519194
+            ],
+            "warm_invoke_duration_us": [
+                4112849
+            ],
+            "cold_invoke_duration_us": [
+                5755226
+            ]
+        },
+        "image_processing": {
+            "function_name": "image_processing",
+            "image_name": "docker.io/aarehman/image_processing-iluvatar-action:latest",
+            "warm_results_sec": [
+                1.5843164920806885
+            ],
+            "warm_over_results_us": [
+                2210.5079193115234
+            ],
+            "cold_results_sec": [
+                1.7438745498657229
+            ],
+            "cold_over_results_us": [
+                284648.4501342771
+            ],
+            "warm_worker_duration_us": [
+                1585065
+            ],
+            "cold_worker_duration_us": [
+                1813608
+            ],
+            "warm_invoke_duration_us": [
+                1586527
+            ],
+            "cold_invoke_duration_us": [
+                2028523
+            ]
+        },
+        "json_dumps_loads": {
+            "function_name": "json_dumps_loads",
+            "image_name": "docker.io/aarehman/json_dumps_loads-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.5677781105041504
+            ],
+            "warm_over_results_us": [
+                2202.8894958496094
+            ],
+            "cold_results_sec": [
+                0.5054144859313965
+            ],
+            "cold_over_results_us": [
+                313755.5140686035
+            ],
+            "warm_worker_duration_us": [
+                568484
+            ],
+            "cold_worker_duration_us": [
+                550066
+            ],
+            "warm_invoke_duration_us": [
+                569981
+            ],
+            "cold_invoke_duration_us": [
+                819170
+            ]
+        },
+        "gzip_compression": {
+            "function_name": "gzip_compression",
+            "image_name": "docker.io/aarehman/gzip_compression-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.13877582550048828
+            ],
+            "warm_over_results_us": [
+                2219.1744995117188
+            ],
+            "cold_results_sec": [
+                0.13850641250610352
+            ],
+            "cold_over_results_us": [
+                292661.5874938965
+            ],
+            "warm_worker_duration_us": [
+                139596
+            ],
+            "cold_worker_duration_us": [
+                176399
+            ],
+            "warm_invoke_duration_us": [
+                140995
+            ],
+            "cold_invoke_duration_us": [
+                431168
+            ]
+        },
+        "chameleon": {
+            "function_name": "chameleon",
+            "image_name": "docker.io/aarehman/chameleon-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.006166696548461914
+            ],
+            "warm_over_results_us": [
+                1960.303451538086
+            ],
+            "cold_results_sec": [
+                0.006676912307739258
+            ],
+            "cold_over_results_us": [
+                306697.08769226074
+            ],
+            "warm_worker_duration_us": [
+                6800
+            ],
+            "cold_worker_duration_us": [
+                76734
+            ],
+            "warm_invoke_duration_us": [
+                8127
+            ],
+            "cold_invoke_duration_us": [
+                313374
+            ]
+        },
+        "model_training": {
+            "function_name": "model_training",
+            "image_name": "docker.io/aarehman/model_training-iluvatar-action:latest",
+            "warm_results_sec": [
+                5.196008205413818
+            ],
+            "warm_over_results_us": [
+                6754.794586181641
+            ],
+            "cold_results_sec": [
+                5.928794622421265
+            ],
+            "cold_over_results_us": [
+                684684.3775787354
+            ],
+            "warm_worker_duration_us": [
+                5201339
+            ],
+            "cold_worker_duration_us": [
+                6374353
+            ],
+            "warm_invoke_duration_us": [
+                5202763
+            ],
+            "cold_invoke_duration_us": [
+                6613479
+            ]
+        },
+        "pyaes": {
+            "function_name": "pyaes",
+            "image_name": "docker.io/aarehman/pyaes-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.1281599998474121
+            ],
+            "warm_over_results_us": [
+                2113.0001525878906
+            ],
+            "cold_results_sec": [
+                0.12955164909362793
+            ],
+            "cold_over_results_us": [
+                293226.35090637207
+            ],
+            "warm_worker_duration_us": [
+                128907
+            ],
+            "cold_worker_duration_us": [
+                186344
+            ],
+            "warm_invoke_duration_us": [
+                130273
+            ],
+            "cold_invoke_duration_us": [
+                422778
+            ]
+        },
+        "cnn_image_classification": {
+            "function_name": "cnn_image_classification",
+            "image_name": "docker.io/aarehman/cnn_image_classification-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.8707060813903809
+            ],
+            "warm_over_results_us": [
+                2307.9186096191406
+            ],
+            "cold_results_sec": [
+                2.483634233474731
+            ],
+            "cold_over_results_us": [
+                2288176.766525269
+            ],
+            "warm_worker_duration_us": [
+                871611
+            ],
+            "cold_worker_duration_us": [
+                4509528
+            ],
+            "warm_invoke_duration_us": [
+                873014
+            ],
+            "cold_invoke_duration_us": [
+                4771811
+            ]
+        },
+        "lin_pack": {
+            "function_name": "lin_pack",
+            "image_name": "docker.io/aarehman/lin_pack-iluvatar-action:latest",
+            "warm_results_sec": [
+                0.00013256072998046875
+            ],
+            "warm_over_results_us": [
+                10310.439270019531
+            ],
+            "cold_results_sec": [
+                0.003669261932373047
+            ],
+            "cold_over_results_us": [
+                1179345.738067627
+            ],
+            "warm_worker_duration_us": [
+                9390
+            ],
+            "cold_worker_duration_us": [
+                951164
+            ],
+            "warm_invoke_duration_us": [
+                10443
+            ],
+            "cold_invoke_duration_us": [
+                1183015
+            ]
+        }
+    }
+}
