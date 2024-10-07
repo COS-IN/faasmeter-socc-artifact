@@ -1,0 +1,256 @@
+Efaas Version: 
+5edb63c94e42e8286e1e9cfddf4fbdc3df1c41b2
+iluvatar-energy-experiments Version: 
+0d08504e4c2f3acee64c28a00ee66432f0e3117c
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+
+TASK [Kill running worker process distrib] *************************************
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=2    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1]
+
+TASK [Kill running worker process distrib] *************************************
+skipping: [worker1]
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+skipping: [worker1]
+
+TASK [run worker executable] ***************************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "ansible_job_id": "905107536110.3301862",
+        "changed": true,
+        "failed": 0,
+        "finished": 0,
+        "results_file": "/root/.ansible_async/905107536110.3301862",
+        "started": 1
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+FAILED - RETRYING: [worker1]: wait until the worker on this host is up and running (10 retries left).
+ok: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=8    changed=1    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+IGPM logging started
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+PowerAPI sensor started
+         local pid 4092612
+         remote pid 3303209
+2023-03-27 18:35:35.567704849 prewarming 0 containers for function 'gzip_compression-0'
+2023-03-27 18:35:35.567805102 prewarming 0 containers for function 'dd-0'
+2023-03-27 18:35:35.567852232 prewarming 0 containers for function 'video_processing-0'
+2023-03-27 18:35:35.567981481 starting live trace run
+PowerAPI sensor stopped
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+PLAY [workers] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [worker1]
+
+TASK [Get running worker process] **********************************************
+changed: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": "129.79.242.15"
+}
+
+TASK [Kill running worker process on localhost] ********************************
+skipping: [worker1] => (item=3301871) 
+
+TASK [Kill running worker process distrib] *************************************
+changed: [worker1] => (item=3301871)
+
+TASK [Create bin directory] ****************************************************
+ok: [worker1]
+
+TASK [copy worker executable] **************************************************
+ok: [worker1]
+
+TASK [copy worker config] ******************************************************
+ok: [worker1]
+
+TASK [clean localhost] *********************************************************
+skipping: [worker1]
+
+TASK [clean distrib host] ******************************************************
+changed: [worker1]
+
+TASK [run worker executable] ***************************************************
+skipping: [worker1]
+
+TASK [debug print] *************************************************************
+ok: [worker1] => {
+    "msg": {
+        "changed": false,
+        "skip_reason": "Conditional result was False",
+        "skipped": true
+    }
+}
+
+TASK [wait until the worker on this host is up and running] ********************
+skipping: [worker1]
+
+PLAY RECAP *********************************************************************
+worker1                    : ok=9    changed=3    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+
+Starting analysis
++ for i in "$@"
++ case $i in
++ TARGET_PLATFORM=desktop
++ rm '/tmp/formula_output/*' -rf
++ cd /data2/ar/smartwatts-formula
++ sudo chmod a+wr /tmp/sensor_output/core.csv /tmp/sensor_output/global.csv
++ python3 -m smartwatts --name formula_smarwatts powerapi/smartwatts-formula --config-file /data2/ar/powerapi_personal/config_formula_smartwatts_desktop.json
+/usr/lib/python3/dist-packages/matplotlib/cbook/__init__.py:1402: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  ndim = x[:, None].ndim
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:276: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  x = x[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:278: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  y = y[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/cbook/__init__.py:1402: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  ndim = x[:, None].ndim
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:276: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  x = x[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:278: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  y = y[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/cbook/__init__.py:1402: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  ndim = x[:, None].ndim
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:276: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  x = x[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:278: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  y = y[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/cbook/__init__.py:1402: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  ndim = x[:, None].ndim
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:276: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  x = x[:, np.newaxis]
+/usr/lib/python3/dist-packages/matplotlib/axes/_base.py:278: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  y = y[:, np.newaxis]
+Traceback (most recent call last):
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/stacked_kf_plot.py", line 27, in <module>
+    edata = Logs_to_df(args.logs_folder, args.mc_type)
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 146, in __init__
+    self.populate_system_settings()
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 202, in populate_system_settings
+    self.cpu_shr_config( use_default=self.mc_type )
+  File "/data2/ar/iluvatar-energy-experiments/faasmeter/Logs_to_df.py", line 1256, in cpu_shr_config
+    sw_config['cfeatures'] = cfeatures
+TypeError: 'NoneType' object does not support item assignment
+rm: cannot remove '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_gzip/mc_i//lookbusy/fcfs/12/12//smartwatt_output/': No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 25: /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_gzip/mc_i//lookbusy/fcfs/12/12//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_gzip/mc_i//lookbusy/fcfs/12/12//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+/data2/ar/iluvatar-energy-experiments/scripts/smartwatts/concat_powerreports.sh: line 28: /data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_gzip/mc_i//lookbusy/fcfs/12/12//smartwatt_output//formula_output/sensor-//smartwatts_powerreport.csv: No such file or directory
+cat: '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_gzip/mc_i//lookbusy/fcfs/12/12//smartwatt_output//formula_output/sensor-//*//PowerReport.csv': No such file or directory
+mv: cannot stat '/data2/ar/iluvatar-energy-experiments/results/trace/desktop//./mc_4f_traces_gzip/mc_i//lookbusy/fcfs/12/12//smartwatt_output//formula_output/sensor-/smartwatts_powerreport.csv': No such file or directory
+
+real	0m18.232s
+user	0m33.790s
+sys	0m15.940s
