@@ -1,0 +1,42 @@
+[100%] Built target hwpc-sensor
+I: 23-03-29 13:55:25 build: version undefined (rev: undefined)
+I: 23-03-29 13:55:25 uname: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023 x86_64
+I: 23-03-29 13:55:25 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-03-29 13:55:25 pmu: found perf 'perf_events generic PMU' having 194 events, 0 counters (0 general, 0 fixed)
+I: 23-03-29 13:55:25 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-03-29 13:55:25 sensor: configuration is valid, starting monitoring...
+I: 23-03-29 13:55:25 perf<all>: monitoring actor started
+I: 23-03-29 13:56:28 perf</video_processing-0-0.0.1-68300418-C5F5-21A0-95EA-B7F1F827D4CC>: monitoring actor started
+I: 23-03-29 13:56:28 perf</image_processing-0-0.0.1-91B2AEF3-62A6-45D0-F9C6-0AA898DB01CD>: monitoring actor started
+I: 23-03-29 13:56:35 perf</fetch_1gfile-0-0.0.1-F8CA9034-6BCB-44DC-836B-3F8F007EF965>: monitoring actor started
+I: 23-03-29 13:56:49 perf</video_processing-0-0.0.1-6D1D8ECF-0B32-C857-0792-468CC5287EBD>: monitoring actor started
+I: 23-03-29 13:56:55 perf</video_processing-0-0.0.1-1EC5F928-AFE9-84C7-D907-74D04E22A204>: monitoring actor started
+I: 23-03-29 13:57:38 perf</video_processing-0-0.0.1-97E15795-DEF4-2623-F60E-1F5687C1307C>: monitoring actor started
+I: 23-03-29 13:58:25 perf</fetch_1gfile-0-0.0.1-058EDA45-68AE-FE6B-B5C5-0616125127E7>: monitoring actor started
+I: 23-03-29 13:59:24 perf</image_processing-0-0.0.1-7EF33166-096B-B489-3966-BD48B8D848F2>: monitoring actor started
+I: 23-03-29 13:59:26 perf</image_processing-0-0.0.1-41565B07-0ABF-7E24-1DE0-2CED6156079D>: monitoring actor started
+I: 23-03-29 13:59:43 perf</fetch_1gfile-0-0.0.1-0B19BCCB-6780-2EFC-B22C-1589C9E8A6A4>: monitoring actor started
+I: 23-03-29 13:59:50 perf</fetch_1gfile-0-0.0.1-EC61BA57-1916-DBBC-1502-85598E87EAC9>: monitoring actor started
+I: 23-03-29 13:59:52 perf</fetch_1gfile-0-0.0.1-EA166FE1-0292-79F9-D259-5300EB6F0F1B>: monitoring actor started
+I: 23-03-29 13:59:54 perf</fetch_1gfile-0-0.0.1-77C98D2A-6B8E-1F09-D85E-23EC709040D2>: monitoring actor started
+I: 23-03-29 14:00:01 perf</fetch_1gfile-0-0.0.1-8692C7C8-5063-8BC0-EF11-4EB1BA1EB700>: monitoring actor started
+I: 23-03-29 14:00:08 perf</fetch_1gfile-0-0.0.1-5C27CF35-40C6-74A7-77A8-5779930C27D6>: monitoring actor started
+I: 23-03-29 14:00:18 perf</fetch_1gfile-0-0.0.1-071A3271-7021-4B1F-93FF-ECBDF34D455F>: monitoring actor started
+I: 23-03-29 14:03:27 perf</video_processing-0-0.0.1-97E15795-DEF4-2623-F60E-1F5687C1307C>: shutting down actor
+I: 23-03-29 14:03:27 perf</video_processing-0-0.0.1-6D1D8ECF-0B32-C857-0792-468CC5287EBD>: shutting down actor
+I: 23-03-29 14:03:27 perf</image_processing-0-0.0.1-91B2AEF3-62A6-45D0-F9C6-0AA898DB01CD>: shutting down actor
+I: 23-03-29 14:03:27 perf</image_processing-0-0.0.1-41565B07-0ABF-7E24-1DE0-2CED6156079D>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-0B19BCCB-6780-2EFC-B22C-1589C9E8A6A4>: shutting down actor
+I: 23-03-29 14:03:27 perf</video_processing-0-0.0.1-1EC5F928-AFE9-84C7-D907-74D04E22A204>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-EC61BA57-1916-DBBC-1502-85598E87EAC9>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-77C98D2A-6B8E-1F09-D85E-23EC709040D2>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-5C27CF35-40C6-74A7-77A8-5779930C27D6>: shutting down actor
+I: 23-03-29 14:03:27 perf</video_processing-0-0.0.1-68300418-C5F5-21A0-95EA-B7F1F827D4CC>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-F8CA9034-6BCB-44DC-836B-3F8F007EF965>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-EA166FE1-0292-79F9-D259-5300EB6F0F1B>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-058EDA45-68AE-FE6B-B5C5-0616125127E7>: shutting down actor
+I: 23-03-29 14:03:27 perf</image_processing-0-0.0.1-7EF33166-096B-B489-3966-BD48B8D848F2>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-071A3271-7021-4B1F-93FF-ECBDF34D455F>: shutting down actor
+I: 23-03-29 14:03:27 perf</fetch_1gfile-0-0.0.1-8692C7C8-5063-8BC0-EF11-4EB1BA1EB700>: shutting down actor
+I: 23-03-29 14:03:27 perf<all>: shutting down actor
+I: 23-03-29 14:03:27 reporting: bye!
