@@ -1,0 +1,42 @@
+[100%] Built target hwpc-sensor
+I: 23-04-07 20:19:22 build: version undefined (rev: undefined)
+I: 23-04-07 20:19:22 uname: Linux 5.15.0-69-generic #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023 x86_64
+I: 23-04-07 20:19:22 pmu: found ix86arch 'Intel X86 architectural PMU' having 7 events, 12 counters (8 general, 4 fixed)
+I: 23-04-07 20:19:22 pmu: found perf 'perf_events generic PMU' having 192 events, 0 counters (0 general, 0 fixed)
+I: 23-04-07 20:19:22 pmu: found perf_raw 'perf_events raw PMU' having 1 events, 0 counters (0 general, 0 fixed)
+I: 23-04-07 20:19:22 sensor: configuration is valid, starting monitoring...
+I: 23-04-07 20:19:22 perf<all>: monitoring actor started
+I: 23-04-07 20:19:22 perf<>: monitoring actor started
+I: 23-04-07 20:20:26 perf<>: shutting down actor
+I: 23-04-07 20:20:26 perf</video_processing-0-0.0.1-71FD48E9-6F56-205E-535E-88B706CE0F2B>: monitoring actor started
+I: 23-04-07 20:20:26 perf</pyaes-0-0.0.1-405C5D96-5837-5F0E-983B-2DE15F63FF21>: monitoring actor started
+I: 23-04-07 20:20:26 perf</pyaes-0-0.0.1-4A9F9982-8C17-C229-9FB0-D58BD9F95D21>: monitoring actor started
+I: 23-04-07 20:20:26 perf</video_processing-0-0.0.1-6992E52B-DCA9-A059-083E-A35FCA663538>: monitoring actor started
+I: 23-04-07 20:20:27 perf</dd-0-0.0.1-55162BF5-4B60-ADDD-706A-8C644D7699DA>: monitoring actor started
+I: 23-04-07 20:20:28 perf</dd-0-0.0.1-39419880-A160-0C76-DBFB-7D24FABD1076>: monitoring actor started
+I: 23-04-07 20:20:28 perf</dd-0-0.0.1-16571305-3980-BB6E-0898-FE9743B2AE5B>: monitoring actor started
+I: 23-04-07 20:20:29 perf</dd-0-0.0.1-58102BF3-B1BC-FCC6-F3A7-C092820CB2F6>: monitoring actor started
+I: 23-04-07 20:20:32 perf</video_processing-0-0.0.1-9179492E-EA1C-FB9E-DB94-6FC9C75BF4E0>: monitoring actor started
+I: 23-04-07 20:20:33 perf</video_processing-0-0.0.1-5360A110-D50C-86E2-AFEC-1CFAC72620F0>: monitoring actor started
+I: 23-04-07 20:20:59 perf</video_processing-0-0.0.1-55EA174B-606C-B066-442B-EED40992815E>: monitoring actor started
+I: 23-04-07 20:21:00 perf</video_processing-0-0.0.1-7A14AE6B-1694-396C-0A6F-FA32491D16DE>: monitoring actor started
+I: 23-04-07 20:21:59 perf</dd-0-0.0.1-64E12926-6ED6-F698-7F21-8C9A4016A74C>: monitoring actor started
+I: 23-04-07 20:23:12 perf</pyaes-0-0.0.1-3D5473CF-B571-C5C4-9DBF-E5A5D7D8EA78>: monitoring actor started
+I: 23-04-07 20:23:20 perf</video_processing-0-0.0.1-B0C0616D-F5F4-8537-7668-95A25997191E>: monitoring actor started
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-B0C0616D-F5F4-8537-7668-95A25997191E>: shutting down actor
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-7A14AE6B-1694-396C-0A6F-FA32491D16DE>: shutting down actor
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-71FD48E9-6F56-205E-535E-88B706CE0F2B>: shutting down actor
+I: 23-04-07 20:27:31 perf</dd-0-0.0.1-58102BF3-B1BC-FCC6-F3A7-C092820CB2F6>: shutting down actor
+I: 23-04-07 20:27:31 perf</pyaes-0-0.0.1-3D5473CF-B571-C5C4-9DBF-E5A5D7D8EA78>: shutting down actor
+I: 23-04-07 20:27:31 perf</dd-0-0.0.1-39419880-A160-0C76-DBFB-7D24FABD1076>: shutting down actor
+I: 23-04-07 20:27:31 perf</dd-0-0.0.1-64E12926-6ED6-F698-7F21-8C9A4016A74C>: shutting down actor
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-6992E52B-DCA9-A059-083E-A35FCA663538>: shutting down actor
+I: 23-04-07 20:27:31 perf</pyaes-0-0.0.1-405C5D96-5837-5F0E-983B-2DE15F63FF21>: shutting down actor
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-5360A110-D50C-86E2-AFEC-1CFAC72620F0>: shutting down actor
+I: 23-04-07 20:27:31 perf</pyaes-0-0.0.1-4A9F9982-8C17-C229-9FB0-D58BD9F95D21>: shutting down actor
+I: 23-04-07 20:27:31 perf</dd-0-0.0.1-55162BF5-4B60-ADDD-706A-8C644D7699DA>: shutting down actor
+I: 23-04-07 20:27:31 perf</dd-0-0.0.1-16571305-3980-BB6E-0898-FE9743B2AE5B>: shutting down actor
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-55EA174B-606C-B066-442B-EED40992815E>: shutting down actor
+I: 23-04-07 20:27:31 perf</video_processing-0-0.0.1-9179492E-EA1C-FB9E-DB94-6FC9C75BF4E0>: shutting down actor
+I: 23-04-07 20:27:31 perf<all>: shutting down actor
+I: 23-04-07 20:27:31 reporting: bye!
