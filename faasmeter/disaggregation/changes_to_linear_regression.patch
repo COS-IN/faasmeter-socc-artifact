@@ -1,0 +1,91 @@
+diff --git a/faasmeter/disaggregation/Linear_Regression.py b/faasmeter/disaggregation/Linear_Regression.py
+index f35f0b3..8faaab1 100644
+--- a/faasmeter/disaggregation/Linear_Regression.py
++++ b/faasmeter/disaggregation/Linear_Regression.py
+@@ -1,34 +1,60 @@
+ import numpy as np 
+ 
+ from sklearn import svm
++from sklearn import linear_model
+ 
+ import warnings
+ 
+ class LinearModel:
+     
+-    def __init__(self, name, history_size):
+-        self.name = name
+-        self.hsize = history_size
++    def __init__(self, name, eta=0.1):
++        self.mode = name
++#        self.hsize = history_size
+         self.gen()
+         self.hx = None
+         self.hz = None
++        self.Wts_prev = None # Prev model weights
++        self.Wts = None 
++        self.eta = eta 
+             
+     def gen(self):
+-        if self.name == 'SVR':
++        #P-XXX. What about standard linear regression? 
++        if self.mode == 'offline':
+             self.m = svm.SVR(kernel='linear', C=37.0, epsilon=2.0, max_iter=4000)
+-            
++        elif self.mode == 'online':
++            self.m = linear_model.LinearRegression() 
++
++    ########################################
++    
+     def train(self, x, y):                    
+         warnings.filterwarnings('ignore')
+         self.m.fit(x, y)
++        self.Wts_prev = m.coef_
+         warnings.filterwarnings('default')
++
++    ########################################
++        
++    def update(self, xt, yt):
++        """ Using Widrow-Hoff rule. Assume input is one aggregated point. """
++        predicted = self.m.predict(xt) 
++        error = predicted - yt 
++        feats = xt 
++        Wts = self.Wts_prev - self.eta*error*x_t
++        self.Wts_prev = Wts
++        return Wts 
++        
++
++    ########################################
+     
+     def train_on_history(self):
+         warnings.filterwarnings('ignore')
+         self.train(self.hx, self.hy)
+         warnings.filterwarnings('default')
++
++    ########################################
+         
+-    def add_history( self, x, y):
+-        
++    def add_history(self, x, y):
++        """ History buffer of fixed size """ 
+         if self.hx is None:
+             self.hx = x
+             self.hy = y   
+@@ -37,10 +63,16 @@ class LinearModel:
+             self.hx = self.hx[1:]
+             self.hy = np.concatenate([self.hy,[y]], axis=0)
+             self.hy = self.hy[1:]
+-        
++
++    ########################################
++    
+     def predict(self, x):
+         warnings.filterwarnings('ignore')
+-        y = self.m.predict(x)
++        if self.mode == 'offline':
++            y = self.m.predict(x)
++        elif self.mode == 'online':
++            y = np.dot(Wts, x) 
+         warnings.filterwarnings('default')
+         return y
+ 
++    ########################################

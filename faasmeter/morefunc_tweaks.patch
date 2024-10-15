@@ -1,0 +1,62 @@
+diff --git a/faasmeter/config.py b/faasmeter/config.py
+index a393eb0..ee43cdd 100644
+--- a/faasmeter/config.py
++++ b/faasmeter/config.py
+@@ -13,20 +13,22 @@ N = 60
+ delta = 1
+ cpu_threshold = 5.0
+ 
+-o_type = 'indiv' 
+ o_type = 'full' 
++o_type = 'indiv' 
+ 
++update_type = 'memoryless'
+ update_type = 'cumulative'
+ update_type = 'kalman'
+ kf_type='j'
+-kf_type='x'
+ kf_type='x-n' # o_type must be full 
++kf_type='x'
+ 
+ g = globals()
+ if 'tag_psys' not in g:
+     tag_psys = []
+ ipmi_correction = 120.0  
+ ipmi_correction = 0.0  
++ipmi_correction = 8.0  
+ 
+ def set_global_mc_type( mc ):
+     g = globals()
+diff --git a/faasmeter/disaggregation/combined.py b/faasmeter/disaggregation/combined.py
+index 55409c7..d8fbfa7 100644
+--- a/faasmeter/disaggregation/combined.py
++++ b/faasmeter/disaggregation/combined.py
+@@ -37,7 +37,7 @@ class Combined(Disagg_I):
+         #PXXX: Not sure about idle correction here. What if its in 'full' mode?
+         if no_idle:
+             if pcol == 'x_rest':
+-                lg.power_df[r] = lg.power_df[r] - lg.Widle_xrest
++                lg.power_df[r] = lg.power_df[r] - lg.Widle_xrest - ipmi_correction
+             elif pcol == 'perf_rapl':
+                 lg.power_df[r] = lg.power_df[r] - lg.Widle_cpu
+             else:
+@@ -55,7 +55,7 @@ class Combined(Disagg_I):
+ 
+         if no_idle:
+             if pcol == 'x_rest':
+-                lg.power_df[r] = lg.power_df[r] + lg.Widle_xrest
++                lg.power_df[r] = lg.power_df[r] + lg.Widle_xrest + ipmi_correction
+             elif pcol == 'perf_rapl':
+                 lg.power_df[r] = lg.power_df[r] + lg.Widle_cpu
+             else:
+@@ -137,8 +137,9 @@ class Combined(Disagg_I):
+         
+         if no_idle:
+             self.combined_share_mins = jdf
+-        else:
+             self.combined_share_stacked_mins = jdf
++        else:
++            pass
+ 
+     def save_dfs(self):
+         save_df( self.combined_share_mins, self.log_loc + '/' + self.pcol +'_mins' )
